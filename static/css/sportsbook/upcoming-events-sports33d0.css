@@ -1,0 +1,481 @@
+@charset "utf-8";
+/* CSS Document */
+a:active, a:focus, *:focus {
+  outline: 0;
+  border: none;
+  -moz-outline-style: none;
+}
+.mid {
+    height: 220px;
+    position: relative;
+}
+.highlights {
+    float: left;
+    width: 228px;
+    background-color: #0f141d;
+}
+.child {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 162px;
+    width: 226px;
+}
+.one-top {
+    position: relative;
+}
+.cover-color {
+    background: #11131f;
+    color: #ffffff;
+    padding: 8px 0;
+}
+.highlights header {
+    padding: 0 0;
+    font-size: 0;
+    line-height: 0;
+    text-align: center;
+}
+.highlights header h2 {
+    margin: 0;
+    font: normal 15px/27px "AvantGarde LT Medium",Sans-serif,Arial,Tahoma,Helvetica;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.highlights header span {
+    font: bold 10px/14px "AvantGarde LT Medium",Sans-serif,Arial,Tahoma,Helvetica;
+}
+.highlights header span a {
+    text-decoration: none;
+    color: #a9b6d9;
+}
+#buttonsleague {
+    position: absolute;
+    right: 5px;
+    top: 33px;
+    display: inline-block;
+    z-index: 9999;
+	/* visibility: hidden; */
+	 
+}
+#buttonsleague a {
+    display: inline-block;
+    margin: 1px !important;
+    width: 20px;
+}
+#slides {
+    overflow: hidden;
+    position: relative;
+    width: 228px;
+    height: 100%;
+}
+.txtdata ul {
+    position: relative;
+    left: 0;
+    top: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.txtdata li {
+    height: auto;
+}
+.titlesnw {
+    line-height: 32px;
+    text-align: center;
+    color: #ffffff;
+    background: #6789bb;
+    font-size: 14px;
+}
+.txtdata table {
+    border-collapse: inherit;
+    cursor: pointer;
+}
+.txtdata table td {
+    font-family: Sans-serif,Arial,Tahoma,Helvetica !important;
+    color: #fff;
+    font-size: 12px !important;
+    text-align: center;
+    height: 40px;
+    border-bottom: 1.5px solid #0E204F;
+}
+.txtdata table tr:last-child td {
+    border-bottom: none;
+}
+.txtdata table tr td:first-child {
+    text-align: right;
+}
+.txtdata table tr td:last-child {
+    text-align: left;
+}
+.txtdata table .dark {
+    background: rgb(0,60,124,0.4);
+	padding: 5px;
+}
+span.premier-league:before {
+    content: "";
+    display: block;
+    background: url("../../images/sportsbook/upcoming-events/league-icon/premier-league.png") no-repeat;
+    width: 35px;
+    height: 35px;
+    float: left;
+    background-size: contain;
+}
+span.la-liga:before {
+    content: "";
+    display: block;
+    background: url("../../images/sportsbook/upcoming-events/league-icon/laliga.png") no-repeat;
+    width: 35px;
+    height: 35px;
+    float: left;
+    background-size: contain;
+}
+span.serie-a:before {
+    content: "";
+    display: block;
+    background: url("../../images/sportsbook/upcoming-events/league-icon/serie-a.png") no-repeat;
+    width: 35px;
+    height: 35px;
+    float: left;
+    background-size: contain;
+}
+span.champions-league:before {
+    content: "";
+    display: block;
+    background: url("../../images/sportsbook/upcoming-events/league-icon/champions-league.png") no-repeat;
+    width: 35px;
+    height: 35px;
+    float: left;
+    background-size: contain;
+}
+span.europa-league:before {
+    content: "";
+    display: block;
+    background: url("../../images/sportsbook/upcoming-events/league-icon/europa-league.png") no-repeat;
+    width: 35px;
+    height: 35px;
+    float: left;
+    background-size: contain;
+}
+span.bundesliga:before {
+    content: "";
+    display: block;
+    background: url("../../images/sportsbook/upcoming-events/league-icon/bundesliga.png") no-repeat;
+    width: 35px;
+    height: 35px;
+    float: left;
+    background-size: contain;
+}
+span.turkey-league:before {
+    content: "";
+    display: block;
+    background: url("../../images/sportsbook/upcoming-events/league-icon/turkey-league.png") no-repeat;
+    width: 35px;
+    height: 35px;
+    float: left;
+    background-size: contain;
+}
+span.belarus-league:before {
+    content: "";
+    display: block;
+    background: url("../../images/sportsbook/upcoming-events/league-icon/belarus-league.png") no-repeat;
+    width: 35px;
+    height: 35px;
+    float: left;
+    background-size: contain;
+}
+span.saba-wc:before {
+    content: "";
+    display: block;
+    background: url("../../images/sportsbook/upcoming-events/league-icon/saba-wc.png") no-repeat;
+    width: 35px;
+    height: 35px;
+    float: left;
+    background-size: contain;
+}
+span.tokyo-olympics:before {
+    content: "";
+    display: block;
+    background: url("../../images/sportsbook/upcoming-events/league-icon/olympics.png") no-repeat;
+    width: 35px;
+    height: 35px;
+    float: left;
+    background-size: contain;
+}
+span.nba:before {
+    content: "";
+    display: block;
+    background: url("../../images/sportsbook/upcoming-events/league-icon/nba.png") no-repeat;
+    width: 35px;
+    height: 35px;
+    float: left;
+    background-size: contain;
+}
+span.canadian-league:before {
+    content: "";
+    display: block;
+    background: url("../../images/sportsbook/upcoming-events/league-icon/canadian-league.png") no-repeat;
+    width: 35px;
+    height: 35px;
+    float: left;
+    background-size: contain;
+}
+span.mls:before {
+    content: "";
+    display: block;
+    background: url("../../images/sportsbook/upcoming-events/league-icon/mls.png") no-repeat;
+    width: 35px;
+    height: 35px;
+    float: left;
+    background-size: contain;
+}
+span.russia-league:before {
+    content: "";
+    display: block;
+    background: url("../../images/sportsbook/upcoming-events/league-icon/russia-league.png") no-repeat;
+    width: 35px;
+    height: 35px;
+    float: left;
+    background-size: contain;
+}
+span.euro20:before {
+    content: "";
+    display: block;
+    background: url("../../images/sportsbook/upcoming-events/league-icon/euro20.png") no-repeat;
+    width: 35px;
+    height: 35px;
+    float: left;
+    background-size: contain;
+}
+span.copa:before {
+    content: "";
+    display: block;
+    background: url("../../images/sportsbook/upcoming-events/league-icon/copa.png") no-repeat;
+    width: 35px;
+    height: 35px;
+    float: left;
+    background-size: contain;
+}
+span.copa-libertadores:before {
+    content: "";
+    display: block;
+    background: url("../../images/sportsbook/upcoming-events/league-icon/copa-libertadores.png") no-repeat;
+    width: 35px;
+    height: 35px;
+    float: left;
+    background-size: contain;
+}
+.clear {
+    clear: both;
+}
+
+.upcoming-events {
+    display: none;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+@media (min-width: 767.5px) {
+    .upcoming-events {
+        display: block;
+        width: 30.015vw;
+        height: 21.596vw
+    }
+}
+
+@media (min-width: 1365.5px) {
+    .upcoming-events {
+        width: 410px;
+        height: 295px
+    }
+}
+
+.upcoming-events #upcoming-events {
+    width: unset
+}
+#upcoming-events {
+    background-color: rgba(9, 15, 27, 0.60);
+    padding: 0px 10px;
+}
+.upcoming-title {
+	color: #ffffff;
+	text-align: center;
+	padding-top: 10px;
+    padding-bottom: 2px;
+    font-size: 13px;
+}
+.upcoming-league {
+	color: #018fde;
+}
+#upcoming-events #slides li {
+	width: 315px;
+    height: auto;
+}
+#upcoming-events #slides {
+	width: 100%;
+}
+#upcoming-events .title-date {
+	color: #377dd2;
+    font-size: 14px;
+	text-align: center;
+}
+.left-item{
+    margin-left: 5px;
+    font-size: 17px;
+    line-height: 38px;
+}
+.right-item{
+    float: right;
+}
+.teamIcon img{
+    width: 24px;
+    margin: 0 auto;
+    
+}
+.teamName {
+    text-align: right;
+}
+.date-match {
+	width: 100%;
+	display: inline-flex;
+	color: #ffffff;
+	text-align: center;
+	font-size: 14px;
+}
+.title-date-prev,.title-date-next {
+	width: 120px;
+}
+.title-date-now {
+	width: 75px;
+}
+.title-date-now {
+	color: #377dd2;
+	border-bottom: 1px solid #243145;
+	padding-bottom: 5px;
+}
+.slides .txtdata .slick-dots {
+	display: none !important;
+}
+.date-match .sched {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+}
+.date-match .sched a {
+    position: relative;
+    display: block;
+    width: 107px;
+    height: 20px;
+    line-height: 18px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.date-match .sched a:not(:last-child):after {
+	content: "";
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 2px;
+	height: 15px;
+	background: #abacaf;
+	background: -moz-linear-gradient(left,  #abacaf 0%, #abacaf 50%, #797a7e 50%, #797a7e 100%);
+	background: -webkit-linear-gradient(left,  #abacaf 0%,#abacaf 50%,#797a7e 50%,#797a7e 100%);
+	background: linear-gradient(to right,  #abacaf 0%,#abacaf 50%,#797a7e 50%,#797a7e 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#abacaf', endColorstr='#797a7e',GradientType=1 );
+}
+.date-match .sched a:hover, .date-match .sched a.active {
+	color: #377dd2;
+}
+.date-match .sched a:hover:before, .date-match .sched a.active:before {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	transform: translateX(-50%);
+	width: 100px;
+	height: 1px;
+	background: #377dd2;
+	background: -moz-linear-gradient(top,  #377dd2 0%, #377dd2 50%, #377dd2 50%, #377dd2 50%, #377dd2 100%);
+	background: -webkit-linear-gradient(top,  #377dd2 0%,#377dd2 50%,#377dd2 50%,#377dd2 50%,#377dd2 100%);
+	background: linear-gradient(to bottom,  #377dd2 0%,#377dd2 50%,#377dd2 50%,#377dd2 50%,#377dd2 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#377dd2', endColorstr='#377dd2',GradientType=0 );
+}
+
+
+/* afcb removal */
+
+@media (min-width: 1023.5px) {
+	.layout-footer .footer-middle .footer-middle-left .content-left .quote {
+		margin-bottom: 0 !important;
+	}
+
+	.layout-footer .footer-middle .footer-middle-left .content-left .quote img {
+		height: 46px !important;
+		width: 80px !important;
+		max-width: none !important;
+	}
+
+	.layout-footer .footer-middle .footer-middle-right .content-right .betting-partners .previous-sponsors-text {
+		font-size: 9px;
+		margin-bottom: 3px;
+	}
+}
+
+.layout-footer .footer-middle .footer-middle-left {
+	align-self: center;
+}
+
+@media screen and (max-width: 1023.5px) and (min-width: 767.5px) {
+    .upcoming-events {
+        height: 26.596vw !important;
+    }
+    .slick-carousel .carousel-item .inner .inner-content {
+        background: transparent !important;
+    }
+}
+
+@media (max-width: 320px) {
+	.layout-footer .footer-middle .footer-middle-right .content-right .betting-partners .sponsor {
+		max-width: 29px !important;
+	} 
+}
+
+.layout-footer .footer-middle .footer-middle-left .content-left .quote img {
+	height: auto;
+	max-width: 50px;
+	margin-bottom: 0 !important;
+	width: 100%;
+}
+
+.layout-footer .footer-middle .footer-middle-right .content-right .betting-partners .sponsor {
+	height: auto;
+    max-width: 35px;
+    width: 100%;
+}
+
+.layout-footer .footer-middle .footer-middle-right .content-right .betting-partners .previous-sponsors-text {
+	font-size: 9px;
+	text-transform: uppercase;
+}
+
+
+/* virtual sports removal, re-arrange tile position */
+
+
+.dynamic-content .area .tiles.sportsbook-tiles,
+.dynamic-content .area .tiles.live-casino-tiles {
+ justify-content:flex-start !important;
+}
+@media (min-width: 1023.5px) {
+.dynamic-content .area .tiles.sportsbook-tiles,
+.dynamic-content .area .tiles.live-casino-tiles {
+    justify-content:flex-start !important;
+}
+}

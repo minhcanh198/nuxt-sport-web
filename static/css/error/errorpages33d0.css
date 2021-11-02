@@ -1,0 +1,209 @@
+@charset "utf-8";
+@font-face {
+	font-family:'Open Sans';
+	src:url("~assets/fonts/opensans-vietnameselatin-regular.woff") format("woff")
+   }
+@font-face {
+	font-family:'AvantGarde';
+	src:url("~assets/fonts/avantgardeltmedium.woff") format("woff")
+}
+
+html, body {
+	width: 100%;
+	min-height: 100%;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+body {
+	background: #000;
+	color: #fff;
+	font-family: 'Open Sans';
+	font-size: 16px;
+	line-height: 24px;
+    box-sizing: border-box;
+	background-image: url("../../images/error/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center top;
+}
+a[role="button"] {
+	cursor: pointer;
+}
+ul {
+	list-style-type: circle;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    vertical-align: middle;
+    -ms-interpolation-mode: nearest-neighbor;
+}
+.inner-box {
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 0 13px;
+	box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6, strong, th {
+	font-family: 'Open Sans';
+	margin: 0;
+}
+p {
+	margin: 0;
+}
+.btn {
+	display: inline-block;
+	vertical-align: middle;
+	background-color: #FFCD00;
+	color: #1a2332;
+	font-family: 'Open Sans';
+    font-weight: bold;
+	border-radius: 2px;
+	text-align: center;
+	text-decoration: none;
+	border: 0;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	font-weight: 600;
+	outline: 0;
+}
+#main {
+	padding-top: 47px;
+	text-align: center;
+}
+.logo-area {
+	margin: 0 auto 24px;
+	width: 160px;
+}
+.logo-area img {
+	width: 160px;
+	height: 92px;
+}
+.area-txt {
+	margin-bottom: 32px;
+}
+.area-txt .txt-1 {
+	font-size: 46px;
+	font-family: 'Open Sans';
+	font-weight: bold;
+	height: 82px;
+	line-height: 60px;
+}
+.area-txt .txt-2 {
+	font-size: 24px;
+	height: 62px;
+	line-height: 36px;
+}
+.cta-area .btn {
+	width: 295px;
+	height: 48px;
+	line-height: 48px;
+	font-size: 20px;
+}
+@media (min-width: 1024px) and (max-width: 1920px) {
+	.area-txt {
+		margin-bottom: calc((((((100vw - 1024px) * 100) / (1920 - 1024)) / 100) * (32 - 24)) + 24px);
+	}
+	.area-txt .txt-1 {
+		font-size: calc((((((100vw - 1024px) * 100) / (1920 - 1024)) / 100) * (48 - 36)) + 36px);
+		height: calc((((((100vw - 1024px) * 100) / (1920 - 1024)) / 100) * (82 - 36)) + 36px);
+		line-height: calc((((((100vw - 1024px) * 100) / (1920 - 1024)) / 100) * (60 - 36)) + 36px);
+	}
+	.area-txt .txt-2 {
+		font-size: calc((((((100vw - 1024px) * 100) / (1920 - 1024)) / 100) * (24 - 18)) + 18px);
+		height: calc((((((100vw - 1024px) * 100) / (1920 - 1024)) / 100) * (62 - 36)) + 36px);
+	}
+	.cta-area .btn {
+		width: calc((((((100vw - 1024px) * 100) / (1920 - 1024)) / 100) * (295 - 200)) + 200px);
+		height: calc((((((100vw - 1024px) * 100) / (1920 - 1024)) / 100) * (48 - 32)) + 32px);
+		line-height: calc((((((100vw - 1024px) * 100) / (1920 - 1024)) / 100) * (48 - 32)) + 32px);
+		font-size: calc((((((100vw - 1024px) * 100) / (1920 - 1024)) / 100) * (20 - 14)) + 14px);
+	}
+}
+@media (max-width: 1023px) {
+	.logo-area {
+		width: 93px;
+	}
+	.logo-area img {
+		width: 93px;
+		height: 53px;
+	}
+	.area-txt {
+		margin-bottom: 24px;
+	}
+	.area-txt .txt-1 {
+		font-size: 4vw;
+		height: 36px;
+		line-height: 30px;
+	}
+	.area-txt .txt-2 {
+		font-size: 2.5vw;
+		height: 20px;
+		line-height: 40px;
+	}
+	.cta-area .btn {
+		width: 140px;
+		height: 24px;
+		line-height: 24px;
+		font-size: 12px;
+	}
+}
+@media screen and (orientation:landscape) and (max-device-width: 767px) {
+	body {
+		background-image: url("../../images/error/bg-landscape.jpg");
+		background-position: right bottom;
+	}
+	#main {
+		padding-top: 26px;
+	}
+	.logo-area {
+		margin: 0 auto 14px;
+	}
+	.area-txt {
+		margin-bottom: 16px;
+	}
+	.area-txt .txt-1 {
+		height: 32px;
+	}
+}
+
+@media (max-width: 480px) {
+	.area-txt .txt-1 {
+		font-size: 5vw;
+	}
+
+	.area-txt .txt-2 {
+		font-size: 3.5vw;
+		line-height: inherit;
+	}
+
+}
+
+#correlation-id {
+	border: 0;
+    background-color: inherit;
+    color: inherit;
+    width: 100%;
+    left: 0px;
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+}
+
+#copy-to-clipboard {
+	background-color: inherit;
+    color: inherit;
+    /* margin-top: 10px; */
+    padding: 7px 10px;
+    border-style: solid;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}

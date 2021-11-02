@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+  font-family: 'AvantGarde','Tahoma',Helvetica,Sans-Serif;
+  font-size: 12px;
+}
+html[lang="th-TH"],
+html[lang="vi-VN"] {
+  font-family: 'Tahoma',Helvetica,Sans-Serif;
+  font-size: 12px;
+}
+html[lang="zh-CN"] {
+  font-family: 'Microsoft Yahei','Tahoma',Helvetica,Sans-Serif;
+  font-size: 12px;
+}
+
+html[lang="km-KH"] {
+  font-family: 'Battambang',Tahoma,Helvetica,Sans-Serif;
+  font-size: 12px;
+}
+html, body {
+	background-color: #7e97cf;
+	height: 100%;
+	font: 10.5px Tahoma, Arial, sans-serif;
+}
+.terms-conditions {
+  float: right;
+  color: white;
+  padding-top: 20px;
+  font-size: 12px;
+  line-height: 20px;
+}
+.terms-conditions .title {
+  color: #3d5172;
+  padding-bottom: 15px;
+  font-family: "Microsoft Sans Serif", Helvetica, Sans-Serif;
+}
+a {
+  color: #fdcf01;
+  text-decoration: none;
+}
+/* CS custom styles */
+html[lang="zh-CN"] .terms-conditions .title {
+  font-family: "SimHei", Helvetica, Sans-Serif;
+}
+html[lang="zh-CN"] .menu .items .item .block .category {
+	margin-top: 0px;
+}
+html[lang="zh-CN"] .terms-conditions ol {
+  font-family: "SimHei", Helvetica, Sans-Serif;
+}
+/* TH custom styles */
+
+/* VN custom styles */
+html[lang="vi-VN"] .promotions .group .items .item .card .buttons .text {
+	padding-top: 6px;
+}
+
+html[lang="vi-VN"] .promotions .group .items .item .info {
+	text-transform: none;
+}
+/* KH custom styles */
+html[lang="km-KH"] .terms-conditions .title {
+  font-family: "Khmer OS", Helvetica, Sans-Serif;
+}
+html[lang="km-KH"] .menu .items .item .block .category {
+	margin-top: 0px;
+}
+html[lang="km-KH"] .terms-conditions ol {
+  font-family: "Khmer OS", Helvetica, Sans-Serif;
+}
+html[lang="km-KH"] .promo-body {
+  line-height: 20px;
+}
+html[lang="km-KH"] .promoDesc {
+  line-height: 20px;
+}
+html[lang="km-KH"] .terms-info {
+  line-height: 20px;
+}
+.terms-conditions dd {
+  margin-inline-start: 5px;
+}
+.terms-conditions ol {
+  padding-left: 5px;
+  font-family: "Microsoft Sans Serif", Helvetica, Sans-Serif;
+}
+.terms-conditions .rowHeader {
+	background: #d4d9e2;
+	font-weight: bold;
+}
+.terms-conditions .row1 {
+	background: #e0e0e0;
+}
+.terms-conditions .row2 {
+	background: #d3d3d3;
+}
+.terms-conditions table {
+  width: 100%;
+  border-color: #000000;
+  background-color: #000000;
+  border-spacing: 1px;
+}
+.terms-conditions table caption {
+  line-height: 23px;
+  font-weight: bold;
+  background: #95a3b8;
+  color: #102332;
+}
+.terms-conditions table td, .terms-conditions table tr {
+  line-height: 23px;
+  background: #3d5172;
+  color: #ffffff;
+  text-align: center;
+  border-color: #102332;
+}
+.terms-conditions table thead th {
+  background: #102332;
+  font-weight: normal;
+}

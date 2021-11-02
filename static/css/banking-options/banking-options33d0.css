@@ -1,0 +1,404 @@
+@charset "utf-8";
+/* CSS Document */
+
+.outer-wrapper * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.outer-wrapper *:before,
+.outer-wrapper *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.content-body h1,
+.content-body h2,
+.content-body h3 {
+	margin-top: 20px;
+  margin-bottom: 10px;
+}
+.content-body h4,
+.content-body h5,
+.content-body h6 {
+	margin-top: 10px;
+  margin-bottom: 10px;
+}
+.content-body h3 {
+	font-size: 14px;
+}
+.content-body label {
+	display: inline-block;
+	max-width: 100%;
+	margin-bottom: 5px;
+}
+.content-body .img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.container-wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.container-wrapper:after, .row-wrapper:after {
+	clear: both;
+}
+.container-wrapper:before,
+.container-wrapper:after,
+.row-wrapper:before,
+.row-wrapper:after,
+.formgroup:before,
+.formgroup:after {
+  content: " ";
+  display: table;
+}
+.input-group {
+	position: relative;
+	display: table;
+	border-collapse: separate;
+}
+.formgroup {
+	margin-bottom: 15px;
+}
+.outer-wrapper {
+	padding: 30px;
+}
+
+.xs-3, .xs-4, .xs-6, .xs-8, .xs-12 {
+	float: left;
+}
+.xs-12 {
+	width: 100%;
+}
+.xs-8 {
+	width: 66.66666667%;
+}
+.xs-6 {
+	width: 50%;
+}
+.col-xs-5 {
+  width: 41.66666667%;
+}
+.xs-4 {
+	width: 33.33333333%;
+}
+.xs-3 {
+	width: 25%;
+}
+.xs-2 {
+	width: 16.66666667%;
+}
+@media (max-width: 380px) {
+	.title-subheadline {
+		height: 40px !important;
+	}
+}
+@media (max-width: 768px) {
+	.content-body .tab-pane {
+		padding: 16px !important;
+	}
+	.outer-wrapper {
+		padding: 16px;
+	}
+	.header__logo a:last-child img {
+		margin-left: 30px;
+		width: 205px !important;
+	}
+}
+
+@media (min-width: 768px) {
+	.sm-3, .sm-4, .sm-6, .sm-8, .sm-12 {
+		float: left;
+	}
+	.sm-12 {
+    width: 100%;
+  }
+  .sm-8 {
+    width: 66.66666667%;
+  }
+  .sm-6 {
+    width: 50%;
+  }
+	.sm-5 {
+		width: 41.66666667%;
+	}
+  .sm-4 {
+    width: 33.33333333%;
+  }
+  .sm-3 {
+    width: 25%;
+  }
+	.sm-2 {
+    width: 16.66666667%;
+  }
+}
+
+@media (min-width: 992px) {
+	.container-wrapper {
+    width: 950px;
+  }
+	.md-3, .md-4, .md-6, .md-8, .md-12 {
+		float: left;
+	}
+	.md-12 {
+    width: 100%;
+  }
+  .md-8 {
+    width: 66.66666667%;
+  }
+  .md-6 {
+    width: 50%;
+  }
+	.md-5 {
+		width: 41.66666667%;
+	}
+  .md-4 {
+    width: 33.33333333%;
+  }
+  .md-3 {
+    width: 25%;
+  }
+	.md-2 {
+    width: 16.66666667%;
+  }
+}
+
+/* fonts */ 
+#en-wrapper,
+#id-wrapper {
+	font-family: 'AvantGarde','Tahoma',Helvetica,Sans-Serif;
+}
+#cn-wrapper {
+	font-family: 'Microsoft Sans Serif',Sans-Serif;
+}
+#th-wrapper,
+#vn-wrapper {
+	font-family: 'Tahoma',Helvetica,Sans-Serif;
+}
+#kh-wrapper {
+	font-family: 'Battambang',Tahoma,Helvetica,Sans-Serif;
+}
+
+/* grid */
+.row-wrapper {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.sm-3, .sm-4, .sm-6, .sm-8, .sm-12,
+.md-3, .md-4, .md-6, .md-8, .md-12, .xs-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* default */
+.bg-default {
+	background-color: #ffffff;
+}
+.m-auto {
+	margin: 0 auto;
+}
+.textcenter {
+	text-align: center;
+}
+.textleft {
+	text-align: left;
+}
+.textuppercase {
+	text-transform: uppercase;
+}
+
+/* component */
+.tab-title {
+	font-size: 13px;
+	font-weight: bold;
+	background: #131433;
+	/*height: 30px;*/
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.col-form-label {
+	padding-top: calc(0.35rem + 1px);
+	padding-bottom: calc(.35rem + 1px);
+	margin-bottom: 0;
+	font-size: 14px;
+	line-height: 1.25;
+}
+.label-control {
+	border-radius: 0px !important;
+	box-shadow: none;
+	font-size: 13.333px;
+	height: 30px;
+	color: #1a2332;
+	padding: 6px 10px;
+	font-family: inherit;
+}
+select.label-control {
+	border: solid 1px #d5e6f0;
+}
+select.label-control:hover {
+	cursor: pointer;
+}
+span.title-tab p:last-child {
+	color: #ffc600;
+}
+.title-subheadline h6 {
+	text-transform: uppercase;
+}
+.tab-title h6, .tab-title p {
+	color: #fff;
+}
+#kh-wrapper .label-control {
+	height: 35px;
+}
+#kh-wrapper .field-input .select-arrow-wrapper {
+	top: 14px;
+}
+.subheadline-small {
+	font-size: 14px;
+	font-weight: bold;
+}
+.title-subheadline span.subheadline-small {
+	color: #fff;
+	text-transform: capitalize;
+}
+.title-subheadline span span{
+	color: #fdcf01;
+	text-transform: capitalize;
+	font-size: 9px;
+}
+
+@media (min-width: 336px) {
+  .title-subheadline span span{
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 346px) {
+  .title-subheadline span span{
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 356px) {
+  .title-subheadline span span{
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 376px) {
+  .title-subheadline span span{
+    font-size: 14px;
+  }
+}
+
+.field-input {
+	position: relative;
+}
+.field-input .select-arrow-wrapper {
+	width: 20px;
+	height: 10px;
+	position: absolute;
+	top: 11px;
+	z-index: 9;
+	right: 25px;
+}
+.field-input select {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 100%;
+}
+.tab-title span.icon-tab {
+	display: table-cell;
+	vertical-align: middle;
+	color: #ffffff;
+	font-weight: normal;
+}
+.tab-title span.icon-tab img {
+	height: 20px;
+}
+span.icon-tab {
+	margin-right: 5px;
+}
+.title-subheadline {
+	display: table;
+	height: 30px;
+}
+.tab-title span.title-tab {
+	display: table-cell;
+	vertical-align: middle;
+	padding-left: 5px;	
+	font-size: 10px;
+}
+
+
+@media (min-width: 336px) {
+  .tab-title span.title-tab {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 346px) {
+  .tab-title span.title-tab {
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 356px) {
+  .tab-title span.title-tab {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 376px) {
+  .tab-title span.title-tab {
+    font-size: 14px;
+  }
+}
+
+
+/* margin padding */
+.mt-0 {
+	margin-top: 0px;
+}
+.mt-2 {
+	margin-top: 10px;
+}
+.mt-5 {
+	margin-top: 25px;
+}
+.mb-2 {
+	margin-bottom: 10px;
+}
+.mb-5 {
+	margin-bottom: 25px;
+}
+.pt-3 {
+	padding-top: 15px;
+}
+.pb-3 {
+	padding-bottom: 15px;
+}
+.no-margin {
+	margin: 0px;
+}
+.d-block {
+	display: block !important;
+}
+.hidden {
+	display: none;
+}
+
+/* content currency */
+.content-body > .tab-pane > h3 {
+	border-bottom: 1px dotted #222;
+}
+.content-body .tab-pane {
+	padding: 30px;
+	border: 1px solid #d2e2eb;
+}
+.header {background-color: #1a2332 !important;}

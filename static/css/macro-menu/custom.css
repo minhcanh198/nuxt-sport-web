@@ -1,0 +1,38 @@
+.macro-menu {
+    opacity: 1 !important;
+    background: linear-gradient(to top, rgba(38,50,77,0.95), rgba(26,35,50,0.95)) !important;
+}
+.macro-menu .macro-active .rebates:hover .more-info {
+    background-color: rgba(255,255,255,0.2);
+}
+.menu-ribbon .menu-container .new-main-menu .main-menu-elements .macro-cards a {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.menu-ribbon .menu-container .new-main-menu .main-menu-elements .macro-cards a span {
+    font-size: 9px;
+    color: #fff;
+    margin: 0 0 0 4px;
+}
+.menu-ribbon .menu-container .new-main-menu .main-menu-elements .macro-cards a span:before {
+    content: "";
+    display: block;
+    background: url("../../images/macro-menu/icon/maintenance.png") no-repeat;
+    background-size: contain;
+    width: 15px;
+    height: 15px;
+    float: left;
+    margin: 3px 3px 0 0;
+}
+.menu-ribbon .menu-container .new-main-menu .main-menu-elements .macro-cards a.maintenance img {
+    opacity: 0.5;
+}
+.macro-menu .menu-content .macro-cards .maintenance:hover .card-image {
+    cursor: default;
+    transform: scale(1) !important;
+}
+.macro-menu .menu-content .rebates .more-info {
+    display: block !important;
+    line-height: 22px !important;
+}

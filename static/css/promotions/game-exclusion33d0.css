@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+  font-family: 'AvantGarde','Tahoma',Helvetica,Sans-Serif;
+  font-size: 12px;
+}
+html[lang="th-TH"],
+html[lang="vi-VN"] {
+  font-family: 'Tahoma',Helvetica,Sans-Serif;
+  font-size: 12px;
+}
+html[lang="zh-CN"] {
+  font-family: 'Microsoft Yahei','Tahoma',Helvetica,Sans-Serif;
+  font-size: 12px;
+}
+
+html[lang="km-KH"] {
+  font-family: 'Battambang',Tahoma,Helvetica,Sans-Serif;
+  font-size: 12px;
+}
+html, body {
+	background-color: #7e97cf;
+	height: 100%;
+	font: 10.5px Tahoma, Arial, sans-serif;
+}
+td {
+	color: #333;
+	text-align: center;
+}
+table .boxshadow {
+    box-shadow: 7px 10px 15px rgba(0, 0, 0, .4);
+}
+.rowHeader {
+	background: #d4d9e2;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.hover-bold tr.row1:hover,.hover-bold tr.row2:hover {
+	font-weight: bold;
+}
+tr.row1 {
+	background-color: #e9e9e9;
+}
+tr.row2 {
+	background-color: #dde1eb;
+}
+h1 {
+	color: #FFF;
+	font-size: 15pt;
+}
+h2 {
+	font-size: 10pt;
+	color: #333;
+}
+a {
+	text-decoration: none;
+	color: #333;
+}
+a:hover {
+	text-decoration: none;
+	color: #000;
+}
+
+.exclusion tr:nth-child(odd) {
+	background-color: #e9e9e9;
+}
+
+.exclusion tr:nth-child(even) {
+	background-color: #dde1eb;
+}

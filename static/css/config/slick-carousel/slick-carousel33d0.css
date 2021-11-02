@@ -1,0 +1,15 @@
+@media only screen and (min-device-width: 767.5px) and (max-device-width: 1024px) {
+	html[lang="th-TH"] .slick-carousel .carousel-item .inner .inner-content .btn,
+	html[lang="id-ID"] .slick-carousel .carousel-item .inner .inner-content .btn {
+		width: auto !important;
+		padding: 0 5px;
+	}
+}
+
+
+.slick-carousel .carousel-item .desktop-only .inner-content .inner-text .subtitle-text {
+    text-transform: uppercase;
+}
+.slick-carousel .carousel-item .mobile-only .inner-content .inner-text .subtitle-text {
+    text-transform: uppercase;
+}

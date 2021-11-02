@@ -1,0 +1,1 @@
+"use strict";require(["jquery"],(function(t){t("a.prestige-lvl").click((function(){t(".tabber .item").removeClass("active"),t(".tabber .item:nth-child(2)").addClass("active"),t(".tab-items .tab-item").removeClass("active"),t(".tab-items .tab-item:nth-child(2)").addClass("active")}))}));

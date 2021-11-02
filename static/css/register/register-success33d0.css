@@ -1,0 +1,20 @@
+.reg-success-popup .reg-success-popup-overlay-content .popup-banner-text .primary {
+    font-size: 24px !important;
+    top: 13% !important;
+}
+
+.popup-body .popup-body-content .popup-banner .popup-banner-text .primary img.m88 {
+	width: 75%;
+}
+
+@media (max-width: 425px) and (orientation: portrait) {
+	.popup-body .popup-body-content .popup-banner img.reg-success-image {
+		object-fit: none;
+    	object-position: -175px 20%;
+	}
+
+	.popup-body .popup-body-content .popup-banner img.reg-success-image.vip {
+		object-fit: cover;
+    	object-position: -50px 20%;
+	}
+}

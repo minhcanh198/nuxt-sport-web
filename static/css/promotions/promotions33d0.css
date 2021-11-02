@@ -1,0 +1,661 @@
+/*
+Tags: promo body, sidebar, mobile.
+*/
+.desktop-promotions { 
+  display: block;
+  position: relative;
+  margin-top: 15px;
+}
+.desktop-promotions .menu {
+  float: left;
+  width: 220px;
+  background-color: #637eab;
+}
+.desktop-promotions .menu .items {
+  background-color: #babcc1;
+}
+.landing-layout .landing-top .upcoming-events .pl-table tr:last-child .bottom-border {
+    border-bottom: none;
+}
+.desktop-promotions .menu .items .item {
+  background-image: url("../../images/promotions/bg-promo-anchors.jpg");
+  display: inline-flex;
+  width: 100%;
+  padding-bottom: 1px;
+  text-transform: uppercase;
+	border-bottom: 1px solid #babcc1;
+}
+.desktop-promotions .menu .items .item .icon {
+  width: 33px;
+  height: 34px;
+  background-image: url("../../images/promotions/sprite-icon-promo3860.gif?v=1");
+  margin: 2px 8px 0 4px;			
+}
+.desktop-promotions .menu .items .item .rebate {
+  background-position: 170px 35px;
+}
+.desktop-promotions .menu .items .item .mobile {
+  background-position: 70px 0px;
+}
+.desktop-promotions .menu .items .item .casino {
+  background-position: 242px 0px;
+}
+.desktop-promotions .menu .items .item .sports {
+  background-position: 206px 0px;
+}
+.desktop-promotions .menu .items .item .casino-games {
+  background-position: 172px 0px;
+}
+.desktop-promotions .menu .items .item .vip-cashback,
+.desktop-promotions .menu .items .item .kenolottery,
+.desktop-promotions .menu .items .item .keno {
+  background-position: 207px 35px;
+}
+.desktop-promotions .menu .items .item .hot {
+  background-position: 134px 35px;
+}
+.desktop-promotions .menu .items .item .reload {
+  background-position: 34px -1px;
+}
+.desktop-promotions .menu .items .item .vip {
+  background-position: 170px 35px;
+}
+.desktop-promotions .menu .items .item .rewards {
+  background-position: 102px 35px;
+}
+.desktop-promotions .menu .items .item .euro {
+  background-position: 33px 35px;
+}
+
+.desktop-promotions .menu .items .item .leaderboard {
+  background-position: 66px 0;
+}
+.desktop-promotions .menu .items .item .block {
+  display: block;
+  margin-left: 5px;
+}
+.desktop-promotions .menu .items .item .block .title {
+  font: normal 12px/17px "AvantGarde LT Medium",Sans-serif,Arial,Tahoma,Helvetica;
+  font-weight: bold;
+  color: #3d5172;
+  padding-top: 3px;
+  text-align: left;
+}
+.desktop-promotions .menu .items .item .block .category {
+  font: normal 12px/17px "AvantGarde LT Medium",Sans-serif,Arial,Tahoma,Helvetica;
+  margin-top: 0px;
+  color: #b7b7b7;
+}
+.desktop-promotions .menu .items .item.selected,
+.desktop-promotions .menu .items .item:hover {
+  background-image: url("../../images/promotions/bg-promo-anchors.jpg");
+  background-position: 0px 42px;
+  color: #3d5172 !important;
+}
+.desktop-promotions .menu .items .item.selected .category,
+.desktop-promotions .menu .items .item:hover .category {
+  color: #3d5172;
+}
+.desktop-promotions .menu .items .item.selected .title,
+.desktop-promotions .menu .items .item:hover .title {
+  color: #ffffff;
+}
+.desktop-promotions .menu .title {
+  font-size: 22px;
+  font-weight: 400;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 2;
+}
+.desktop-promotions .promotions {
+  float: right;
+  width: 700px;
+  background-color: #ffffff;
+}
+.desktop-promotions .promotions .group .title {
+  background-image: url("../../images/promotions/bg-promo-title.jpg");
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 5px;
+}
+.desktop-promotions .promotions .group .title strong {
+  margin-left: 18px;
+  color: #ffe385;
+}
+.desktop-promotions .promotions .group .items {
+  background-color: #ffffff;
+}
+.desktop-promotions .promotions .group .items .item .card {
+  display: flex;
+}
+.desktop-promotions .promotions .group .items .item .card .image {
+  padding: 20px 20px 0px 20px;
+}
+.desktop-promotions .promotions .group .items .item .card .image .shaddow {
+  display: grid;
+  margin-top: -3px;
+}
+.desktop-promotions .promotions .group .items .item .card .buttons {
+  margin: auto auto 15px auto;
+  text-transform: uppercase;
+}
+.desktop-promotions .promotions .group .items .item .card .buttons div {
+  height: 27px;
+  width: 174px;
+}
+.desktop-promotions .promotions .group .items .item .card .buttons .register {
+  background-color: #fdcf01;
+  margin-bottom: 5px;
+}
+.desktop-promotions .promotions .group .items .item .card .buttons .register:hover {
+	background-color: #ffee01;
+}
+.desktop-promotions .promotions .group .items .item .card .buttons .register:active {
+	box-shadow:inset 0px 0px 0px 2px #000
+}
+.desktop-promotions .promotions .group .items .item .card .buttons .register .text {
+  color: #000000;
+}
+.desktop-promotions .promotions .group .items .item .card .buttons .info-btn {
+  background-color: #5071a1;
+}
+.desktop-promotions .promotions .group .items .item .card .buttons .info-btn:hover {
+  background-color: #4369ba;
+}
+.desktop-promotions .promotions .group .items .item .card .buttons .info-btn:active {
+  box-shadow:inset 0px 0px 0px 2px #000
+}
+.desktop-promotions .promotions .group .items .item .card .buttons .info-btn .text {
+  padding-top: 6px;
+  color: #ffffff;
+}
+.desktop-promotions .promotions .group .items .item .card .buttons .text {
+  text-align: center;
+  padding-top: 7px;
+  font-size: 14px;
+}
+.desktop-promotions .promotions .group .items .item .info {
+  color: #3d5172;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 20px;
+	margin-right: 20px;
+}
+.desktop-promotions .promotions .group .items .item .info-note {
+  color: #3d5172;
+  font-size: 12px;
+  font-weight: normal;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.desktop-promotions .promotions .group .items .separator {
+  margin-top: 15px;
+  width: 100%;
+}
+.desktop-promotions .promotions .group-separator {
+  padding-bottom: 15px;
+}
+.desktop-promotions .terms-conditions {
+  float: right;
+  width: 700px;
+  color: white;
+  padding-top: 30px;
+  font-size: 12px;
+  line-height: 20px;
+}
+.desktop-promotions .terms-conditions .title {
+  color: #3d5172;
+  padding-bottom: 15px;
+  font-family: "Microsoft Sans Serif", Helvetica, Sans-Serif;
+}
+.desktop-promotions .desktop-closure {
+  padding: 100px 40px;
+}
+.mobile-promotions .mobile-closure {
+  margin: 75px 15px 75px 0;
+  padding: 8px;
+  font-size: inherit;
+}
+.desktop-promotions .desktop-closure,
+.mobile-promotions .mobile-closure {
+  text-align: center;
+  background: #fff;
+  line-height: 16pt;
+}
+
+/* EN and ID custom styles */
+html[lang="en-US"] .layout-content,
+html[lang="id-ID"] .layout-content
+{
+	font-family: "Microsoft Sans Serif",Helvetica,Sans-Serif !important;
+}
+html[lang="en-US"] .desktop-promotions .promotions .group .items .item .card .buttons .text,
+html[lang="id-ID"] .desktop-promotions .promotions .group .items .item .card .buttons .text {
+	padding-top: 6px;
+}
+html[lang="en-US"] .desktop-promotions .menu .items .item .block .title,
+html[lang="id-ID"] .desktop-promotions .menu .items .item .block .title {
+	font: bold 12px/17px "Microsoft Sans Serif",Sans-serif,Arial,Tahoma,Helvetica;
+}
+html[lang="en-US"] .desktop-promotions .menu .items .item .block .category,
+html[lang="id-ID"] .desktop-promotions .menu .items .item .block .category {
+	font: normal 12px/17px "Microsoft Sans Serif",Sans-serif,Arial,Tahoma,Helvetica;
+	margin-top: 0px;
+}
+
+html[lang="id-ID"] .mobile-promotions {
+  font-weight: lighter;
+}
+html[lang="id-ID"] .mobile-promotions strong {
+  font-weight: bold;
+}
+
+@-moz-document url-prefix() { html[lang="en-US"] .desktop-promotions .menu .items .item .block,
+html[lang="id-ID"] .desktop-promotions .menu .items .item .block {
+  margin-left: 0px;
+}
+}
+
+/* CS custom styles */
+html[lang="zh-CN"] .desktop-promotions .terms-conditions .title {
+  font-family: "SimHei", Helvetica, Sans-Serif;
+}
+html[lang="zh-CN"] .desktop-promotions .menu .items .item .block .category {
+	margin-top: 0px;
+}
+html[lang="zh-CN"] .desktop-promotions .terms-conditions ol {
+  font-family: "SimHei", Helvetica, Sans-Serif;
+}
+/* TH custom styles */
+
+/* VN custom styles */
+html[lang="vi-VN"] .desktop-promotions .promotions .group .items .item .card .buttons .text {
+	padding-top: 6px;
+}
+
+html[lang="vi-VN"] .desktop-promotions .menu .items .item .block {
+  margin-left: -4px;
+}
+@-moz-document url-prefix() {
+html[lang="vi-VN"] .desktop-promotions .promotions .group .items .item .info {
+	text-transform: none;
+}
+}
+/* KH custom styles */
+html[lang="km-KH"] .desktop-promotions .terms-conditions .title {
+  font-family: "Khmer OS", Helvetica, Sans-Serif;
+}
+html[lang="km-KH"] .desktop-promotions .menu .items .item .block .category {
+	margin-top: 0px;
+}
+html[lang="km-KH"] .desktop-promotions .terms-conditions ol {
+  font-family: "Khmer OS", Helvetica, Sans-Serif;
+}
+html[lang="km-KH"] .promo-body {
+  line-height: 20px;
+}
+html[lang="km-KH"] .promoDesc {
+  line-height: 20px;
+}
+html[lang="km-KH"] .terms-info {
+  line-height: 20px;
+}
+.desktop-promotions .terms-conditions dd {
+  margin-inline-start: 5px;
+}
+.desktop-promotions .terms-conditions ol {
+  padding-left: 5px;
+  font-family: "Microsoft Sans Serif", Helvetica, Sans-Serif;
+}
+.rowHeader {
+	background: #d4d9e2;
+	font-weight: bold;
+}
+.row1 {
+	background: #e0e0e0;
+}
+.row2 {
+	background: #d3d3d3;
+}
+.desktop-promotions .terms-conditions table {
+  width: 100%;
+  border-color: #000000;
+  background-color: #000000;
+  border-spacing: 1px;
+}
+.desktop-promotions .terms-conditions table caption {
+  line-height: 23px;
+  font-weight: bold;
+  background: #95a3b8;
+  color: #102332;
+}
+.desktop-promotions .terms-conditions table td, .desktop-promotions .terms-conditions table tr {
+  line-height: 23px;
+  background: #3d5172;
+  color: #ffffff;
+  text-align: center;
+  border-color: #102332;
+}
+.desktop-promotions .terms-conditions table thead th {
+  background: #102332;
+  font-weight: normal;
+}
+.desktop-promotions .promotions .group .items .item .card .buttons .info-btn .text:hover {
+	cursor: pointer;
+}
+.mobile-promotions {
+  display: none;
+  visibility: hidden;
+}
+.mobile-promotion-info {
+  background-color: #cccccc;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  display: none;
+}
+.mobile-promotion-info .title {
+  background-color: #30415f;
+  color: white;
+  height: 45px;
+  font-size: 20px;
+}
+.mobile-promotion-info .title .logo img {
+  width: 42px;
+	margin-top: 4px;
+	margin-left: 3px;
+}
+.mobile-promotion-info .title .text {
+	position: absolute;
+	top: 12px;
+	left: 55px;
+}
+.mobile-promotion-info .title .close {
+  position: absolute;
+  top: 12px;
+  right: 10px;
+}
+.mobile-promotion-info .modal-body {
+  margin: 0px 50px 50px 50px;
+}
+.mobile-promotion-info a {
+  color: #577ab8;
+}
+.mobile-promotions .promotion .mobile-promotion-info .buttons .register {
+	background-color: #fdcf01;
+}
+.mobile-promotions .promotion .mobile-promotion-info .buttons div {
+	height: 27px;
+	width: 174px;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 26px;
+	margin-top: 25px;
+	font-size: 14px;
+	color: #000;
+}
+
+/* promo body */
+.desktop-promotions .promotions .group .items .item .info .info-desc {
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: normal;
+	display: block;
+	margin: 10px 0px;
+}
+.desktop-promotions .promotions .group .items .item .info .info-desc a {
+  color: inherit;
+  text-decoration: underline;
+}
+.promo-body {
+  width: 600px;
+  margin: 25px 50px 15px 20px;
+  display: none;
+  color: #485267;
+	line-height: 16px;
+}
+.promo-body table {
+  border-collapse: initial;
+  border-spacing: 1px;
+  font-size: 12px;
+  line-height: 16px;
+  color: #384f71;
+  margin: 10px auto;
+  padding: 5px;
+}
+.promo-body table tr {
+  text-align: center;
+}
+.promo-body table td {
+ padding: 5px;
+}
+.promo-body a {
+  color: #577ab8;
+}
+.promo-body dt {
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.promo-body dl dd {
+	margin-left: 0px;
+}
+.promo-body h4.sub-title {
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+}
+.promo-body .list-style-none {
+	list-style: none;
+	padding-left: 0px;
+	margin-top: 0px;
+}
+.promoDesc table {
+  border-spacing: 1px;
+  margin: 10px auto;
+  padding: 5px;
+}
+.promoDesc table tr {
+  text-align: center;
+}
+.promoDesc table td {
+  padding: 5px;
+}
+/* button */
+.buttons .hidden {
+	visibility: hidden;
+}
+/* mobile query */
+@media (max-width: 1024px) {
+  .desktop-promotions {
+    display: none;
+    visibility: hidden;
+  }
+  .mobile-promotions {
+    visibility: visible;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px 0px 0px 15px;
+  }
+  .mobile-promotions img {
+    width: 100%;
+    -webkit-box-shadow: 0px 0px 10px var(--opacity-4);
+    -moz-box-shadow: 0px 0px 10px var(--opacity-4);
+    box-shadow: 0px 0px 10px var(--opacity-4);
+  }
+  .mobile-promotions .promotion {
+    padding: 0px 15px 20px 0px;
+  }
+}
+@media (min-width: 480px) and (max-width: 790px) {
+  .mobile-promotions {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 480px) {
+  .mobile-promotions {
+    grid-template-columns: 1fr;
+  }
+	.layout-info-line time {
+		flex: 0 0 150px;
+	}
+}
+@media (max-width: 320px) {
+	.navigation-links-mobile .navigation-link-element {
+		margin: 0px;
+	}
+}
+@media (max-width: 768px) {
+  .mobile-promotion-title {
+    text-transform: uppercase;
+  }
+	.mobile-form-group .promoDesc {
+		line-height: 16px;
+	}
+	.mobile-form-group .promoDesc > dl dd {
+		margin-left: 0px;
+	}
+	.mobile-form-group .promoDesc table {
+		margin: 10px auto;
+	}
+	.mobile-form-group > h4 {
+		font-size: 16px;
+	}
+	.mobile-form-group ol,
+	.mobile-form-group ul {
+		padding-left: 0px;
+	}
+  .mobile-form-group ol li ul,
+  .mobile-form-group ol li ol {
+    padding-left: 25px;
+  }
+	.table-mobile {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+	}
+}
+
+/* afcb removal */
+
+@media (min-width: 1023.5px) {
+	.layout-footer .footer-middle .footer-middle-left .content-left .quote {
+		margin-bottom: 0 !important;
+	}
+
+	.layout-footer .footer-middle .footer-middle-left .content-left .quote img {
+		height: 46px !important;
+		width: 80px !important;
+		max-width: none !important;
+	}
+
+	.layout-footer .footer-middle .footer-middle-right .content-right .betting-partners .previous-sponsors-text {
+		font-size: 9px;
+		margin-bottom: 3px;
+	}
+}
+
+.layout-footer .footer-middle .footer-middle-left {
+	align-self: center;
+}
+
+@media (max-width: 320px) {
+	.layout-footer .footer-middle .footer-middle-right .content-right .betting-partners .sponsor {
+		max-width: 29px !important;
+	} 
+}
+
+.layout-footer .footer-middle .footer-middle-left .content-left .quote img {
+	height: auto;
+	max-width: 50px;
+	margin-bottom: 0 !important;
+	width: 100%;
+}
+
+.layout-footer .footer-middle .footer-middle-right .content-right .betting-partners .sponsor {
+	height: auto;
+    max-width: 35px;
+    width: 100%;
+}
+
+.layout-footer .footer-middle .footer-middle-right .content-right .betting-partners .previous-sponsors-text {
+	font-size: 9px;
+	text-transform: uppercase;
+}
+
+/* tutorial rebate */
+.info-tutorial {
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 25px 0px 0px 27px;
+}
+.info-tutorial > ol {
+  padding-left: 27px;
+}
+.step-tutorial {
+  padding: 0px 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+.step-tutorial ol {
+  padding-left: 13px;
+}
+
+/* additional terms and conditions for china */
+.row-desc {
+    margin: 15px 0px;
+}
+.column-desc {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+  .tutorial-rebate img {
+    width: 225px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  /* additional terms and conditions for china */
+  .row-desc:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .column-desc {
+    float: left;
+    width: 50%;
+  }
+
+  .column-desc img {
+    padding: 0 5px;
+    width: 95%;
+  }
+}
+
+@media (max-width: 767.5px) {
+  .tutorial-rebate img {
+    display: block;
+    margin-bottom: 25px;
+  }
+  .info-tutorial {
+    margin: 0px;
+  }
+}
+
+/* put max width for bigger size promotion banner in order to provide higher resolution image */
+.item .card .image > img {
+    max-width: 442px;
+}
+
+

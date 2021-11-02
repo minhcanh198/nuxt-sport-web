@@ -1,0 +1,307 @@
+#league-sponsor {
+	display: none;
+}
+#keno-lotto .keno-block .lazy-load-responsive{
+	background-color: #000 !important;
+}
+
+@media (min-width: 1023.5px) {
+	/* manipulate img src url in order to add la liga sponsorship in desktop */
+	.previous-sponsorships .sponsor:first-child img.sponsor-image {
+		content:url("../../../images/footer/laliga-desktop.svg");
+	}
+	.previous-sponsorships .sponsor:nth-child(2) img.sponsor-image {
+		content:url("../../../images/footer/previous-sponsorships/bournemouth.svg");
+	}
+	.previous-sponsorships .sponsor:nth-child(3) img.sponsor-image {
+		content:url("../../../images/footer/previous-sponsorships/crystal-palace.svg");
+	}
+	.previous-sponsorships .sponsor:nth-child(4) img.sponsor-image {
+		content:url("../../../images/footer/previous-sponsorships/manchester-city.svg");
+	}
+
+	/* fix content url issue on firefox */
+	@-moz-document url-prefix() {
+		.previous-sponsorships .sponsor:first-child img,
+    	.previous-sponsorships .sponsor:nth-child(2) img,
+    	.previous-sponsorships .sponsor:nth-child(3) img,
+    	.previous-sponsorships .sponsor:nth-child(4) img {
+			visibility: hidden;
+		}
+		.previous-sponsorships .sponsor:first-child {
+			background: url("../../../images/footer/laliga-desktop.svg") 5px no-repeat;
+			background-size: contain;
+			height: 40px;
+		}
+    	.previous-sponsorships .sponsor:nth-child(2) {
+			background:url("../../../images/footer/previous-sponsorships/bournemouth.svg") 5px no-repeat;
+		  background-size: contain;
+			height: 40px;
+		}
+		.previous-sponsorships .sponsor:nth-child(3) {
+			background:url("../../../images/footer/previous-sponsorships/crystal-palace.svg") 5px no-repeat;
+		  background-size: contain;
+			height: 40px;
+		}
+		.previous-sponsorships .sponsor:nth-child(4) {
+			background:url("../../../images/footer/previous-sponsorships/manchester-city.svg") 5px no-repeat;
+	   background-size: contain;
+			height: 40px;
+		}
+	}
+	.previous-sponsorships .sponsor .sponsor-info .sponsor-name,
+	.previous-sponsorships .sponsor .sponsor-info .sponsorship-years {
+		text-indent: -9999px;
+	  	line-height: 0;
+	  	display: block !important;
+	}
+	.previous-sponsorships .sponsor:first-child .sponsor-info .sponsor-name,
+	.previous-sponsorships .sponsor:first-child .sponsor-info .sponsorship-years {
+		color: #fff;
+	}
+	html[lang="en-US"] .previous-sponsorships .sponsor:first-child .sponsor-info .sponsor-name::after,
+	/*html[lang="vi-VN"] .previous-sponsorships .sponsor:first-child .sponsor-info .sponsor-name::after,
+	html[lang="id-ID"] .previous-sponsorships .sponsor:first-child .sponsor-info .sponsor-name::after,*/
+	html[lang="ko-KR"] .previous-sponsorships .sponsor:first-child .sponsor-info .sponsor-name::after {
+		content: "OFFICIAL REGIONAL PARTNER";
+	  	text-indent: 0;
+	  	display: block;
+	  	line-height: initial;
+	}
+	html[lang="zh-CN"] .previous-sponsorships .sponsor:first-child .sponsor-info .sponsor-name::after,
+	html[lang="zh-CN"] #league-sponsor p::after {
+		content: "官方区域合作伙伴";
+	  	text-indent: 0;
+	  	display: block;
+	  	line-height: initial;
+	}
+	html[lang="id-ID"] .previous-sponsorships .sponsor:first-child .sponsor-info .sponsor-name::after {
+		content: "PARTNER REGIONAL RESMI";
+	  	text-indent: 0;
+	  	display: block;
+	  	line-height: initial;
+	}
+	html[lang="th-TH"] .previous-sponsorships .sponsor:first-child .sponsor-info .sponsor-name::after {
+		content: "พันธมิตรอย่างเป็นทางการ";
+	  	text-indent: 0;
+	  	display: block;
+	  	line-height: initial;
+	}
+	html[lang="vi-VN"] .previous-sponsorships .sponsor:first-child .sponsor-info .sponsor-name::after {
+		content: "ĐỐI TÁC KHU VỰC CHÍNH THỨC";
+	  	text-indent: 0;
+	  	display: block;
+	  	line-height: initial;
+	}
+	html[lang="en-US"] .previous-sponsorships .sponsor:nth-child(2) .sponsor-info .sponsor-name::after,
+	html[lang="vi-VN"] .previous-sponsorships .sponsor:nth-child(2) .sponsor-info .sponsor-name::after,
+	html[lang="id-ID"] .previous-sponsorships .sponsor:nth-child(2) .sponsor-info .sponsor-name::after,
+	html[lang="ko-KR"] .previous-sponsorships .sponsor:nth-child(2) .sponsor-info .sponsor-name::after {
+		content: "AFC BOURNEMOUTH";
+	  	text-indent: 0;
+	  	display: block;
+	  	line-height: initial;
+	}
+	html[lang="zh-CN"] .previous-sponsorships .sponsor:nth-child(2) .sponsor-info .sponsor-name::after {
+		content: "伯恩茅斯足球队";
+	  	text-indent: 0;
+	  	display: block;
+	  	line-height: initial;
+	}
+	html[lang="th-TH"] .previous-sponsorships .sponsor:nth-child(2) .sponsor-info .sponsor-name::after {
+		content: "เอเอฟซี บอร์นมัธ";
+	  	text-indent: 0;
+	  	display: block;
+	  	line-height: initial;
+	}
+	html[lang="en-US"] .previous-sponsorships .sponsor:nth-child(3) .sponsor-info .sponsor-name::after,
+	html[lang="vi-VN"] .previous-sponsorships .sponsor:nth-child(3) .sponsor-info .sponsor-name::after,
+	html[lang="id-ID"] .previous-sponsorships .sponsor:nth-child(3) .sponsor-info .sponsor-name::after,
+	html[lang="ko-KR"] .previous-sponsorships .sponsor:nth-child(3) .sponsor-info .sponsor-name::after {
+		content: "CRYSTAL PALACE";
+	  	text-indent: 0;
+	  	display: block;
+	  	line-height: initial;
+	}
+	html[lang="zh-CN"] .previous-sponsorships .sponsor:nth-child(3) .sponsor-info .sponsor-name::after {
+		content: "水晶宫";
+	  	text-indent: 0;
+	  	display: block;
+	  	line-height: initial;
+	}
+	html[lang="th-TH"] .previous-sponsorships .sponsor:nth-child(3) .sponsor-info .sponsor-name::after {
+		content: "สโมสรฟุตบอล คริสตัลพาเลซ";
+	  	text-indent: 0;
+	  	display: block;
+	  	line-height: initial;
+	}
+	html[lang="en-US"] .previous-sponsorships .sponsor:nth-child(4) .sponsor-info .sponsor-name::after,
+	html[lang="vi-VN"] .previous-sponsorships .sponsor:nth-child(4) .sponsor-info .sponsor-name::after,
+	html[lang="id-ID"] .previous-sponsorships .sponsor:nth-child(4) .sponsor-info .sponsor-name::after,
+	html[lang="ko-KR"] .previous-sponsorships .sponsor:nth-child(4) .sponsor-info .sponsor-name::after {
+		content: "MANCHESTER CITY";
+	  	text-indent: 0;
+	  	display: block;
+	  	line-height: initial;
+	}
+	html[lang="zh-CN"] .previous-sponsorships .sponsor:nth-child(4) .sponsor-info .sponsor-name::after {
+		content: "曼切斯特城";
+	  	text-indent: 0;
+	  	display: block;
+	  	line-height: initial;
+	}
+	html[lang="th-TH"] .previous-sponsorships .sponsor:nth-child(4) .sponsor-info .sponsor-name::after {
+		content: "สโมสรฟุตบอล แมนเชสเตอร์ซิตี";
+	  	text-indent: 0;
+	  	display: block;
+	  	line-height: initial;
+	}
+	.previous-sponsorships .sponsor:first-child .sponsor-info .sponsorship-years::after {
+		content: "2020-2024";
+	  	text-indent: 0;
+	  	display: block;
+	  	line-height: initial;
+	}
+	.previous-sponsorships .sponsor:nth-child(2) .sponsor-info .sponsorship-years::after {
+		content: "2015-2020";
+	  	text-indent: 0;
+	  	display: block;
+	  	line-height: initial;
+	}
+	.previous-sponsorships .sponsor:nth-child(3) .sponsor-info .sponsorship-years::after {
+		content: "2015-2017";
+	  	text-indent: 0;
+	  	display: block;
+	  	line-height: initial;
+	}
+	.previous-sponsorships .sponsor:nth-child(4) .sponsor-info .sponsorship-years::after {
+		content: "2011-2012";
+	  	text-indent: 0;
+	  	display: block;
+	  	line-height: initial;
+	}
+}
+
+@media only screen and (min-device-width: 767.5px) and (max-device-width: 1105px) {
+	.layout-footer .footer-bottom .footer-content-bottom .previous-sponsorships .sponsor {
+		margin-right: 24px !important;
+		text-transform: uppercase;
+	}
+	html[lang="th-TH"] .layout-footer .footer-bottom .footer-content-bottom .previous-sponsorships .sponsor {
+		margin-right: 16px !important;
+	}
+	
+}
+
+@media only screen and (min-device-width: 767.5px) and (max-device-width: 1105px) and (orientation: landscape){
+	.layout-footer .footer-bottom .footer-content-bottom .previous-sponsorships .sponsor {
+		margin-right: 10px !important;
+	}
+	html[lang="th-TH"] .layout-footer .footer-bottom .footer-content-bottom .previous-sponsorships .sponsor {
+		margin-right: 8px !important;
+	}
+	html[lang="th-TH"] .layout-footer .footer-bottom .footer-content-bottom .previous-sponsorships .sponsor .sponsor-info {
+		margin-left: 0px !important;
+	}
+}
+
+@media (max-width: 1023.5px) {
+	#league-sponsor {
+		display: block;
+		width: 100%;
+		text-align: center;
+		font-family: 'Open Sans';
+		font-size: 12px;
+		color: #fff;
+		padding-top: 24px;
+	    border-top: dashed;
+	    border-width: 1px;
+	    border-color: #b5b5b5;
+	} 
+	#league-sponsor .league-logo {
+		width: 125px;
+	}
+	#league-sponsor p:first-child {
+		margin-bottom: 5px;
+		font-weight: bold;
+	}
+	#league-sponsor p:last-child {
+		margin: unset;
+	}
+	#game-providers {
+   	 	padding-bottom: 0px !important;
+	}
+	.layout-footer .footer-middle .game-providers {
+		border-bottom: none !important;
+		padding-bottom: 0px !important;
+	}
+
+	html[lang="id-ID"] #league-sponsor p:first-child, html[lang="th-TH"] #league-sponsor p:first-child, html[lang="vi-VN"] #league-sponsor p:first-child {
+		text-indent: -9999px;
+		line-height: 0;
+	}
+	html[lang="id-ID"] #league-sponsor p:first-child::after {
+		content: "PARTNER REGIONAL RESMI";
+	  	text-indent: 0;
+	  	display: block;
+	  	line-height: initial;
+	}
+	html[lang="th-TH"] #league-sponsor p:first-child::after {
+		content: "พันธมิตรอย่างเป็นทางการ";
+	  	text-indent: 0;
+	  	display: block;
+	  	line-height: initial;
+	}
+	html[lang="vi-VN"] #league-sponsor p:first-child::after {
+		content: "ĐỐI TÁC KHU VỰC CHÍNH THỨC";
+	  	text-indent: 0;
+	  	display: block;
+	  	line-height: initial;
+	}
+	/* update the slash to dash for years period */
+	.previous-sponsorships .sponsor .sponsor-info .sponsorship-years {
+		text-indent: -9999px;
+	  	line-height: 0;
+	  	display: block !important;
+	}
+	.previous-sponsorships .sponsor:first-child .sponsor-info .sponsorship-years::after {
+		content: "2015-2020";
+	  	text-indent: 0;
+	  	display: block;
+	  	line-height: initial;
+	}
+	.previous-sponsorships .sponsor:nth-child(2) .sponsor-info .sponsorship-years::after {
+		content: "2015-2017";
+	  	text-indent: 0;
+	  	display: block;
+	  	line-height: initial;
+	}
+	.previous-sponsorships .sponsor:nth-child(3) .sponsor-info .sponsorship-years::after {
+		content: "2011-2012";
+	  	text-indent: 0;
+	  	display: block;
+	  	line-height: initial;
+	}
+	.previous-sponsorships .sponsor:nth-child(4) .sponsor-info .sponsorship-years::after {
+		content: "2006-2010";
+	  	text-indent: 0;
+	  	display: block;
+	  	line-height: initial;
+	}
+}
+
+@media (max-width: 568px) {
+	.layout-footer .footer-middle .game-providers .provider-container .provider-image {
+		max-width: 81px !important;
+	}
+}
+
+html[lang="id-ID"] .dynamic-content .area .block p.costum-text-size {
+ 	font-size:calc((((((80vw - 1024px) * 100) / (1366 - 1024)) / 100) * (40 - 26)) + 26px);
+}
+
+@media (min-width: 1365.5px) {
+ 	html[lang="id-ID"] .dynamic-content .area .block p.costum-text-size {
+  		font-size:30px;
+ 	}
+}

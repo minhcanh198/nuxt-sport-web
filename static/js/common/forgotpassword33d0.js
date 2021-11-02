@@ -1,0 +1,1 @@
+"use strict";require(["jquery","jquery.validate"],(function(e){e("#forgot-password-form").validate({onkeyup:!1,rules:{Email:{required:!0}},messages:{Email:{required:email_required,email:email_wrongformat}}})}));

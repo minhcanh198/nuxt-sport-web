@@ -1,0 +1,1 @@
+"use strict";function loadLiveHelp(e){var o="regular";"true"===loggedIn.toLowerCase()?$.ajax({type:"GET",url:loyaltyServiceUrl,async:!1,success:function(a){a&&(o=a.Message),popLiveHelp(e,o)},error:function(e){}}).always((function(){})):popLiveHelp(e,o)}function loadCashier(){var e=window.event;e.cancelBubble=!0,e.stopPropagation&&e.stopPropagation()}

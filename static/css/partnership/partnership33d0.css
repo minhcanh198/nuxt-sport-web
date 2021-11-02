@@ -1,0 +1,582 @@
+@charset "utf-8";
+
+.layout-content .layout-body {
+    max-width: 1366px;
+}
+.menu-tabber {
+	background-color: #26324d;
+	margin-bottom: 48px;
+}
+.menu-tabber ul {
+	padding: 0 0 0 24px;
+	margin: 0;
+	list-style: none;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 80px;
+	height: 96px;
+}
+.menu-tabber ul li {
+	position: relative;
+	height: 100%;
+}
+.menu-tabber ul li.active:after {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 2px;
+	background-color: #ffcd00;;
+}
+.menu-tabber ul li a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	font-size: 18px;
+}
+.menu-tabber ul li.active a {
+	color: #ffcd00;;
+}
+.inner-box > .heading-title {
+	font-size: 28px;
+	line-height: 36px;
+	text-align: center;
+	margin: 0 0 24px;
+	color:#fff;
+}
+.sponsorships-list {
+	padding: 24px 0 calc(62px + 48px);
+	color:#fff;
+}
+.sponsorships-list > .row {
+	display: flex;
+	justify-content: space-between;
+	gap: 94px;
+}
+.sponsorships-list  > .row > .col {
+	position: relative;
+	width: 100%;
+}
+
+
+
+
+
+
+.sponsorships-list .box {
+	position: relative;
+}
+.sponsorships-list .box .desc {
+	position: absolute;
+	bottom: -16px;
+	left: 0;
+	transform: translateY(100%);
+	width: 100%;
+	text-align: center;
+	font-size: 14px;
+	line-height: 23px;
+}
+.sponsorships-list .box .desc a {
+	color: #fff;
+	text-decoration: underline;
+}
+.card-spon {
+	position: relative;
+	height: 120px;
+	background-color: #1a2332;
+}
+.card-spon:after {
+	content: "";
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translate(100%, -50%);
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 5px 0 5px 5px;
+	border-color: transparent transparent transparent #1a2332;
+}
+.card-spon .border {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	height: 100%;
+}
+.card-spon .border:before {
+	content: "";
+	display: block;
+	width: 16px;
+	height: 16px;
+	border-radius: 9999px;
+	background-color: #fff;
+	position: absolute;
+	right: calc((94px / 2) * -1);
+	top: 0;
+	transform: translate(50%, -50%);
+}
+.card-spon .border:after {
+	content: "";
+	display: block;
+	width: 1px;
+	height: calc(100% - (16px + 10px));
+	border-right: 1px dashed #fff;
+	position: absolute;
+	right: calc((94px / 2) * -1);
+	top: 0;
+	margin-top: 16px;
+}
+.sponsorships-list .row:last-child .col-2 .border:after {
+	display: none;
+}
+.card-spon .bg-player {
+	width: 312px;
+	height: 150px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	image-rendering: auto;
+	image-rendering: crisp-edges;
+	image-rendering: pixelated;
+}
+.card-spon .bg-player.laliga {
+	background-image: url(../../images/partnership/cards/laliga.png);
+}
+.card-spon .bg-player.leichester {
+	background-image: url(../../images/partnership/cards/leichester.png);
+}
+.card-spon .bg-player.bournemouth {
+	background-image: url(../../images/partnership/cards/bournemouth.png);
+}
+.card-spon .bg-player.crystalpalace {
+	background-image: url(../../images/partnership/cards/crystalpalace.png);
+}
+.card-spon .bg-player.manchester {
+	background-image: url(../../images/partnership/cards/manchester.png);
+}
+.card-spon .bg-player.tottenham {
+	background-image: url(../../images/partnership/cards/tottenham.png);
+}
+.card-spon .content {
+	position: relative;
+	z-index: 1;
+	height: 100%;
+	width: 100%;
+	padding-right: calc(312px - (96px / 2));
+	box-sizing: border-box;
+}
+.card-spon .content .txt-1 {
+	font-size: 16px;
+	line-height: 22px;
+}
+.sponsorships-list .row:first-child .col-1 .card-spon .content .txt-1 {
+	color: #ffcd00
+}
+.card-spon .content .txt-2 {
+	font-size: 28px;
+	line-height: 36px;
+}
+.sponsorships-list .row:first-child .col-1 .card-spon .content .txt-2 {
+	color: #ffcd00
+}
+.card-spon .content .txt-3 {
+	font-size: 16px;
+	line-height: 22px;
+}
+.card-spon .content .row {
+	display: flex;
+	justify-content: flex-end;
+	gap: 16px;
+	align-items: center;
+	height: 100%;
+}
+.card-spon .content .row > .col-1 {
+	text-align: right;
+}
+.card-spon .content .row > .col-2 {
+	width: 96px;
+	text-align: center;
+	padding: 0 8px;
+	box-sizing: border-box;
+}
+.card-spon .content .row > .col-2 img {
+	width: 100%;
+}
+@media (min-width: 1024px) {
+	.sponsorships-list  > .row > .col-1 {
+		padding-top: 6px;
+	}
+	.sponsorships-list  > .row > .col-2 {
+		padding-top: calc(120px + 12px);
+	}
+	.col-2 .card-spon:after {
+		right: unset;
+		left: 0;
+		transform: translate(-100%, -50%);
+		border-width: 5px 5px 5px 0;
+		border-color: transparent #1a2332 transparent transparent;
+	}
+	.col-2 .card-spon .border {
+		right: unset;
+		left: 0;
+	}
+	.col-2 .card-spon .border:before {
+		right: unset;
+		left: calc((94px / 2) * -1);
+		transform: translate(-50%, -50%);
+	}
+	.col-2 .card-spon .border:after {
+		border-left: 1px dashed #fff;
+		border-right: 0;
+		left: calc((94px / 2) * -1);
+		right: unset;
+	}
+	.col-2 .card-spon .bg-player {
+		left: 0;
+		right: unset;
+	}
+	.col-2 .card-spon .content {
+		padding-left: calc(312px - (96px / 2));
+		padding-right: unset;
+	}
+	.col-2 .card-spon .content .row {
+		justify-content: flex-start;
+	}
+	.col-2 .card-spon .content .row > .col-1 {
+		order: 1;
+		text-align: left;
+	}
+
+	html[lang="en-US"] .sponsorships-list  > .row > .col {
+		height: 270px;
+	}
+	
+	html[lang="en-US"]  .col-2 .card-spon .border:after {
+		height: calc(200% + (16px + 10px));
+	}
+
+	html[lang="zh-CN"] .sponsorships-list  > .row > .col {
+		height: 195px;
+	}
+	
+	html[lang="zh-CN"]  .col-2 .card-spon .border:after {
+		height: calc(120% + (16px + 10px));
+	}
+
+	html[lang="th-TH"] .sponsorships-list  > .row > .col {
+		height: 220px;
+	}
+	
+	html[lang="th-TH"]  .col-2 .card-spon .border:after {
+		height: calc(150% + (16px + 10px));
+	}
+
+	html[lang="vi-VN"] .sponsorships-list  > .row > .col {
+		height: 260px;
+	}
+	
+	html[lang="vi-VN"]  .col-2 .card-spon .border:after {
+		height: calc(175% + (16px + 10px));
+	}
+
+	html[lang="id-ID"] .sponsorships-list  > .row > .col {
+		height: 280px;
+	}
+	
+	html[lang="id-ID"]  .col-2 .card-spon .border:after {
+		height: calc(195% + (16px + 10px));
+	}
+
+}
+@media (min-width: 1024px) and (max-width: 1366px) {
+	.sponsorships-list > .row {
+		gap: calc((((((100vw - 1024px) * 100) / (1366 - 1024)) / 100) * (94 - 44)) + 44px);
+	}
+	.sponsorships-list > .row > .col-1 {
+		padding-top: 0.439vw;
+	}
+	.sponsorships-list > .row > .col-2 {
+		padding-top: calc(8.785vw + 0.878vw);
+	}
+	.card-spon {
+		height: 8.785vw;
+	}
+	.card-spon .border:before {
+		right: calc((((((((100vw - 1024px) * 100) / (1366 - 1024)) / 100) * (94 - 44)) + 44px) / 2) * -1);
+	}
+	.col-2 .card-spon .border:before {
+		left: calc((((((((100vw - 1024px) * 100) / (1366 - 1024)) / 100) * (94 - 44)) + 44px) / 2) * -1);
+	}
+	.card-spon .border:after {
+		right: calc((((((((100vw - 1024px) * 100) / (1366 - 1024)) / 100) * (94 - 44)) + 44px) / 2) * -1);
+	}
+	.col-2 .card-spon .border:after {
+		left: calc((((((((100vw - 1024px) * 100) / (1366 - 1024)) / 100) * (94 - 44)) + 44px) / 2) * -1);
+	}
+	.card-spon .bg-player {
+		width: 22.840vw;
+		height: 10.981vw;
+	}
+	.card-spon .content {
+		padding-right: calc(22.840vw - (7.028vw / 2));
+	}
+	.col-2 .card-spon .content {
+		padding-left: calc(22.840vw - (7.028vw / 2));
+	}
+	.card-spon .content .row {
+		gap: 1.171vw;
+	}
+	.card-spon .content .txt-1 {
+		font-size: 1.171vw;
+		line-height: 1.611vw;
+	}
+	.card-spon .content .txt-2 {
+		font-size: 2.050vw;
+		line-height: 2.635vw;
+	}
+	.card-spon .content .txt-3 {
+		font-size: 1.171vw;
+		line-height: 1.611vw;
+	}
+	.card-spon .content .row > .col-2 {
+		width: 7.028vw;
+		padding: 0 0.586vw;
+	}
+	.sponsorships-list .box .desc {
+		bottom: -1.171vw;
+		font-size: calc((((((100vw - 1024px) * 100) / (1366 - 1024)) / 100) * (14 - 12)) + 12px);
+		line-height: calc((((((100vw - 1024px) * 100) / (1366 - 1024)) / 100) * (23 - 18)) + 18px);
+	}
+}
+@media (max-width: 1023px) {
+	.sponsorships-list {
+		padding: 24px 0 32px;
+	}
+	.menu-tabber {
+		margin-bottom: 32px;
+	}
+	.menu-tabber ul {
+		padding: 0 0 0 8px;
+		gap: 64px;
+		height: 64px;
+	}
+	.inner-box > .heading-title {
+		font-size: 18px;
+		line-height: 24px;
+		margin: 0 0 32px;
+	}
+	.sponsorships-list > .row {
+		display: block;
+		padding-left: 48px;
+		margin-right: 10px;
+	}
+	.card-spon {
+		height: 140px;
+	}
+	.card-spon:after {
+		right: unset;
+		left: 0;
+		top: 15%;
+		transform: translate(-100%, -50%);
+		border-width: 8px 8px 8px 0;
+		border-color: transparent #1a2332 transparent transparent;
+	}
+	.card-spon .bg-player {
+		width: 362px;
+		height: 175px;
+	}
+	.card-spon .content {
+		padding-left: 16px;
+	}
+	.card-spon .content .row {
+		justify-content: flex-start;
+	}
+	.card-spon .content .row > .col-1 {
+		order: 1;
+		text-align: left;
+	}
+	.sponsorships-list .box .desc {
+		position: static;
+		transform: none;
+		margin-top: 16px;
+		font-size: 14px;
+		height: 124px;
+		line-height: 20px;
+	}
+	.sponsorships-list > .row:last-child > .col-2 .box .desc {
+		height: unset;
+	}
+	.card-spon .border {
+		left: 0;
+		right: unset;
+		top: 15%;
+	}
+	.card-spon .border:before {
+		left: calc((94px / 3) * -1);
+		right: unset;
+		transform: translate(-50%, -50%);
+	}
+	.card-spon .border:after {
+		height: calc(100% - (16px + 10px) + 134px);
+		border-left: 1px dashed #fff;
+		border-right: unset;
+		left: calc((94px / 3) * -1);
+		right: unset;
+		margin-top: 16px;
+	}
+
+	html[lang="en-US"] .sponsorships-list .box .desc {
+		height: calc((((((100vw - 375px) * 100) / (767 - 375)) / 100) * (194 - 192)) + 192px);
+	}
+	html[lang="en-US"] .card-spon .border:after { 
+		height: calc(100% - (8px + 10px) + ((((((100vw - 375px) * 100) / (767 - 375)) / 100) * (214 - 200)) + 200px));
+	}
+
+	html[lang="zh-CN"] .sponsorships-list .box .desc {
+		height: calc((((((100vw - 375px) * 100) / (767 - 375)) / 100) * (134 - 132)) + 132px);
+	}
+	html[lang="zh-CN"] .card-spon .border:after { 
+		height: calc(100% - (8px + 10px) + ((((((100vw - 375px) * 100) / (767 - 375)) / 100) * (154 - 140)) + 140px));
+	}
+
+	html[lang="th-TH"] .sponsorships-list .box .desc {
+		height: calc((((((100vw - 375px) * 100) / (767 - 375)) / 100) * (154 - 152)) + 152px);
+	}
+	html[lang="th-TH"] .card-spon .border:after { 
+		height: calc(100% - (8px + 10px) + ((((((100vw - 375px) * 100) / (767 - 375)) / 100) * (184 - 170)) + 170px));
+	}
+
+	html[lang="vi-VN"] .sponsorships-list .box .desc {
+		height: calc((((((100vw - 375px) * 100) / (767 - 375)) / 100) * (194 - 192)) + 192px);
+	}
+	html[lang="vi-VN"] .card-spon .border:after { 
+		height: calc(100% - (8px + 10px) + ((((((100vw - 375px) * 100) / (767 - 375)) / 100) * (214 - 200)) + 200px));
+	}
+
+	html[lang="id-ID"] .sponsorships-list .box .desc {
+		height: calc((((((100vw - 375px) * 100) / (767 - 375)) / 100) * (214 - 212)) + 212px);
+	}
+	html[lang="id-ID"] .card-spon .border:after { 
+		height: calc(100% - (8px + 10px) + ((((((100vw - 375px) * 100) / (767 - 375)) / 100) * (234 - 230)) + 230px));
+	}
+
+}
+@media (max-width: 767px) {
+	.menu-tabber ul {
+		padding: 0 8px;
+		justify-content: space-between;
+		gap: 16px;
+		height: 56px;
+	}
+	.menu-tabber ul > li {
+		width: 100%;
+	}
+	.menu-tabber ul li.active:after {
+		height: 4px;
+	}
+	.menu-tabber ul li a {
+		font-size: 14px;
+	  }
+	.inner-box > .heading-title {
+		font-size: 16px;
+		line-height: 22px;
+		margin: 0 0 24px;
+	}
+	.sponsorships-list > .row {
+		padding-left: calc((((((100vw - 375px) * 100) / (767 - 375)) / 100) * (48 - 27)) + 27px);
+	}
+	.card-spon {
+		height: calc((((((100vw - 375px) * 100) / (767 - 375)) / 100) * (140 - 64)) + 64px);
+	}
+	.card-spon:after {
+		border-width: 4px 4px 4px 0;
+	}
+	.card-spon .border:before {
+		width: 8px;
+		height: 8px;
+		left: calc((((((((100vw - 375px) * 100) / (767 - 375)) / 100) * (94 - 55)) + 55px) / 3) * -1);
+	}
+	.card-spon .border:after {
+		height: calc(200% - (8px + 10px) + ((((((100vw - 375px) * 100) / (767 - 375)) / 100) * (134 - 130)) + 130px));
+		left: calc((((((((100vw - 375px) * 100) / (767 - 375)) / 100) * (94 - 55)) + 55px) / 3) * -1);
+		margin-top: 8px;
+	}
+	.card-spon .bg-player {
+		width: calc((((((100vw - 375px) * 100) / (767 - 375)) / 100) * (362 - 166)) + 166px);
+		height: calc((((((100vw - 375px) * 100) / (767 - 375)) / 100) * (175 - 80)) + 80px);
+	}
+	.card-spon .content {
+		padding-left: calc((((((100vw - 375px) * 100) / (767 - 375)) / 100) * (16 - 8)) + 8px);
+		padding-right: calc(((((((100vw - 375px) * 100) / (767 - 375)) / 100) * (362 - 166)) + 166px) - (((((((100vw - 375px) * 100) / (767 - 375)) / 100) * (96 - 40)) + 40px) / 2));
+	}
+	.card-spon .content .row {
+		gap: calc((((((100vw - 375px) * 100) / (767 - 375)) / 100) * (16 - 4)) + 4px);
+	}
+	.card-spon .content .row > .col-2 {
+		width: calc((((((100vw - 375px) * 100) / (767 - 375)) / 100) * (96 - 40)) + 40px);
+		padding: 0 4px;
+	}
+	.card-spon .content .txt-1 {
+		font-size: calc((((((100vw - 375px) * 100) / (767 - 375)) / 100) * (16 - 10)) + 10px);
+		line-height: calc((((((100vw - 375px) * 100) / (767 - 375)) / 100) * (22 - 14)) + 14px);
+	}
+	.card-spon .content .txt-2 {
+		font-size: calc((((((100vw - 375px) * 100) / (767 - 375)) / 100) * (28 - 14)) + 14px);
+		line-height: calc((((((100vw - 375px) * 100) / (767 - 375)) / 100) * (36 - 19)) + 19px);
+	}
+	.card-spon .content .txt-3 {
+		font-size: calc((((((100vw - 375px) * 100) / (767 - 375)) / 100) * (16 - 8)) + 8px);
+		line-height: calc((((((100vw - 375px) * 100) / (767 - 375)) / 100) * (22 - 13)) + 13px);
+	}
+	.sponsorships-list .box .desc {
+		margin-top: calc((((((100vw - 375px) * 100) / (767 - 375)) / 100) * (16 - 8)) + 8px);
+		font-size: calc((((((100vw - 375px) * 100) / (767 - 375)) / 100) * (14 - 10)) + 10px);
+		height: calc((((((100vw - 375px) * 100) / (767 - 375)) / 100) * (194 - 192)) + 192px);
+		line-height: calc((((((100vw - 375px) * 100) / (767 - 375)) / 100) * (20 - 14)) + 14px);
+	}
+
+	html[lang="en-US"] .sponsorships-list .box .desc {
+		height: calc((((((100vw - 375px) * 100) / (767 - 375)) / 100) * (194 - 192)) + 192px);
+	}
+	html[lang="en-US"] .card-spon .border:after { 
+		height: calc(100% - (8px + 10px) + ((((((100vw - 375px) * 100) / (767 - 375)) / 100) * (214 - 200)) + 200px));
+	}
+
+	html[lang="zh-CN"] .sponsorships-list .box .desc {
+		height: calc((((((100vw - 375px) * 100) / (767 - 375)) / 100) * (134 - 132)) + 132px);
+	}
+	html[lang="zh-CN"] .card-spon .border:after { 
+		height: calc(100% - (8px + 10px) + ((((((100vw - 375px) * 100) / (767 - 375)) / 100) * (154 - 140)) + 140px));
+	}
+
+	html[lang="th-TH"] .sponsorships-list .box .desc {
+		height: calc((((((100vw - 375px) * 100) / (767 - 375)) / 100) * (154 - 152)) + 152px);
+	}
+	html[lang="th-TH"] .card-spon .border:after { 
+		height: calc(100% - (8px + 10px) + ((((((100vw - 375px) * 100) / (767 - 375)) / 100) * (184 - 170)) + 170px));
+	}
+
+	html[lang="vi-VN"] .sponsorships-list .box .desc {
+		height: calc((((((100vw - 375px) * 100) / (767 - 375)) / 100) * (194 - 192)) + 192px);
+	}
+	html[lang="vi-VN"] .card-spon .border:after { 
+		height: calc(100% - (8px + 10px) + ((((((100vw - 375px) * 100) / (767 - 375)) / 100) * (214 - 200)) + 200px));
+	}
+
+	html[lang="id-ID"] .sponsorships-list .box .desc {
+		height: calc((((((100vw - 375px) * 100) / (767 - 375)) / 100) * (214 - 212)) + 212px);
+	}
+	html[lang="id-ID"] .card-spon .border:after { 
+		height: calc(100% - (8px + 10px) + ((((((100vw - 375px) * 100) / (767 - 375)) / 100) * (234 - 230)) + 230px));
+	}
+	
+	
+	
+	
+}

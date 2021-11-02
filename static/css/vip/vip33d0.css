@@ -1,0 +1,917 @@
+/*CSS content for vip*/
+
+.layout-content .layout-body {
+    height: unset;
+    max-width: unset;
+    margin: 0 auto;
+}
+.vip-content {
+	min-height: 400px;
+	background: #314060;
+    color: #FFF;
+    font-family: 'OpenSansRegular';
+    font-size: 16px;
+    line-height: 24px;
+    overflow-x: hidden;
+}
+.container h2 {
+	font-size: 18px;
+	line-height: 17px;
+	font-family: 'OpenSansBold';
+	margin: 0 0 24px;
+}
+
+.tabber {
+	height: 72px;
+	background-color: #26324d;
+}
+.tabber ul {
+	margin: 0 auto;
+	padding: 0 16px 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+.tabber ul li {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 25px;
+	height: 72px;
+}
+.tabber ul li.active:after {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 2px;
+	background-color: #c8aa6f;
+}
+.tabber ul li a {
+	display: block;
+	height: 100%;
+	line-height: 72px;
+	font-size: 18px;
+	color: #fff;
+	font-family: 'OpenSansBold';
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+.tabber ul li.active a {
+	color: #c8aa6f;
+}
+.tab-items .tab-item {
+	display: none;
+	position: relative;
+	overflow: hidden;
+}
+.tab-items .tab-item:first-child:before {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-image: linear-gradient(to bottom, #000000, #314060);
+	width: 100%;
+	height: 485px;
+}
+.tab-items .tab-item.active {
+	display: block;
+}
+.tab-items .tab-item > .inner-box {
+	position: relative;
+}
+.about-prestige {
+	padding-top: 72px;
+	margin-bottom: 32px;
+}
+.about-prestige .about-tagline.row {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 6px;
+}
+.about-prestige .about-tagline.row > .col {
+	width: 100%;
+	margin-right: 25px;
+}
+.about-prestige .about-tagline.row > .col-1 {
+	text-align: center;
+}
+.about-prestige .about-tagline.row > .col:last-child {
+	margin-right: 0;
+}
+.about-prestige .about-tagline h3 {
+	font-family: 'OpenSansBold';
+	font-size: 18px;
+	line-height: 17px;
+	margin: 0 0 34px;
+}
+.about-prestige .about-tagline h3 br {
+	display: none;
+}
+.about-prestige .about-tagline p {
+    margin: 0;
+    padding: 0;
+    min-height: 100px;
+    font-size: 14px;
+    line-height: 21px;
+}
+.about-prestige .boxes-benefits > .inner {
+	display: flex;
+	justify-content: space-between;
+}
+.about-prestige .boxes-benefits .box {
+	width: 100%;
+	min-height: 235px;
+	border-radius: 2px;
+	margin-right: 25px;
+	font-size: 12px;
+	background-color: #26324d;
+	border-top: 4px solid #d3b271;
+	padding: 20px 14px 24px;
+	box-sizing: border-box;
+	text-align: center;
+}
+.about-prestige .boxes-benefits .box:last-child {
+	margin-right: 0;
+}
+.about-prestige .boxes-benefits .box .blurb {
+	margin-bottom: 16px;
+}
+.about-prestige .boxes-benefits .box .blurb img {
+	margin-bottom: 16px;
+}
+.about-prestige .boxes-benefits .box .blurb-title {
+	font-size: 14px;
+	font-family: 'OpenSansBold';
+	line-height: 20px;
+	min-height: 40px;
+}
+.about-prestige .boxes-benefits .box .desc {
+	max-width: 263px;
+	font-size: 12px;
+	line-height: 17px;
+	margin: 0 auto;
+}
+
+.bacarrat-section {
+	padding-top: 26px;
+	margin-bottom: 32px;
+}
+.bacarrat-section .tagline.row {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 6px;
+}
+.bacarrat-section .tagline.row > .col {
+	width: 100%;
+	margin-right: 25px;
+}
+.bacarrat-section .tagline.row > .col-1 {
+	text-align: center;
+}
+.bacarrat-section .tagline.row > .col:last-child {
+	margin-right: 0;
+	margin-top: 45px;
+}
+.bacarrat-section .tagline h3 {
+	font-family: 'OpenSansBold';
+	font-size: 27px;
+	line-height: 30px;
+}
+.bacarrat-section .tagline h3 br {
+	display: none;
+}
+.bacarrat-section .tagline p {
+    margin: 0;
+    padding: 0;
+    min-height: 60px;
+    font-size: 14px;
+    line-height: 21px;
+}
+.bacarrat-section .boxes-benefits > .inner {
+	display: flex;
+	justify-content: space-between;
+}
+
+.bacarrat-section .btn-vip {
+	width: 25%;
+	background-color: #c8aa6f;
+	height: 40px;
+	border-radius: 2px;
+}
+
+.bacarrat-section .btn-vip:hover {
+	background-color: #d5b57f;
+}
+
+html[lang='zh-CN'] .bacarrat-section .col.col-2 {
+	margin-top: 45px;
+}
+
+.prestige-levels {
+	padding-top: 48px;
+	margin-bottom: 48px;
+}
+.prestige-levels > .inner {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+.prestige-levels .level {
+	position: relative;
+	width: 288px;
+	text-align: center;
+	font-size: 12px;
+	margin-right: 32px;
+}
+.prestige-levels .level:last-child {
+	margin-right: 0;
+}
+.prestige-levels .level .badge {
+	position: relative;
+}
+.prestige-levels .level .badge > .inner {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 26px;
+	padding: 0 30px;
+	box-sizing: border-box;
+}
+.prestige-levels .level.level-diamond .badge > .inner > img {
+	margin: -37px 0 -19px;
+}
+.prestige-levels .level:not(:last-child) .badge > .inner:before {
+	content: "";
+	display: block;
+	position: absolute;
+	right: 0;
+	top: calc(104px / 2);
+	transform: translateX(100%);
+	height: 1px;
+	width: 186px;
+	background-color: #e4e3dd;
+}
+.prestige-levels .level .label {
+	line-height: 17px;
+	min-height: 37px;
+	max-width: 85%;
+	margin: 0 auto;
+}
+html[lang='zh-CN'] .prestige-levels .level .label {
+	max-width: 65%;
+}
+html[lang='en-US'] .prestige-levels .level .label {
+	max-width: 88%;
+}
+.prestige-levels .level .label strong {
+	font-size: 16px;
+}
+.prestige-levels .level .desc {
+	position: relative;
+	min-height: 80px;
+	padding-top: 4px;
+	margin: 8px 0 0;
+	border-radius: 2px;
+	background-color: #1a2332;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.prestige-levels .level .desc:before {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 4px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.prestige-levels .level.level-premium .desc:before {
+	background-image: linear-gradient(to top, #d1dbe7, #bfcbda, #d1dbe7, #bec8d4, #d1dbe7);
+}
+.prestige-levels .level.level-gold .desc:before {
+	background-image: linear-gradient(to top, #ffc700, #ffe76b, #e4c000, #ffe76b, #ffc700);
+}
+.prestige-levels .level.level-platinum .desc:before {
+	background-image: linear-gradient(to top, #a87d26, #d7d5d2, #e5e4e2, #d7d5d2, #e5e4e2, #d7d5d2);
+}
+.prestige-levels .level.level-diamond .desc:before {
+	background-image: linear-gradient(to top, #d2f4f6, #ffffff, #d2f4f6, #ffffff, #d2f4f6);
+}
+.prestige-levels .level .desc .txt {
+	min-height: 96px;
+	line-height: 96px;
+}
+.prestige-levels .level .desc .txt > .inner {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 18px;
+	padding: 3px 0 8px;
+	box-sizing: border-box;
+}
+.prestige-levels .level .desc .txt > .inner br {
+	display: none;
+}
+.prestige-levels .level .desc strong, .prestige-levels .level .desc span {
+	display: block;
+}
+.prestige-levels .level .desc .dhide {
+	display: none;
+}
+.prestige-levels .level.level-diamond .desc .toggle-hide:first-child {
+	display: block;
+}
+.prestige-levels .level.level-diamond .desc .toggle-hide:last-child {
+	display: none;
+}
+.level-privileges {
+	margin-bottom: 64px;
+}
+.level-privileges p.small-p {
+	font-size: 12px;
+	text-align: center;
+}
+.level-privileges table, .prestige-levels .level .desc .txt > .accordion-box > .acc-content table {
+	width: 100%;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.level-privileges table thead {
+	background-color: #1a2332;
+	text-align: center;
+	font-family: 'OpenSansBold';
+	font-size: 16px;
+}
+.level-privileges table tbody, .prestige-levels .level .desc .txt > .accordion-box > .acc-content table tbody {
+	background-color: #fff;
+	color: #000000;
+}
+.level-privileges table tbody tr:nth-child(odd), .prestige-levels .level .desc .txt > .accordion-box > .acc-content table tbody tr:nth-child(odd) {
+	background-color: #ebebeb;
+}
+.level-privileges table th, .level-privileges table td,
+.prestige-levels .level .desc .txt > .accordion-box > .acc-content table th,
+.prestige-levels .level .desc .txt > .accordion-box > .acc-content table td {
+	height: 46px;
+}
+.level-privileges table tbody tr td, .prestige-levels .level .desc .txt > .accordion-box > .acc-content table tbody tr td {
+	text-align: center;
+	line-height: 17px;
+	font-size: 14px;
+}
+.level-privileges table thead tr th:first-child, .level-privileges table tbody tr td:first-child,
+.prestige-levels .level .desc .txt > .accordion-box > .acc-content table thead tr th:first-child,
+.prestige-levels .level .desc .txt > .accordion-box > .acc-content table tbody tr td:first-child {
+	padding-left: 16px;
+	text-align: left;
+	font-size: 12px;
+}
+.level-privileges table thead tr th:first-child, .level-privileges table tbody tr td:first-child {
+	font-family: 'OpenSansBold';
+	width: 28%;
+}
+.prestige-levels .level .desc .txt > .accordion-box {
+	display: none;
+}
+.acc-parent {
+    cursor: pointer;
+}
+.faqs {
+	padding: 48px 0;
+}
+.faqs ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.faqs li:not(:last-child) {
+	margin-bottom: 24px;
+}
+.faqs .acc-parent {
+	display: flex;
+	align-items: center;
+	position: relative;
+	min-height: 48px;
+	font-size: 18px;
+	line-height: 32px;
+	font-family: 'OpenSansBold';
+	padding: 8px 37px 8px 8px;
+	border-radius: 2px;
+	background-color: #1a2332;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+.faqs .accordion-box .acc-parent:after {
+	content: "";
+	display: inline-block;
+	background-image: url(../../images/vip/icon-caret-white.svg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+	width: 14px;
+	height: 9px;
+	position: absolute;
+	right: 11px;
+	top: 50%;
+	transform: translateY(-50%) rotate(180deg);
+	transition: transform .3s;
+}
+.faqs .accordion-box.active .acc-parent:after {
+	transform: translateY(-50%) rotate(0deg);
+}
+.acc-content {
+	display: none;
+}
+.faqs .acc-content {
+	padding: 16px 8px 0;
+	margin-bottom: -8px;
+}
+.faqs .acc-content:last-child {
+	margin-bottom: 0;
+}
+.faqs .acc-content p {
+	font-size: 14px;
+	line-height: 20px;
+	margin-bottom: 24px;
+}
+.faqs .acc-content p:last-of-type {
+	margin-bottom: 0;
+}
+@media (min-width: 1024px) and (max-width: 1366px) {
+	.about-prestige .boxes-benefits .box {
+		min-height: calc(247px - (((((100vw - 1024px) * 100) / (1366 - 1024)) / 100) * (247 - 235)));
+		margin-right: calc((((((100vw - 1024px) * 100) / (1366 - 1024)) / 100) * (25 - 16)) + 16px);
+	}
+	.prestige-levels .level:not(:last-child) .badge > .inner:before {
+		width: calc((((((100vw - 1024px) * 100) / (1366 - 1024)) / 100) * (306 - 192)) + 192px);
+	}
+	/*.prestige-levels .level .desc .txt > .inner br {
+		display: inline;
+	}*/
+	.prestige-levels .level.level-diamond .desc .toggle-hide:first-child {
+		display: none;
+	}
+	.prestige-levels .level.level-diamond .desc .toggle-hide:last-child {
+		display: block;
+	}
+}
+@media (max-width: 1023px) {
+	.bacarrat-section .btn-vip {
+		width: 70%;
+		margin: 0 auto;
+	}
+	.scrollable-menu {
+		margin-bottom: 0;
+	}
+	.tabber ul {
+		max-width: 676px;
+	}
+	.tabber, .tabber ul li {
+		height: 60px;
+	}
+	.tabber ul li a {
+		font-size: 14px;
+		line-height: 60px;
+	}
+	.about-prestige .about-tagline.row {
+		display: block;
+		margin-bottom: 24px;
+		text-align: center;
+	}
+	.bacarrat-section .tagline.row {
+		display: block;
+		margin-bottom: 24px;
+		text-align: center;
+	}
+	.prestige-levels {
+		padding-top: 27px;
+		margin-bottom: 32px;
+	}
+	.prestige-levels > .inner {
+		display: block;
+	}
+	.prestige-levels .level {
+		width: auto;
+		text-align: unset;
+		display: flex;
+		margin: 0 0 16px;
+	}
+	.prestige-levels .level .badge {
+		margin-right: 16px;
+	}
+	.prestige-levels .level .badge:before {
+		content: "";
+		display: block;
+		position: absolute;
+		left: calc(40px / 2);
+		right: auto;
+		top: 56px;
+		transform: none;
+		width: 1px;
+		height: calc(100% - 56px);
+		background-color: #e4e3dd;
+	}
+	.prestige-levels .level .badge > .inner {
+		position: relative;
+		padding: 8px 0;
+	}
+	.prestige-levels .level.level-diamond .badge > .inner {
+		width: 40px;
+		height: 56px;
+	}
+	.prestige-levels .level:not(:last-child) .badge > .inner:before {
+		display: none;
+	}
+	.prestige-levels .level .badge > .inner img {
+		width: 40px;
+		height: 40px;
+	}
+	.prestige-levels .level.level-diamond .badge > .inner > img {
+		width: 50px;
+		height: 50px;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		max-width: 999px;
+		max-height: 999px;
+		margin: -8px 0 0;
+	}
+	.prestige-levels .level > .inner {
+		flex-grow: 1;
+		padding-top: 8px;
+		width: calc(100% - 56px);
+	}
+	.prestige-levels .level .label {
+		display: block;
+		max-width: none;
+	}
+	.prestige-levels .level .desc {
+		min-height: unset;
+	}
+	.prestige-levels .level .desc .txt {
+		padding: 0 8px;
+		min-height: unset;
+		line-height: normal;
+	}
+	.prestige-levels .level .desc .txt > .inner {
+		padding: 8px 0 15px;
+	}
+	.prestige-levels .level .desc span {
+		display: inline;
+	}
+	.prestige-levels .level .desc .dhide {
+		display: inline;
+	}
+	.prestige-levels .level .desc .txt > .accordion-box > .acc-content table tbody tr td {
+		padding: 0 8px !important;
+	}
+	.prestige-levels .level .desc .txt > .accordion-box > .acc-content table tbody tr td:first-child {
+		font-family: 'OpenSansBold';
+	}
+	.prestige-levels .level .desc .txt > .accordion-box > .acc-content table tbody tr td:last-child {
+		width: 40%;
+	}
+	.prestige-levels .level .desc .txt > .accordion-box {
+		display: block;
+	}
+	.prestige-levels .level .desc .txt > .accordion-box > .acc-parent {
+		position: relative;
+		height: 40px;
+		line-height: 40px;
+		border-top: 1px solid #26324d;
+	}
+	.prestige-levels .level .desc .txt > .accordion-box > .acc-parent:after {
+		content: "";
+		display: inline-block;
+		background-image: url(../../images/vip/icon-caret-white.svg);
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: contain;
+		width: 14px;
+		height: 9px;
+		position: absolute;
+		right: 0;
+		top: 50%;
+		transform: translateY(-50%) rotate(180deg);
+		transition: transform .3s;
+	}
+	.prestige-levels .level .desc .txt > .accordion-box.active > .acc-parent:after {
+		transform: translateY(-50%) rotate(0deg);
+	}
+	.prestige-levels .level .desc .txt > .accordion-box > .acc-content {
+		margin: 0 -8px;
+	}
+	.level-privileges {
+		display: none;
+	}
+	.faqs {
+		padding: 24px 0 32px;
+	}
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+	.tabber ul li.active:after{
+		height: 4px;
+	}
+	.tab-items .tab-item:first-child:before {
+		height: 240px;
+	}
+	.about-prestige {
+		padding-top: calc((((((100vw - 768px) * 100) / (1024 - 768)) / 100) * (72 - 24)) + 24px);
+	}
+	.about-prestige .about-tagline.row > .col-1 {
+		margin-bottom: 24px;
+	}
+	.about-prestige .about-tagline.row > .col-1 img {
+		height: calc((((((100vw - 768px) * 100) / (1024 - 768)) / 100) * (72 - 40)) + 40px);
+	}
+	.about-prestige .about-tagline h3 {
+		font-size: 16px;
+		line-height: 22px;
+		margin: 0 0 12px;
+	}
+	.about-prestige .about-tagline p {
+		max-width: 600px;
+		min-height: calc(54px - (((((100vw - 768px) * 100) / (1024 - 768)) / 100) * (54 - 42)));
+		font-size: calc((((((100vw - 768px) * 100) / (1024 - 768)) / 100) * (14 - 12)) + 12px);
+		line-height: 21px;
+		margin: 0 auto;
+	}
+	.about-prestige .boxes-benefits .box {
+		margin-right: calc((((((100vw - 768px) * 100) / (1024 - 768)) / 100) * (16 - 12)) + 12px);
+		padding: 20px 12px 24px;
+	}
+	.about-prestige .boxes-benefits .box .blurb img {
+		width: calc((((((100vw - 768px) * 100) / (1024 - 768)) / 100) * (56 - 48)) + 48px);
+		height: calc((((((100vw - 768px) * 100) / (1024 - 768)) / 100) * (56 - 48)) + 48px);
+	}
+	.about-prestige .boxes-benefits .box .blurb-title {
+		font-size: calc((((((100vw - 768px) * 100) / (1024 - 768)) / 100) * (14 - 12)) + 12px);
+		line-height: calc((((((100vw - 768px) * 100) / (1024 - 768)) / 100) * (20 - 17)) + 17px);
+	}
+
+	.bacarrat-section {
+		padding-top: calc((((((100vw - 768px) * 100) / (1024 - 768)) / 100) * (72 - 24)) + 24px);
+	}
+	.bacarrat-section .tagline.row > .col-1 {
+		margin-bottom: 24px;
+	}
+	
+	.bacarrat-section .tagline h3 {
+		font-size: 16px;
+		line-height: 30px;
+		margin: 0 0 12px;
+	}
+	.bacarrat-section .tagline p {
+		max-width: 600px;
+		min-height: calc(54px - (((((100vw - 768px) * 100) / (1024 - 768)) / 100) * (54 - 42)));
+		font-size: calc((((((100vw - 768px) * 100) / (1024 - 768)) / 100) * (14 - 12)) + 12px);
+		line-height: 21px;
+		margin: 0 auto;
+	}
+
+	.faqs li:not(:last-child) {
+		margin-bottom: 16px;
+	}
+	.faqs .acc-parent {
+		font-size: 12px;
+		line-height: 19px;
+	}
+	.faqs .acc-content p {
+		font-size: 12px;
+		line-height: 18px;
+	}
+}
+@media (max-width: 767px) {
+	.bacarrat-section .btn-vip {
+		width: auto;
+		line-height: 43px;
+	}
+	.tabber {
+		height: 56px;
+	}
+	.tabber ul {
+		padding: 0 23px 0 0;
+		display: flex;
+		justify-content: space-around;
+	}
+	.tabber ul li {
+		height: 56px;
+		margin-right: 25px;
+	}
+
+	html[lang="vi-VN"] .tabber ul li,  
+	html[lang="th-TH"] .tabber ul li{
+		margin: 0;
+	}
+	.tabber ul li.active:after{
+		height: 4px;
+	}
+	.tabber ul li a {
+		font-size: 0;
+		line-height: 56px;
+	}
+	.tabber ul li a:before {
+		content: attr(data-m-txt);
+		display: inline;
+		font-size: 12px;
+	}
+	.tab-items .tab-item:first-child:before {
+		height: 240px;
+	}
+	.about-prestige {
+		padding-top: 24px;
+	}
+	.about-prestige .about-tagline.row > .col-1 {
+		margin-bottom: 24px;
+	}
+	.about-prestige .about-tagline.row > .col-1 img {
+		height: 40px;
+	}
+	.about-prestige .about-tagline h3 {
+		font-size: 16px;
+		line-height: 22px;
+		margin: 0 0 12px;
+	}
+	.about-prestige .about-tagline h3 br {
+		display: inline;
+	}
+	.about-prestige .about-tagline p {
+		max-width: 600px;
+		min-height: 72px;
+		font-size: 12px;
+		line-height: 20px;
+		margin: 0 auto;
+	}
+	.about-prestige .boxes-benefits > .inner {
+		display: block;
+		margin: 0 -9px -16px 0;
+		font-size: 0;
+	}
+	.about-prestige .boxes-benefits .box {
+		width: calc(50% - 9px);
+		display: inline-block;
+		vertical-align: top;
+		margin: 0 9px 16px 0;
+	}
+	.about-prestige .boxes-benefits .box .blurb-title {
+		font-size: 12px;
+		min-height: 34px;
+		line-height: 17px;
+	}
+	.faqs li:not(:last-child) {
+		margin-bottom: 16px;
+	}
+	.faqs .acc-parent {
+		font-size: 12px;
+		line-height: 19px;
+	}
+	.faqs .acc-content p {
+		font-size: 12px;
+		line-height: 18px;
+	}
+	html[lang=th-TH] .tabber ul li.active:after {
+		content: "";
+		display: block;
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		height: 4px;
+		background-color: #c8aa6f;
+	}
+	html[lang=th-TH] .tabber ul li:nth-child(2).active:after {
+		content: "";
+		display: block;
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		height: 4px;
+		background-color: #c8aa6f;
+	}
+	html[lang=th-TH] .tabber ul li:nth-child(3).active:after {
+		content: "";
+		display: block;
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		height: 4px;
+		background-color: #c8aa6f;
+	}
+	html[lang=th-TH] .tabber ul li:nth-child(4).active:after {
+		content: "";
+		display: block;
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		height: 4px;
+		background-color: #c8aa6f;
+	}
+}
+
+.btn.transparent {
+	background-color: transparent;
+	color: #fff;
+	border: 1px solid #fff;
+}
+.btn.transparent-dark {
+	background-color: transparent;
+	color: #1a2332;
+	border: 1px solid #1a2332;
+}
+.btn.x-small {
+	width: 147px;
+	height: 32px;
+	line-height: 32px;
+	font-size: 14px;
+}
+.btn.xl {
+	width: 354px;
+	height: 48px;
+	line-height: 48px;
+	font-size: 20px;
+}
+.btn:hover {
+	background-color: #FFDF5C;
+}
+.btn.transparent:hover {
+	background-color: rgba(255,255,255,0.2);
+}
+.inner-box {
+	max-width: 1366px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 13px;
+	box-sizing: border-box;
+}
+.inner-box li.item a:hover {
+	cursor: pointer;
+}
+
+.new-ribbon.vip {
+	position: absolute;
+    top: 15px;
+}
+@media (max-width: 1023px) {
+	.inner-box {
+		padding: 0 16px;
+	}
+}
+@media (max-width: 767px) {
+	.inner-box {
+		padding: 0 8px;
+	}
+
+}
+@media (max-width: 374px) {
+	.about-prestige .boxes-benefits > .inner {
+		margin: 0 0 -16px 0;
+	}
+	.about-prestige .boxes-benefits .box {
+		width: 100%;
+		min-height: unset;
+		margin: 0 0 16px 0;
+	}
+}
+
+@media (max-width: 565px) {
+	.bacarrat-section img {
+		width: 100%;
+	}
+	.bacarrat-section .tagline h3 {
+		font-size: 16px;
+	}
+	.bacarrat-section .tagline.row > .col:last-child {
+		margin-top: 16px;
+	}
+
+	.bacarrat-section {
+		padding-top: 26px;
+	}
+
+	.bacarrat-section .btn-vip {
+		width: auto;
+		margin-top: -5px;
+	}
+
+	.bacarrat-section .btn-vip {
+		line-height: 43px;
+	}
+
+	.new-ribbon.vip {
+		font-size: 8px;
+	}
+
+}
+
+
+

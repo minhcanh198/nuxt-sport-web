@@ -1,0 +1,677 @@
+html {
+  font-family: 'AvantGarde', 'Tahoma', Helvetica, Sans-Serif;
+  font-size: 12px
+}
+
+html[lang="th-TH"], html[lang="vi-VN"] {
+  font-family: 'Tahoma', Helvetica, Sans-Serif;
+  font-size: 12px
+}
+
+html[lang="zh-CN"] {
+  font-family: 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 12px
+}
+
+.hide {
+  display: none
+}
+
+.landing-layout {
+  display: flex;
+  flex-direction: column
+}
+
+.landing-layout .landing-bottom img {
+  width: 100%
+}
+
+.item .name {
+  width: 167px
+}
+
+@media (min-width: 767.5px) {
+  .item .name {
+    width: calc((((((100vw - 768px) * 100) / (1023 - 768)) / 100) * (198 - 167)) + 167px)
+  }
+}
+
+@media (min-width: 1023.5px) {
+  .item .name {
+    width: calc((((((100vw - 1024px) * 100) / (1353 - 1024)) / 100) * (263 - 198)) + 198px)
+  }
+}
+
+@media (min-width: 1365.5px) {
+  .item .name {
+    width: 263px
+  }
+}
+
+.item {
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  margin-right: 16px;
+  white-space: normal;
+  position: relative;
+  width: 167px
+}
+
+@media (min-width: 767.5px) {
+  .item {
+    width: calc((((((100vw - 768px) * 100) / (1023 - 768)) / 100) * (198 - 167)) + 167px)
+  }
+}
+
+@media (min-width: 1023.5px) {
+  .item {
+    width: calc((((((100vw - 1024px) * 100) / (1353 - 1024)) / 100) * (263 - 198)) + 198px)
+  }
+}
+
+@media (min-width: 1365.5px) {
+  .item {
+    width: 263px
+  }
+}
+
+.item a.link {
+  color: var(--neutral-1);
+  text-decoration: underline;
+  cursor: pointer
+}
+
+.item a.link:hover {
+  color: var(--cta)
+}
+
+.item .play-button, .item .btn1 {
+  display: inline-block;
+  vertical-align: middle;
+  width: 141px;
+  height: 40px;
+  line-height: 40px;
+  background: var(--cta);
+  border-radius: 2px;
+  font-size: 16px;
+  color: var(--primary-2);
+  text-decoration: none;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  box-sizing: border-box
+}
+
+.item .play-button:hover, .item .btn1:hover {
+  background-color: var(--cta-hover)
+}
+
+.item .play-button.transparent, .item .btn1.transparent {
+  background-color: transparent;
+  color: var(--neutral-1);
+  border: 1px solid var(--neutral-1)
+}
+
+.item .play-button.transparent:hover, .item .btn1.transparent:hover {
+  background-color: var(--opacity-5)
+}
+
+.item .casino-card-outer {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box
+}
+
+.item .casino-card-outer:hover .fav-btn, .item .casino-card-outer .fav-btn.active {
+  transform: translateY(0%);
+  opacity: 1
+}
+
+.item .casino-card-outer .icon, .item .casino-card-outer .ibtn {
+  display: inline-block;
+  vertical-align: middle
+}
+
+.item .casino-card-outer .icon-fav:after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+  background-position: 0 0;
+  cursor: pointer;
+  transform: scale(0.7) translate(-50%, -50%);
+  pointer-events: none;
+  transform-origin: 0 0;
+  position: absolute;
+  left: 50%;
+  top: 50%
+}
+
+.item .casino-card-outer .icon-fav.active:after {
+  background-position: -2800px 0;
+  transition: background 1s steps(28)
+}
+
+.item .casino-card-outer .icon-fav.icon-fav-yellow:after {
+  background-image: url("/images/home-page/heart-sprite-yellow.png");
+  background-repeat: no-repeat
+}
+
+.item .casino-card-outer .casino-card.card:hover .bg, .item .casino-card-outer .fav-btn:hover + .casino-card.card .bg {
+  transform: scale(1.1)
+}
+
+.item .casino-card-outer .casino-card.card:hover .hover-box, .item .casino-card-outer .fav-btn:hover + .casino-card.card .hover-box {
+  background: var(--opacity-2)
+}
+
+.item .casino-card-outer .casino-card.card .hover-box > .inner {
+  position: absolute;
+  bottom: 0;
+  transform: translateY(100%);
+  transition: all 0.3s
+}
+
+.item .casino-card-outer .casino-card.card:hover .hover-box > .inner, .item .casino-card-outer .fav-btn:hover + .casino-card.card .hover-box > .inner {
+  bottom: 50%;
+  transform: translateY(50%)
+}
+
+.item .casino-card-outer .casino-card.card .hover-box > .inner > div:nth-child(1), .item .casino-card-outer .casino-card.card .hover-box > .inner > div:nth-child(2), .item .casino-card-outer .casino-card.card .hover-box > .inner > div:nth-child(3) {
+  transition: transform 0.3s
+}
+
+.item .casino-card-outer .casino-card.card .hover-box > .inner > div:not(:last-child) {
+  margin-bottom: 8px
+}
+
+.item .casino-card-outer .casino-card.card .hover-box > .inner > div:nth-child(1) {
+  transition-delay: 50ms;
+  transform: translateY(100%)
+}
+
+.item .casino-card-outer .casino-card.card .hover-box > .inner > div:nth-child(2) {
+  transition-delay: 80ms;
+  transform: translateY(200%)
+}
+
+.item .casino-card-outer .casino-card.card .hover-box > .inner > div:nth-child(3) {
+  transition-delay: 120ms;
+  transform: translateY(300%)
+}
+
+.item .casino-card-outer .casino-card.card:hover .hover-box > .inner > div, .item .casino-card-outer .fav-btn:hover + .casino-card.card .hover-box > .inner > div {
+  transform: translateY(0%);
+  line-height: normal
+}
+
+.item .casino-card-outer .bg {
+  transition: transform 0.3s
+}
+
+.item .casino-card-outer .hover-box {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  transition: background 0.3s;
+  text-align: center
+}
+
+@media (max-width: 1023.5px) {
+  .item .casino-card-outer .hover-box {
+    display: none
+  }
+}
+
+.item .casino-card-outer .hover-box .link {
+  font-size: 14px;
+  line-height: 14px;
+  display: inline-block
+}
+
+.item .casino-card-outer .card {
+  position: relative;
+  border-radius: 2px;
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  cursor: pointer;
+  overflow: hidden
+}
+
+.item .casino-card-outer img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  vertical-align: middle;
+  -ms-interpolation-mode: nearest-neighbor
+}
+
+.item .name {
+  margin-top: 10px;
+  line-height: normal;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: var(--neutral-1);
+  font-size: 14px
+}
+
+.item .name img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 6px;
+  max-height: 14px
+}
+
+@media (min-width: 767.5px) {
+  .item .name img {
+    font-size: 14px;
+    margin-right: 10px;
+    max-height: 24px
+  }
+}
+
+.item .name span {
+  margin-left: -3px;
+  font-size: 12px;
+  vertical-align: middle;
+  color: var(--neutral-1)
+}
+
+@media (min-width: 767.5px) {
+  .item .name span {
+    font-size: 14px
+  }
+}
+
+.card:not(.casino-card) {
+  cursor: pointer
+}
+
+.card:not(.card-large) {
+  width: auto;
+  height: 200px
+}
+
+.casino-card.card {
+  height: 190px;
+  width: 264px
+}
+
+.casino-card.card img {
+  width: 100%;
+  height: 100%
+}
+
+.casino-card.card.double-size {
+  width: 544px
+}
+
+.casino-card.card.double-size img {
+  width: 100%;
+  height: 100%
+}
+
+@media (max-width: 1366px) {
+  .casino-card.card {
+    width: calc((((((100vw - 1024px) * 100) / (1353 - 1024)) / 100) * (242 - 180)) + 201px);
+    height: calc((((((100vw - 768px) * 100) / (1023 - 768)) / 100) * (143 - 120)) + 107px)
+  }
+
+  .casino-card.card.double-size {
+    width: calc(2 * ((((((100vw - 1024px) * 100) / (1353 - 1024)) / 100) * (242 - 180)) + 201px))
+  }
+}
+
+@media (max-width: 1023px) {
+  .casino-card.card {
+    width: calc((((((100vw - 1024px) * 100) / (1353 - 1024)) / 100) * (242 - 177)) + 224px);
+    height: calc((((((100vw - 768px) * 100) / (1023 - 768)) / 100) * (143 - 120)) + 120px)
+  }
+
+  .casino-card.card.double-size {
+    width: calc(2 * ((((((100vw - 1024px) * 100) / (1353 - 1024)) / 100) * (242 - 177)) + 224px))
+  }
+}
+
+@media (max-width: 768px) {
+  .casino-card.card {
+    width: calc((((((100vw - 1024px) * 100) / (1353 - 1024)) / 100) * (242 - 175)) + 249px);
+    height: calc((((((100vw - 768px) * 100) / (1023 - 768)) / 100) * (143 - 120)) + 120px)
+  }
+
+  .casino-card.card.double-size {
+    width: 342px
+  }
+}
+
+.casino-card-outer .fav-btn {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  z-index: 1;
+  transform: translateY(100%);
+  width: 20px;
+  height: 20px;
+  font-size: 0;
+  opacity: 0;
+  transition: all 0.3s
+}
+
+.casino-card-outer .fav-btn:after {
+  transform: scale(0.55) translate(-50%, -50%)
+}
+
+.casino-card-outer .fav-btn .active, .casino-card-outer .fav-btn:hover {
+  transform: translateY(0%);
+  opacity: 1
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .card:not(.card-large) {
+    height: calc((((((100vw - 1024px) * 100) / (1366 - 1024)) / 100) * (200 - 149)) + 149px)
+  }
+
+  .card .info-box {
+    height: calc((((((100vw - 1024px) * 100) / (1366 - 1024)) / 100) * (64 - 48)) + 48px)
+  }
+
+  .card .info-box .play-button, .card .info-box .btn1 {
+    width: calc((((((100vw - 1024px) * 100) / (1366 - 1024)) / 100) * (179 - 133)) + 133px);
+    height: calc((((((100vw - 1024px) * 100) / (1366 - 1024)) / 100) * (32 - 24)) + 24px);
+    line-height: calc((((((100vw - 1024px) * 100) / (1366 - 1024)) / 100) * (32 - 24)) + 24px)
+  }
+
+  .card-large.card .info-box {
+    height: calc((((((100vw - 1024px) * 100) / (1366 - 1024)) / 100) * (80 - 60)) + 60px)
+  }
+
+  .card-large.card .info-box .play-button, .card-large.card .info-box .btn1 {
+    width: calc((((((100vw - 1024px) * 100) / (1366 - 1024)) / 100) * (295 - 219.3)) + 219.3px);
+    height: calc((((((100vw - 1024px) * 100) / (1366 - 1024)) / 100) * (48 - 36)) + 36px);
+    line-height: calc((((((100vw - 1024px) * 100) / (1366 - 1024)) / 100) * (48 - 36)) + 36px)
+  }
+
+  .card.lc-card .info-box .tables span:before {
+    background-size: 20px 20px;
+    width: 20px;
+    height: 20px
+  }
+
+  .card.lc-card.card-large .info-box .tables span:before {
+    background-size: 29px 29px;
+    width: 29px;
+    height: 29px
+  }
+
+  .casino-card.card {
+    height: calc((((((100vw - 1024px) * 100) / (1366 - 1024)) / 100) * (190 - 143)) + 143px)
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1366px) {
+  .casino-card.card .hover-box > .inner > div:not(:last-child) {
+    margin-bottom: calc((((((100vw - 768px) * 100) / (1366 - 769)) / 100) * (8 - 4)) + 4px)
+  }
+
+  .casino-card.card .hover-box .link {
+    font-size: calc((((((100vw - 768px) * 100) / (1366 - 769)) / 100) * (14 - 12)) + 12px)
+  }
+
+  .casino-card.card .hover-box .play-button, .casino-card.card .hover-box .btn1 {
+    width: calc((((((100vw - 768px) * 100) / (1366 - 769)) / 100) * (141 - 120)) + 120px);
+    height: calc((((((100vw - 768px) * 100) / (1366 - 769)) / 100) * (40 - 24)) + 24px);
+    line-height: calc((((((100vw - 768px) * 100) / (1366 - 769)) / 100) * (40 - 24)) + 24px);
+    font-size: calc((((((100vw - 768px) * 100) / (1366 - 769)) / 100) * (14 - 12)) + 12px)
+  }
+
+  .casino-card-outer .fav-btn {
+    right: 4px;
+    top: 4px;
+    width: 16px;
+    height: 16px
+  }
+
+  .casino-card.card.fav-active .tags-status {
+    right: 25px
+  }
+
+  .casino-card-outer .fav-btn:after {
+    transform: scale(0.55) translate(-50%, -50%) !important
+  }
+}
+
+@media (max-width: 1023px) {
+  .card:not(.card-large) {
+    height: 149px
+  }
+
+  .casino-card.card {
+    height: calc((((((100vw - 768px) * 100) / (1023 - 768)) / 100) * (143 - 120)) + 120px)
+  }
+
+  .card .info-box {
+    height: 48px
+  }
+
+  .card .info-box .play-button, .card .info-box .btn1 {
+    width: 133px;
+    height: 24px;
+    line-height: 24px
+  }
+
+  .card.lc-card .info-box .tables span:before {
+    background-size: 22px 22px;
+    width: 22px;
+    height: 22px
+  }
+
+  .card-large.card .info-box {
+    height: calc((((((100vw - 768px) * 100) / (1023 - 768)) / 100) * (60 - 40)) + 40px);
+    font-size: calc((((((100vw - 768px) * 100) / (1023 - 768)) / 100) * (14 - 10)) + 10px)
+  }
+
+  .card-large.card .info-box .play-button, .card-large.card .info-box .btn1 {
+    width: calc((((((100vw - 768px) * 100) / (1023 - 768)) / 100) * (219 - 148)) + 148px);
+    height: calc((((((100vw - 768px) * 100) / (1023 - 768)) / 100) * (36 - 26)) + 26px);
+    line-height: calc((((((100vw - 768px) * 100) / (1023 - 768)) / 100) * (36 - 26)) + 26px);
+    font-size: calc((((((100vw - 768px) * 100) / (1023 - 768)) / 100) * (20 - 12)) + 12px)
+  }
+
+  .sports-card.card:not(.card-large) .info-box {
+    justify-content: center;
+    height: 32px
+  }
+
+  .sports-card.card:not(.card-large) .info-box > *:not(.m-view) {
+    display: none
+  }
+
+  .sports-card.card .info-box .m-view {
+    display: block
+  }
+}
+
+@media (max-width: 768px) {
+  .casino-card.card {
+    height: 120px;
+    width: 167px
+  }
+
+  .casino-card.card .hover-box > .inner > div:not(:last-child) {
+    margin-bottom: 4px
+  }
+
+  .casino-card.card .hover-box .link {
+    font-size: 12px
+  }
+
+  .casino-card.card .hover-box .play-button, .casino-card.card .hover-box .btn1 {
+    width: 120px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px
+  }
+
+  .casino-card-outer .fav-btn {
+    right: 4px;
+    top: 4px;
+    width: 16px;
+    height: 16px
+  }
+
+  .casino-card.card.fav-active .tags-status {
+    right: 25px
+  }
+
+  .casino-card-outer .fav-btn:after {
+    transform: scale(0.55) translate(-50%, -50%) !important
+  }
+}
+
+.layout-content {
+  font-family: 'OpenSansRegular'
+}
+
+.landing-layout .landing-middle {
+  display: flex;
+  flex-direction: column
+}
+
+.landing-layout .landing-middle .landing-links-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: var(--secondary-old)
+}
+
+.landing-layout .landing-middle .landing-links-items .link-item {
+  width: 100%;
+  text-transform: uppercase
+}
+
+.landing-layout .landing-middle .landing-links-items .link-item img {
+  margin-left: 10px
+}
+
+.landing-layout .landing-middle .landing-links-items .link-item .button-item-default, .landing-layout .landing-middle .landing-links-items .link-item .button-item-active {
+  height: 68px;
+  display: flex;
+  flex-direction: row;
+  align-items: center
+}
+
+.landing-layout .landing-middle .landing-links-items .link-item .button-item-default .button-labels, .landing-layout .landing-middle .landing-links-items .link-item .button-item-active .button-labels {
+  width: 74%
+}
+
+.landing-layout .landing-middle .landing-links-items .link-item .button-item-default .button-labels .label-text-top, .landing-layout .landing-middle .landing-links-items .link-item .button-item-active .button-labels .label-text-top {
+  text-align: center;
+  font-size: 1.6em
+}
+
+.landing-layout .landing-middle .landing-links-items .link-item .button-item-default .button-labels .label-text-bottom, .landing-layout .landing-middle .landing-links-items .link-item .button-item-active .button-labels .label-text-bottom {
+  text-align: center;
+  font-size: 1em
+}
+
+.landing-layout .landing-middle .landing-links-items .link-item .button-item-default {
+  color: var(--neutral-1);
+  background-color: var(--secondary-cts-old);
+  border-left: solid 1px var(--oldblue)
+}
+
+.landing-layout .landing-middle .landing-links-items .link-item .button-item-default:hover {
+  color: var(--cta)
+}
+
+.landing-layout .landing-middle .landing-links-items .link-item .button-item-active {
+  color: var(--neutral-2);
+  background-color: var(--cta)
+}
+
+.landing-layout .landing-middle .landing-links-items .link-item .button-item-active:hover {
+  color: var(--neutral-1)
+}
+
+.landing-layout .landing-middle .landing-links-items .image-item {
+  margin: 4px 0px;
+  height: 160px;
+  overflow: hidden;
+  cursor: pointer
+}
+
+.landing-layout .landing-middle .landing-links-items .image-item img {
+  width: 100%
+}
+
+.landing-layout .landing-middle .landing-links-items .image-item .item-overlay {
+  color: var(--neutral-1);
+  background-color: var(--neutral-2);
+  position: relative;
+  padding: 5px 10px 22px 10px;
+  top: -38px;
+  display: flex;
+  flex-direction: row;
+  transition: .5s ease;
+  opacity: 0.8
+}
+
+.landing-layout .landing-middle .landing-links-items .image-item .item-overlay .play-symbol {
+  width: 22px;
+  height: 25px
+}
+
+.landing-layout .landing-middle .landing-links-items .image-item .item-overlay .image-item-text {
+  margin-left: 10px;
+  text-transform: uppercase
+}
+
+.landing-layout .landing-middle .landing-links-items .image-item .item-overlay .image-item-text .title {
+  font-size: 1.5em;
+  margin: 3px 0 9px 0
+}
+
+@media (min-width: 1023.5px) and (max-width: 940px) {
+  .landing-layout .landing-middle .landing-links-items .image-item .item-overlay {
+    top: -53px;
+    opacity: 0.9;
+    padding: 5px 10px 40px 10px
+  }
+}
+
+.landing-layout .landing-middle .landing-links-items .image-item .item-overlay:hover {
+  color: var(--cta)
+}
+
+.landing-layout .landing-middle .landing-links-items .image-item:hover .item-overlay {
+  top: -60px;
+  opacity: 0.9
+}
+
+.item {
+  font-family: 'AvantGarde-Demi'
+}
+
+.item .casino-card-outer .hover-box .btn1 {
+  font-size: 14px
+}
+
+.item .casino-card-outer .hover-box .link {
+  font-family: 'OpenSansBold'
+}
+
+.item .name span {
+  font-family: 'OpenSansRegular'
+}

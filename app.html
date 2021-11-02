@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html {{ HTML_ATTRS }} lang="vi-VN" data-currency="VND" version="2.43.1.11593" style="overflow: auto; --scroll-y:0px;">
+<head {{ HEAD_ATTRS }}>
+  {{ HEAD }}
+  <meta name="viewport" content="width=1024">
+  <meta http-equiv="X-UA-Compatible" content="IE=EDGE">
+</head>
+<body {{ BODY_ATTRS }}>
+{{ APP }}
+</body>
+
+<script type="text/javascript">
+  /* Base Matomo script */
+  var _paq = window._paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['trackVisibleContentImpressions']);
+  _paq.push(['enableLinkTracking']);
+  (function () {
+    var u = "http://infana.net/";
+    _paq.push(['setTrackerUrl', u + 'matomo.php']);
+    _paq.push(['setSiteId', "4"]);
+    var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+    g.type = 'text/javascript';
+    g.async = true;
+    g.defer = true;
+    g.src = u + 'matomo.js';
+    s.parentNode.insertBefore(g, s);
+  })();
+
+  /* Custom script */
+  var trackEvents = function (action, name, value, siteCategory = "On Boarding Journey and Login") {
+    _paq.push(['trackEvent', siteCategory, action, name, value || 1]);
+  }
+  var trackVideo = function (ele, action, name, value) {
+    if (!ele.hasAttribute('data-track-video')) {
+      ele.setAttribute("data-track-video", "1");
+      trackEvents(action, name, value);
+    }
+  }
+</script>
+</html>

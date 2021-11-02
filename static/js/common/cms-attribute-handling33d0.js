@@ -1,0 +1,1 @@
+"use strict";require(["jquery"],(function(t){t('[data-launch="msports"]').click((function(){window.location.href="/msports"})),t('[data-launch="sports"]').click((function(){window.location.href="/sports"})),t(".matomo-event").click((function(){var n=t(this).data("matomo-action");trackEvents(n,"Landing Page",1)}))}))();

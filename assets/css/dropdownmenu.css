@@ -1,0 +1,973 @@
+html {
+  font-family: 'AvantGarde', 'Tahoma', Helvetica, Sans-Serif;
+  font-size: 12px
+}
+
+html[lang="th-TH"], html[lang="vi-VN"] {
+  font-family: 'Tahoma', Helvetica, Sans-Serif;
+  font-size: 12px
+}
+
+html[lang="zh-CN"] {
+  font-family: 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 12px
+}
+
+.dropdown-menu {
+  background: var(--neutral-1);
+  position: absolute;
+  z-index: 201;
+  background-color: transparent;
+  right: 0;
+  width: 240px;
+  padding-top: 12px
+}
+
+.dropdown-menu .caret {
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 5px;
+  border-style: solid;
+  border-width: 0 7px 7px 7px
+}
+
+.dropdown-menu a {
+  color: var(--neutral-2)
+}
+
+.dropdown-menu .row {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: var(--neutral-1)
+}
+
+.dropdown-menu .row .item, .dropdown-menu .row .expandable-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 12px 8px;
+  width: 100%;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin-right: 0px;
+  position: relative
+}
+
+.dropdown-menu .row .item.logout-user, .dropdown-menu .row .expandable-item.logout-user {
+  height: 40px
+}
+
+.dropdown-menu .row .item a, .dropdown-menu .row .expandable-item a {
+  color: var(--neutral-2);
+  height: auto
+}
+
+.dropdown-menu .row .item .icon, .dropdown-menu .row .expandable-item .icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  padding-bottom: 0
+}
+
+.dropdown-menu .row .item .arrow-icon, .dropdown-menu .row .expandable-item .arrow-icon {
+  right: 8px;
+  position: absolute;
+  transition: transform 0.3s ease
+}
+
+.dropdown-menu .row .item .rotate-arrow, .dropdown-menu .row .expandable-item .rotate-arrow {
+  transform: rotate(-180deg)
+}
+
+.dropdown-menu .row .submenu {
+  flex-direction: column;
+  width: 100%;
+  background-color: var(--neutral-4)
+}
+
+.dropdown-menu .row .submenu .row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: var(--neutral-4)
+}
+
+.dropdown-menu .row .cashier-submenu {
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box
+}
+
+.dropdown-menu .row .cashier-submenu .cashier-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--cta)
+}
+
+.dropdown-menu .row .cashier-submenu .cashier-item:not(:last-child) {
+  margin-right: 8px
+}
+
+.dropdown-menu .row .cashier-submenu .cashier-item .icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 0;
+  padding-bottom: 5px
+}
+
+.dropdown-menu .header {
+  box-sizing: border-box;
+  background-color: var(--primary-1)
+}
+
+.dropdown-menu .header .welcome-text {
+  display: flex
+}
+
+.dropdown-menu .header .welcome-text .display-name {
+  margin-left: 3px;
+  font-weight: bold
+}
+
+.dropdown-hover {
+  position: relative
+}
+
+.dropdown-hover .dropdown-menu {
+  opacity: 0;
+  display: none;
+  max-height: 0px;
+  overflow: hidden;
+  transition: all 0.4s ease-out
+}
+
+.dropdown-hover .dropdown-menu .toggle-balance {
+  display: none
+}
+
+.dropdown-hover .dropdown-menu .submenu {
+  opacity: 0;
+  max-height: 0px;
+  overflow: hidden;
+  transition: all 0.4s ease-out
+}
+
+.dropdown-hover .dropdown-menu .submenu-animate-open {
+  opacity: 1;
+  max-height: 746px;
+  overflow: hidden;
+  transition: all 0.4s ease-out
+}
+
+.dropdown-hover .dropdown-menu .submenu-animate-open .row {
+  padding: 8px
+}
+
+.dropdown-hover .dropdown-menu .submenu.cashier-submenu.submenu-animate-open {
+  padding: 8px;
+  display: block !important
+}
+
+.dropdown-hover .dropdown-menu .submenu.cashier-submenu.submenu-animate-open .row {
+  padding: 0
+}
+
+.dropdown-hover .dropdown-animate-open * {
+  max-height: initial
+}
+
+.dropdown-hover .dropdown-animate-open {
+  display: block;
+  opacity: 1;
+  transition: all 0.4s ease-out;
+  max-height: calc(100vh - 98px);
+  overflow-y: auto
+}
+
+.dropdown-hover .dropdown-animate-open .toggle-balance {
+  display: block;
+  text-transform: initial
+}
+
+@media (min-width: 425.5px) {
+  .dropdown-hover .dropdown-animate-open {
+    max-height: calc(100vh - 138px);
+    overflow: hidden
+  }
+
+  .dropdown-hover .dropdown-animate-open .account-dropdown {
+    max-height: calc(100vh - 150px);
+    overflow-y: auto
+  }
+}
+
+.dropdown-hover .dropdown-menu-balance.dropdown-animate-open {
+  max-height: calc(100vh - 150px);
+  overflow-y: auto
+}
+
+@media (min-width: 425.5px) {
+  .dropdown-hover .dropdown-menu-balance.dropdown-animate-open {
+    max-height: calc(100vh - 138px);
+    overflow-y: hidden
+  }
+
+  .dropdown-hover .dropdown-menu-balance.dropdown-animate-open .wallets-dropdown {
+    max-height: calc(100vh - 150px);
+    overflow-y: auto
+  }
+}
+
+.dropdown-menu-account {
+  top: 40px;
+  right: 5px;
+  padding-top: 0px
+}
+
+.dropdown-menu-account .caret {
+  right: 10px;
+  color: var(--primary-1);
+  border-color: transparent transparent var(--primary-1) transparent
+}
+
+.dropdown-menu-account .account-dropdown {
+  display: flex;
+  flex-direction: column;
+  z-index: 10000
+}
+
+@media (min-width: 1023.5px) {
+  .dropdown-menu-account .account-dropdown {
+    margin-top: 12px
+  }
+}
+
+.dropdown-menu-account .account-dropdown .row {
+  color: var(--neutral-2)
+}
+
+.dropdown-menu-account .account-dropdown .row .unread-messages-container {
+  display: none;
+  font-weight: normal
+}
+
+.dropdown-menu-account .account-dropdown .row.has-unread-messages {
+  display: block
+}
+
+.dropdown-menu-account .account-dropdown .row .unread-messages-icon {
+  display: none;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  color: var(--neutral-1);
+  background: var(--error);
+  border-radius: 10px;
+  margin-left: 8px
+}
+
+.dropdown-menu-account .account-dropdown #rebate-popup {
+  cursor: pointer
+}
+
+.dropdown-menu-account .account-dropdown .header {
+  color: var(--neutral-1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 56px
+}
+
+.dropdown-menu-account .account-dropdown .header .vip-element {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 2px
+}
+
+.dropdown-menu-account .account-dropdown .header .vip-element .vip-star {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px
+}
+
+.dropdown-menu-account .account-dropdown .header .vip-element #vip-level {
+  margin-top: 4px
+}
+
+.dropdown-menu-bank-status {
+  left: -295px;
+  top: 20px;
+  width: 375px
+}
+
+@media (min-width: 767.5px) {
+  .dropdown-menu-bank-status {
+    width: 320px
+  }
+}
+
+@media (min-width: 1100px) {
+  .dropdown-menu-bank-status {
+    left: -7px
+  }
+}
+
+@media (min-width: 1023.5px) {
+  .dropdown-menu-bank-status {
+    width: fit-content;
+    min-width: 240px;
+    max-width: 324px
+  }
+}
+
+.dropdown-menu-bank-status .caret {
+  left: 298px;
+  color: var(--neutral-1);
+  border-color: transparent transparent var(--neutral-1) transparent;
+  display: none
+}
+
+@media (min-width: 1100px) {
+  .dropdown-menu-bank-status .caret {
+    left: 10px
+  }
+}
+
+@media (min-width: 1023.5px) {
+  .dropdown-menu-bank-status .caret {
+    display: block
+  }
+}
+
+html[lang="vi-VN"] .dropdown-menu-bank-status .banks-status-dropdown .row .item .bank-name {
+  max-width: 200px
+}
+
+.align-left {
+  left: -290px
+}
+
+.align-left .caret {
+  left: 295px
+}
+
+.header-balance .dropdown-hover {
+  position: static
+}
+
+@media (min-width: 425.5px) {
+  .header-balance .dropdown-hover {
+    position: relative
+  }
+}
+
+.dropdown-menu-balance {
+  display: none;
+  left: 0;
+  right: 0;
+  width: initial;
+  padding-top: 0;
+  top: 98px;
+  max-height: calc(100vh - 98px);
+  overflow-y: auto
+}
+
+@media (min-width: 425.5px) {
+  .dropdown-menu-balance {
+    left: initial;
+    width: 240px;
+    top: 33px;
+    overflow-y: initial;
+    max-height: 0
+  }
+}
+
+@media (max-width: 425.5px) {
+  .dropdown-menu-balance {
+    top: 57px
+  }
+}
+
+.dropdown-menu-balance .loading-icon__mobile-only {
+  display: inline-block !important
+}
+
+@media (min-width: 425.5px) {
+  .dropdown-menu-balance .loading-icon__mobile-only {
+    display: none !important
+  }
+}
+
+.dropdown-menu-balance .loading-icon__desktop-only {
+  display: none !important
+}
+
+@media (min-width: 425.5px) {
+  .dropdown-menu-balance .loading-icon__desktop-only {
+    display: inline-block !important
+  }
+}
+
+.dropdown-menu-balance .caret {
+  display: none;
+  right: 10px;
+  color: var(--neutral-1);
+  border-color: transparent transparent var(--neutral-1) transparent
+}
+
+@media (min-width: 425.5px) {
+  .dropdown-menu-balance .caret {
+    display: initial
+  }
+}
+
+.dropdown-menu-balance .wallets-dropdown {
+  padding: 0;
+  background-color: var(--neutral-1);
+  color: var(--neutral-2)
+}
+
+@media (max-width: 425.5px) {
+  .dropdown-menu-balance .wallets-dropdown {
+    padding-top: 41px
+  }
+}
+
+@media (min-width: 1023.5px) {
+  .dropdown-menu-balance .wallets-dropdown {
+    margin-top: 12px
+  }
+}
+
+.dropdown-menu-balance .wallets-dropdown .row {
+  display: block;
+  padding: 0 !important;
+  text-align: left
+}
+
+.dropdown-menu-balance .wallets-dropdown .row:not(:last-child) {
+  border-bottom: 1px solid var(--neutral-3)
+}
+
+.dropdown-menu-balance .wallets-dropdown .row .submenu .row:not(:last-child) {
+  border-bottom: 1px solid var(--neutral-3)
+}
+
+.dropdown-menu-balance .wallets-dropdown .row .item {
+  display: block;
+  padding: 12px 8px
+}
+
+.dropdown-menu-balance .wallets-dropdown .row .item .item__icon {
+  float: left;
+  width: 16px;
+  height: 16px
+}
+
+.dropdown-menu-balance .wallets-dropdown .row .item .item__right {
+  float: right
+}
+
+.dropdown-menu-balance .wallets-dropdown .row .item .toggle-balance {
+  font-size: 10px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-transform: initial
+}
+
+.dropdown-menu-balance .wallets-dropdown .row .item .item__right.toggle-balance {
+  display: none
+}
+
+@media (min-width: 425.5px) {
+  .dropdown-menu-balance .wallets-dropdown .row .item .item__right.toggle-balance {
+    display: initial
+  }
+}
+
+.dropdown-menu-balance .wallets-dropdown .row .item .item__content {
+  margin-left: 24px;
+  display: flex
+}
+
+.dropdown-menu-balance .wallets-dropdown .row .item .item__content .header-balance-additional-wallet {
+  white-space: initial;
+  padding-left: 0px
+}
+
+@media (min-width: 425.5px) {
+  .dropdown-menu-balance .wallets-dropdown .row .item .item__content .header-balance-additional-wallet {
+    white-space: nowrap;
+    padding-left: 1px
+  }
+}
+
+@media (min-width: 425.5px) {
+  .dropdown-menu-balance .wallets-dropdown .row .item .item__content {
+    display: block
+  }
+}
+
+.dropdown-menu-balance .wallets-dropdown .row .item .item__content div:first-child {
+  flex-grow: 1
+}
+
+.dropdown-menu-balance .wallets-dropdown .row .item .item__content .total-balance {
+  display: flex;
+  align-items: center
+}
+
+.dropdown-menu-balance .wallets-dropdown .row .item .item__content .total-balance:not(:last-child) {
+  padding-bottom: 5px
+}
+
+.dropdown-menu-balance .wallets-dropdown .mobile-header {
+  color: var(--neutral-1);
+  background-color: var(--primary-1);
+  height: 40px;
+  top: 56px;
+  position: fixed;
+  line-height: 40px;
+  width: 100%;
+  z-index: 1
+}
+
+@media (min-width: 425.5px) {
+  .dropdown-menu-balance .wallets-dropdown .mobile-header {
+    display: none
+  }
+}
+
+.dropdown-menu-balance .wallets-dropdown .mobile-header .toggle-balance {
+  text-align: right;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: underline;
+  padding: 0 8px
+}
+
+.dropdown-menu-balance .wallets-dropdown .cashier-submenu {
+  opacity: 1;
+  max-height: initial;
+  padding: 8px
+}
+
+.dropdown-menu-balance .wallets-dropdown .cashier-submenu .row > *.cashier-item {
+  flex-grow: 1;
+  height: 80px
+}
+
+@media (min-width: 425.5px) {
+  .dropdown-menu-balance .wallets-dropdown .cashier-submenu .row > *.cashier-item {
+    height: 48px
+  }
+}
+
+.dropdown-menu-balance .wallets-dropdown .cashier-submenu .icon {
+  width: 32px !important;
+  height: 32px !important
+}
+
+@media (min-width: 425.5px) {
+  .dropdown-menu-balance .wallets-dropdown .cashier-submenu .icon {
+    width: 16px !important;
+    height: 16px !important
+  }
+}
+
+.banks-status-circle-indicator {
+  position: absolute;
+  left: 16px;
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  box-sizing: border-box
+}
+
+.banks-status-circle-indicator.icon-breathing {
+  -webkit-animation: breathing 2.5s infinite;
+  -moz-animation: breathing 2.5s infinite;
+  -o-animation: breathing 2.5s infinite;
+  animation: breathing 2.5s infinite
+}
+
+.banks-status-circle-offline {
+  border: solid 1px var(--primary-2);
+  background-color: var(--error)
+}
+
+.banks-status-circle-online {
+  border: solid 1px var(--primary-2);
+  background-color: var(--success)
+}
+
+@keyframes breathing {
+  0% {
+    opacity: 1
+  }
+  25% {
+    opacity: 1
+  }
+  50% {
+    opacity: 0
+  }
+  75% {
+    opacity: 1
+  }
+  100% {
+    opacity: 1
+  }
+}
+
+@-webkit-keyframes breathing {
+  0% {
+    opacity: 1
+  }
+  25% {
+    opacity: 1
+  }
+  50% {
+    opacity: 0
+  }
+  75% {
+    opacity: 1
+  }
+  100% {
+    opacity: 1
+  }
+}
+
+.showSABASeamless .hideSABASeamless {
+  display: block !important
+}
+
+.showMYR .hideMYR {
+  display: block !important
+}
+
+.showCNY .hideCNY {
+  display: block !important
+}
+
+.showTHB .hideTHB {
+  display: block !important
+}
+
+.showVND .hideVND {
+  display: block !important
+}
+
+.showIDR .hideIDR {
+  display: block !important
+}
+
+.hideSABASeamless, .hideMYR, .hideCNY, .hideVND, .hideIDR, .hideTHB {
+  display: none !important
+}
+
+.dropdown-menu {
+  font-family: 'Open Sans'
+}
+
+.dropdown-menu .row .item, .dropdown-menu .row .expandable-item {
+  font-family: 'OpenSansRegular' !important;
+  font-size: 14px
+}
+
+.dropdown-menu .row .item a, .dropdown-menu .row .expandable-item a {
+  height: 13px
+}
+
+.dropdown-menu .row .item:hover, .dropdown-menu .row .expandable-item:hover {
+  font-weight: bold
+}
+
+.dropdown-menu .row .submenu.submenu-animate-open {
+  max-height: 600px
+}
+
+.dropdown-menu .row .submenu .row {
+  padding: 10px
+}
+
+.dropdown-menu .row .submenu .row:hover {
+  font-weight: bold
+}
+
+.dropdown-menu .row .submenu .row:not(:last-child) {
+  border-bottom: solid;
+  border-width: 1px
+}
+
+.dropdown-menu .row .cashier-submenu .row:hover {
+  font-weight: normal
+}
+
+.dropdown-menu .row .cashier-submenu .row > * {
+  flex-grow: 1;
+  height: 80px
+}
+
+@media (min-width: 425.5px) {
+  .dropdown-menu .row .cashier-submenu .row > * {
+    height: 48px
+  }
+}
+
+.dropdown-menu .row .cashier-submenu .cashier-item {
+  height: 48px;
+  width: 70px;
+  border-radius: 2px
+}
+
+.dropdown-menu .row .cashier-submenu .cashier-item:hover .text {
+  font-weight: bold
+}
+
+.dropdown-menu .row .cashier-submenu .cashier-item .text {
+  font-size: 10px
+}
+
+.dropdown-menu .row .cashier-submenu .withdrawal, .dropdown-menu .row .cashier-submenu .transfer {
+  background-color: var(--primary-2);
+  color: var(--neutral-1)
+}
+
+.dropdown-menu .row .cashier-submenu .withdrawal .icon, .dropdown-menu .row .cashier-submenu .transfer .icon {
+  color: var(--neutral-1)
+}
+
+.dropdown-menu .row .cashier-submenu .deposit {
+  background-color: var(--cta)
+}
+
+.dropdown-menu-account .account-dropdown {
+  font-size: 12px
+}
+
+.dropdown-menu-account .account-dropdown .row:not(:last-child) {
+  border-bottom: solid;
+  border-width: 1px
+}
+
+.dropdown-menu-account .account-dropdown .row .unread-messages-icon .unread-count-submenu {
+  font-size: 7px;
+  line-height: 16px;
+  margin-left: 1px
+}
+
+.dropdown-menu-account .account-dropdown .row .unread-messages-icon .unread-count {
+  font-size: 7px;
+  line-height: 16px
+}
+
+.dropdown-menu-bank-status .banks-status-dropdown {
+  background-color: var(--neutral-1);
+  border-radius: 10px 10px 0 0
+}
+
+@media (min-width: 767.5px) {
+  .dropdown-menu-bank-status .banks-status-dropdown {
+    border-radius: unset
+  }
+}
+
+.dropdown-menu-bank-status .banks-status-dropdown .banks-list {
+  padding: 32px 8px
+}
+
+@media (min-width: 767.5px) {
+  .dropdown-menu-bank-status .banks-status-dropdown .banks-list {
+    padding: 0 8px
+  }
+}
+
+.dropdown-menu-bank-status .banks-status-dropdown .row {
+  flex-direction: row;
+  display: table-row-group
+}
+
+.dropdown-menu-bank-status .banks-status-dropdown .row:not(:last-child) {
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: var(--neutral-3)
+}
+
+.dropdown-menu-bank-status .banks-status-dropdown .row .item {
+  margin-right: 0px;
+  display: table-row
+}
+
+.dropdown-menu-bank-status .banks-status-dropdown .row .item:hover {
+  font-weight: normal
+}
+
+.dropdown-menu-bank-status .banks-status-dropdown .row .item .bank-status {
+  display: table-cell;
+  padding: 12px 0;
+  margin-right: 24px;
+  white-space: nowrap
+}
+
+.dropdown-menu-bank-status .banks-status-dropdown .row .item .bank-status .status-indicator {
+  margin-right: 8px;
+  width: 10px;
+  height: 10px;
+  background-color: var(--error);
+  border-radius: 6px
+}
+
+.dropdown-menu-bank-status .banks-status-dropdown .row .item .bank-status .offline, .dropdown-menu-bank-status .banks-status-dropdown .row .item .bank-status .online {
+  display: flex;
+  align-items: center;
+  font-weight: bold
+}
+
+.dropdown-menu-bank-status .banks-status-dropdown .row .item .bank-status .offline {
+  color: var(--error)
+}
+
+.dropdown-menu-bank-status .banks-status-dropdown .row .item .bank-status .offline .status-indicator {
+  background-color: var(--error)
+}
+
+.dropdown-menu-bank-status .banks-status-dropdown .row .item .bank-status .online {
+  color: var(--success)
+}
+
+.dropdown-menu-bank-status .banks-status-dropdown .row .item .bank-status .online .status-indicator {
+  background-color: var(--success)
+}
+
+.dropdown-menu-bank-status .banks-status-dropdown .row .item .bank-name {
+  display: table-cell !important;
+  color: var(--neutral-2);
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  padding-left: 24px;
+  max-width: 223px
+}
+
+.dropdown-menu-bank-status .banks-status-dropdown .header.row {
+  align-items: center;
+  padding: 0 8px;
+  background-color: var(--neutral-1);
+  border-radius: 10px 10px 0 0;
+  border-bottom: unset
+}
+
+@media (min-width: 767.5px) {
+  .dropdown-menu-bank-status .banks-status-dropdown .header.row {
+    background-color: var(--primary-1);
+    border-radius: unset
+  }
+}
+
+@media (min-width: 1023.5px) {
+  .dropdown-menu-bank-status .banks-status-dropdown .header.row {
+    display: none
+  }
+}
+
+.dropdown-menu-bank-status .banks-status-dropdown .header.row .item {
+  padding: 16px 0 0;
+  font-size: 16px;
+  font-weight: bold
+}
+
+@media (min-width: 767.5px) {
+  .dropdown-menu-bank-status .banks-status-dropdown .header.row .item {
+    padding: 12px 0;
+    color: var(--neutral-1)
+  }
+}
+
+.dropdown-menu-bank-status .banks-status-dropdown .header.row .close-window-icon-white, .dropdown-menu-bank-status .banks-status-dropdown .header.row .close-window-icon {
+  width: 16px;
+  height: 16px
+}
+
+.dropdown-menu-bank-status .banks-status-dropdown .header.row .close-window-icon-white {
+  display: none
+}
+
+@media (min-width: 767.5px) {
+  .dropdown-menu-bank-status .banks-status-dropdown .header.row .close-window-icon-white {
+    display: block
+  }
+}
+
+@media (min-width: 1023.5px) {
+  .dropdown-menu-bank-status .banks-status-dropdown .header.row .close-window-icon-white {
+    display: none
+  }
+}
+
+.dropdown-menu-bank-status .banks-status-dropdown .header.row .close-window-icon {
+  display: block
+}
+
+@media (min-width: 767.5px) {
+  .dropdown-menu-bank-status .banks-status-dropdown .header.row .close-window-icon {
+    display: none
+  }
+}
+
+html[lang="zh-CN"] .dropdown-menu-bank-status .banks-status-dropdown .row .item .bank-name {
+  max-width: 240px
+}
+
+html[lang="th-TH"] .dropdown-menu-bank-status .banks-status-dropdown .row .item .bank-name {
+  max-width: 180px
+}
+
+.dropdown-menu-balance .wallets-dropdown .row .item:hover {
+  font-weight: normal
+}
+
+.dropdown-menu-balance .wallets-dropdown .mobile-header .close-button {
+  float: left;
+  font-size: 28px;
+  padding: 0 16px;
+  color: transparent;
+  text-shadow: 0 0 0 #fff
+}
+
+.submenu .balance-info__list {
+  list-style: none;
+  padding-left: 0px;
+  margin-bottom: -1px;
+  margin-top: 1px
+}
+
+.submenu .balance-info__list li {
+  border-bottom: 1px solid var(--neutral-3)
+}
+
+.submenu .balance-info__list li div {
+  display: flex;
+  align-items: center;
+  padding: 12px 8px 12px 8px
+}
+
+.submenu .balance-info__list li .icon-text {
+  font-family: 'OpenSansRegular' !important;
+  font-size: 14px
+}
+
+.cashier-icon {
+  margin-left: 10px;
+  padding-top: 10px;
+  padding-right: 25px !important;
+  margin-right: 10px;
+  height: 12px
+}

@@ -1,0 +1,36 @@
+.static-content-placeholder .register-rebate-section{
+	background-image: linear-gradient(to left, #1a2332, #244c8e);
+	color: #fff;
+	text-align: center;
+	border-radius: 10px;
+	margin-top: 15px;
+}
+.static-content-placeholder .inner-text-rebate{
+	line-height: 0;
+	width: 100%;
+	margin: 3px 0;
+}
+
+.static-content-placeholder .inner-text-rebate .title{
+	font-size: 14px;
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+.static-content-placeholder .inner-text-rebate .title-mobile{
+	font-size: 12px;
+	line-height: 12px;
+}
+
+.static-content-placeholder .inner-text-rebate .sub-title{
+	font-size: 12px;
+}
+
+.static-content-placeholder .register-rebate-section img{
+	width: 24px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+.static-content-placeholder .register-rebate-section .mobile-icon{
+	width: 16px;
+}

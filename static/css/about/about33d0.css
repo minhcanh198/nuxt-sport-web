@@ -1,0 +1,140 @@
+.abcon {
+	background-color: #FFF;
+	line-height: 16px;
+}
+.abtitle {
+	background-color: #31405f;
+	color: #FFF;
+	font-size: 14px;
+	padding: 6px 20px 6px 20px;
+	text-transform: uppercase;
+}
+.absubtitle {
+	background-color: #dedede;
+	color: #666666;
+	font-size: 13px;
+	padding: 6px 0px 6px 20px;
+}
+.ablink {
+	color:#000; text-decoration: underline;
+}
+.desktop-about {
+	display: block;
+	position: relative;
+	margin-top: 15px;
+}
+.desktop-about .abcon .content-text {
+	padding: 20px 20px 0px 20px;
+}
+
+/* fonts type */
+html[lang="en-US"] .abcon,
+html[lang="id-ID"] .abcon {
+	font-family: "Microsoft Sans Serif",Helvetica,Sans-Serif;
+}
+/*  KH custom style  */
+html[lang="km-KH"] .terms-info {
+  line-height: 20px;
+}
+/*  TRADING ROOM AND BUILDING  */
+.inner-content {
+  display: inline-block;
+  width: 100%;
+}
+.inner-content > div {
+  text-align: center;
+  display: inline-block;
+}
+.inner-content1 {
+  float: left;
+  width: 25%;
+}
+.inner-content1 img{
+  max-width: 155px;
+}
+.inner-content2 {
+  float: left;
+  width: 75%;
+}
+.inner-content3 {
+  width: auto;
+  padding: 10px;
+  text-align: left;
+}
+.inner-content4 {
+  padding: 10px;
+  width:200px;
+}
+
+@media screen and (max-width: 1022px) {
+	.inner-content1,.inner-content2,.inner-content4 {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.winner-images a img {
+		width: 130px;
+    height: 170px;
+    padding-right: 10px;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.winner-images a img.winner-about {
+		width: 130px;
+		height: 173px;
+		padding-right: 5px;
+	}
+}
+
+/* afcb removal */
+
+@media (min-width: 1023.5px) {
+	.layout-footer .footer-middle .footer-middle-left .content-left .quote {
+		margin-bottom: 0 !important;
+	}
+
+	.layout-footer .footer-middle .footer-middle-left .content-left .quote img {
+		height: 46px !important;
+		width: 80px !important;
+		max-width: none !important;
+	}
+
+	.layout-footer .footer-middle .footer-middle-right .content-right .betting-partners .previous-sponsors-text {
+		font-size: 9px;
+		margin-bottom: 3px;
+	}
+}
+
+.layout-footer .footer-middle {
+	padding: 10px 5px 10px 15px !important;
+}
+
+.layout-footer .footer-middle .footer-middle-left {
+	align-self: center;
+}
+
+@media (max-width: 320px) {
+	.layout-footer .footer-middle .footer-middle-right .content-right .betting-partners .sponsor {
+		max-width: 29px !important;
+	} 
+}
+
+.layout-footer .footer-middle .footer-middle-left .content-left .quote img {
+	height: auto;
+	max-width: 50px;
+	margin-bottom: 0 !important;
+	width: 100%;
+}
+
+.layout-footer .footer-middle .footer-middle-right .content-right .betting-partners .sponsor {
+	height: auto;
+    max-width: 35px;
+    width: 100%;
+}
+
+.layout-footer .footer-middle .footer-middle-right .content-right .betting-partners .previous-sponsors-text {
+	font-size: 9px;
+	text-transform: uppercase;
+}

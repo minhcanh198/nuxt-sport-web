@@ -1,0 +1,58 @@
+/* Do not change variable names, only their content! */
+:root {
+	/* Color definitions */
+	--primary-1: #314060;
+	--primary-2: #1A2332;
+	--secondary-1: #26324D;
+	--secondary-2: #0D111A;
+	--secondary-3: #C6A062;
+	--secondary-4: #0C101A;
+	--secondary-5: #4B618E;
+	--cta: #FFCD00;
+	--cta-hover: #FFDF5C;
+	--success: #2D8C44;
+	--error: #BC1F00;
+	
+	--neutral-1: #FFFFFF;
+	--neutral-2: #000000;
+	--neutral-3: #B5B5B5;
+	--neutral-4: #EBEBEB;
+	--neutral-5: #D0D0D0;
+	
+	--vip-6-1: #000000;
+	--vip-6-2: #2C2C2C;
+	--vip-5-1: #D2F4F6;
+	--vip-5-2: #FFFFFF;
+	--vip-4-1: #D7D5D2;
+	--vip-4-2: #E5E4E2;
+	--vip-3-1: #FFC700;
+	--vip-3-2: #FFDF5C;
+	--vip-2-1: #D1DBE7;
+	--vip-2-2: #BFCBDA;
+	--vip-1-1: #D2C250;
+	--vip-1-2: #E3D467;
+
+	--cashier-table-bg1: #D4E5EE;
+	--cashier-table-bg2: #EAF4F8;
+	--cashier-table-bg3: #F5F5F6;
+	--secondary-old: #7E97CF;
+	--secondary-cts-old: #5071A1;
+	
+	--laligaroom-bg: #16202C;
+	
+	--oldblue: #3D5172;
+	--oldctablue: #4369BA;
+	--darkmagenta: #9b3a97;
+	
+	--opacity-1: #000000E6; /* black, 90% opacity */
+	--opacity-2: #000000B3; /* black, 70% opacity */
+	--opacity-3: #00000080; /* black, 50% opacity */
+	--opacity-4: #0000004D; /* black, 30% opacity */
+	--opacity-5: #FFFFFF33; /* white, 20% opacity */
+	
+	/* Element definitions */
+	--page-background-color: var(--primary-1);
+	--cashier-background-color: var(--neutral-2);
+	--page-laliga-keno-background-color: var(--secondary-4);
+	--page-kenolotto-lottery-background-color: var(--secondary-5);
+}

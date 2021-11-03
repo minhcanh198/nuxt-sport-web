@@ -24,6 +24,7 @@ export default {
       {type: "text/javascript", charset: "utf-8", src: "/js/common/countdown33d0.js"},
       {type: "text/javascript", charset: "utf-8", src: "/js/common/casino-home-page33d0.js"},
       {type: "text/javascript", charset: "utf-8", src: "/js/common/side-menu33d0.js"},
+      {type: "text/javascript", charset: "utf-8", src: "/js/common/loyalty.js"},
     ]
   },
 
@@ -40,7 +41,7 @@ export default {
     '~/assets/css/swiper.css',
     '~/assets/css/casino-modals.css',
     '~/assets/css/side-menu.css',
-    '~/assets/css/footer.css',
+    '~/assets/css/footer.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -57,6 +58,7 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    vendor: []
+    vendor: [],
+    chunk: true
   }
 }

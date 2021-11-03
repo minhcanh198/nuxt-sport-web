@@ -11,9 +11,9 @@
              data-component-name="Promotional banner" data-type="" data-kind-id="">
 
           <div class="lazy-load-responsive" data-class=""
-               data-src="/images/poker/thumbnails/OneShot-Fishing_654X279_VN.jpg" data-component-name=""
+               data-src="/images/pokerlc/thumbnails/game-133d0.png" data-component-name=""
                data-alt=""></div>
-          <img src="/images/poker/thumbnails/OneShot-Fishing_654X279_VN.jpg" alt="" class=""
+          <img src="/images/pokerlc/thumbnails/game-133d0.png" alt="" class=""
                data-component-name="">
 
         </div>
@@ -24,9 +24,9 @@
              data-kind-id="">
 
           <div class="lazy-load-responsive" data-class=""
-               data-src="/images/poker/thumbnails/Majestic-Megaways_654X279_VN.jpg" data-component-name=""
+               data-src="/images/pokerlc/thumbnails/game-1533d0.png" data-component-name=""
                data-alt=""></div>
-          <img src="/images/poker/thumbnails/Majestic-Megaways_654X279_VN.jpg" alt="" class=""
+          <img src="/images/pokerlc/thumbnails/game-1533d0.png" alt="" class=""
                data-component-name="">
 
         </div>

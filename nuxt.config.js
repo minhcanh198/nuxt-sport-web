@@ -23,6 +23,7 @@ export default {
       {type: "text/javascript", charset: "utf-8", src: "/js/common/dynamic-content33d0.js"},
       {type: "text/javascript", charset: "utf-8", src: "/js/common/countdown33d0.js"},
       {type: "text/javascript", charset: "utf-8", src: "/js/common/casino-home-page33d0.js"},
+      {type: "text/javascript", charset: "utf-8", src: "/js/common/side-menu33d0.js"},
     ]
   },
 
@@ -38,6 +39,7 @@ export default {
     '~/assets/css/dynamic-content.css',
     '~/assets/css/swiper.css',
     '~/assets/css/casino-modals.css',
+    '~/assets/css/side-menu.css',
     '~/assets/css/footer.css',
   ],
 

@@ -10,7 +10,7 @@
              data-component-name="Club M88 Seamless - VN" data-type="LiveCasino" data-kind-id="">
 
           <img class=""
-               src="/images/live-casino/LiveCasino_18/thumbnails/ClubM88Seamless_vi-VN.jpg?build=2.43.1.11593-42612"
+               src="/images/live-casino/LiveCasino_18/thumbnails/ClubM88Seamless_vi-VN3"
                data-component-name="">
 
 
@@ -21,7 +21,7 @@
 
 
               <img class="icon"
-                   src="/images/live-casino/LiveCasino_18/icons/Baccarat.svg?build=2.43.1.11593-42612"
+                   src="/images/live-casino/LiveCasino_18/icons/Baccarat33d0.svg"
                    data-component-name="">
 
 
@@ -31,30 +31,22 @@
 
 
               <img class="icon"
-                   src="/images/live-casino/LiveCasino_18/icons/Sicbo.svg?build=2.43.1.11593-42612"
+                   src="/images/live-casino/LiveCasino_18/icons/Sicbo33d0.svg"
                    data-component-name="">
 
 
               <span class="" data-component-name="">
   2
 </span>
-
-
               <img class="icon"
-                   src="/images/live-casino/LiveCasino_18/icons/Roulette.svg?build=2.43.1.11593-42612"
+                   src="/images/live-casino/LiveCasino_18/icons/Roulette33d0.svg"
                    data-component-name="">
-
-
               <span class="" data-component-name="">
   1
 </span>
-
-
               <img class="icon"
-                   src="/images/live-casino/LiveCasino_18/icons/DragonTiger.svg?build=2.43.1.11593-42612"
+                   src="/images/live-casino/LiveCasino_18/icons/DragonTiger33d0.svg"
                    data-component-name="">
-
-
               <span class="" data-component-name="">
   1
 </span>
@@ -84,7 +76,7 @@
              data-component-name="WM Casino - VN" data-type="LiveCasino" data-kind-id="">
 
           <img class=""
-               src="/images/live-casino/LiveCasino_18/thumbnails/wmcasino-hub88_vi-VN.jpg?build=2.43.1.11593-42612"
+               src="/images/live-casino/LiveCasino_18/thumbnails/wmcasino-hub88_vi-VN33d0.jpg"
                data-component-name="">
 
 
@@ -95,17 +87,15 @@
 
 
               <img class="icon"
-                   src="/images/live-casino/LiveCasino_18/icons/Baccarat.svg?build=2.43.1.11593-42612"
+                   src="/images/live-casino/LiveCasino_18/icons/Baccarat33d0.svg"
                    data-component-name="">
 
 
               <span class="" data-component-name="">
   27
 </span>
-
-
               <img class="icon"
-                   src="/images/live-casino/LiveCasino_18/icons/Sicbo.svg?build=2.43.1.11593-42612"
+                   src="/images/live-casino/LiveCasino_18/icons/Sicbo33d0.svg"
                    data-component-name="">
 
 
@@ -115,17 +105,13 @@
 
 
               <img class="icon"
-                   src="/images/live-casino/LiveCasino_18/icons/Roulette.svg?build=2.43.1.11593-42612"
+                   src="/images/live-casino/LiveCasino_18/icons/Roulette33d0.svg"
                    data-component-name="">
-
-
               <span class="" data-component-name="">
   1
 </span>
-
-
               <img class="icon"
-                   src="/images/live-casino/LiveCasino_18/icons/DragonTiger.svg?build=2.43.1.11593-42612"
+                   src="/images/live-casino/LiveCasino_18/icons/DragonTiger33d0.svg"
                    data-component-name="">
 
 
@@ -159,9 +145,9 @@
              data-kind-id="">
 
           <div class="lazy-load-responsive" data-class=""
-               data-src="/images/live-casino/LiveCasino_18/thumbnails/studioEU_vi-VN.jpg"
+               data-src="/images/live-casino/LiveCasino_18/thumbnails/wmcasino-hub88_vi-VN33d0.jpg"
                data-component-name="" data-alt=""></div>
-          <img src="/images/live-casino/LiveCasino_18/thumbnails/studioEU_vi-VN.jpg" alt="" class=""
+          <img src="/images/live-casino/LiveCasino_18/thumbnails/wmcasino-hub88_vi-VN33d0.jpg" alt="" class=""
                data-component-name="">
 
 
@@ -256,9 +242,9 @@
              data-kind-id="">
 
           <div class="lazy-load-responsive" data-class=""
-               data-src="/images/live-casino/LiveCasino_18/thumbnails/AESexy_vi-VN.jpg" data-component-name=""
+               data-src="/images/live-casino/LiveCasino_18/thumbnails/ClubM88Seamless_vi-VN33d0.jpg" data-component-name=""
                data-alt=""></div>
-          <img src="/images/live-casino/LiveCasino_18/thumbnails/AESexy_vi-VN.jpg" alt="" class=""
+          <img src="/images/live-casino/LiveCasino_18/thumbnails/ClubM88Seamless_vi-VN33d0.jpg" alt="" class=""
                data-component-name="">
 
 
@@ -332,9 +318,9 @@
              data-component-name="AG LD - VN" data-type="LiveCasino" data-kind-id="">
 
           <div class="lazy-load-responsive" data-class=""
-               data-src="/images/live-casino/LiveCasino_18/thumbnails/AG_vi-VN.jpg" data-component-name=""
+               data-src="/images/live-casino/LiveCasino_18/thumbnails/wmcasino-hub88_vi-VN33d0.jpg" data-component-name=""
                data-alt=""></div>
-          <img src="/images/live-casino/LiveCasino_18/thumbnails/AG_vi-VN.jpg" alt="" class=""
+          <img src="/images/live-casino/LiveCasino_18/thumbnails/wmcasino-hub88_vi-VN33d0.jpg" alt="" class=""
                data-component-name="">
 
 
@@ -421,7 +407,7 @@
 
 
               <img class="icon"
-                   src="/images/live-casino/LiveCasino_18/icons/Baccarat.svg?build=2.43.1.11593-42612"
+                   src="/images/live-casino/LiveCasino_18/icons/Baccarat33d0.svg"
                    data-component-name="">
 
 
@@ -431,7 +417,7 @@
 
 
               <img class="icon"
-                   src="/images/live-casino/LiveCasino_18/icons/Roulette.svg?build=2.43.1.11593-42612"
+                   src="/images/live-casino/LiveCasino_18/icons/Roulette33d0.svg"
                    data-component-name="">
 
 
@@ -441,20 +427,13 @@
 
 
               <img class="icon"
-                   src="/images/live-casino/LiveCasino_18/icons/Sicbo.svg?build=2.43.1.11593-42612"
+                   src="/images/live-casino/LiveCasino_18/icons/Sicbo33d0.svg"
                    data-component-name="">
-
-
               <span class="" data-component-name="">
   1
 </span>
-
             </div>
-
-
             <div class="content-wrapper align-content-center " data-component-name="">
-
-
               <div class="real-play-button track-events new-tab " data-component-name=""
                    data-url="/home/getmglivedealerurl" data-qa-type="" data-qa-context="">
                 CHƠI NGAY

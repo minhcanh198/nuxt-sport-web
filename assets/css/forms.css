@@ -1,0 +1,1293 @@
+html {
+  font-family: 'AvantGarde', 'Tahoma', Helvetica, Sans-Serif;
+  font-size: 12px
+}
+
+html[lang="th-TH"], html[lang="vi-VN"] {
+  font-family: 'Tahoma', Helvetica, Sans-Serif;
+  font-size: 12px
+}
+
+html[lang="zh-CN"] {
+  font-family: 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 12px
+}
+
+html {
+  font-family: 'AvantGarde', 'Tahoma', Helvetica, Sans-Serif;
+  font-size: 12px
+}
+
+html[lang="th-TH"], html[lang="vi-VN"] {
+  font-family: 'Tahoma', Helvetica, Sans-Serif;
+  font-size: 12px
+}
+
+html[lang="zh-CN"] {
+  font-family: 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 12px
+}
+
+@font-face {
+  font-family: 'AvantGarde';
+  src: url("~assets/fonts/avantgardeltmedium.woff") format("woff")
+}
+
+@font-face {
+  font-family: 'Microsoft Sans Serif';
+  src: url("~assets/fonts/micross.woff") format("woff")
+}
+
+@font-face {
+  font-family: 'Tahoma';
+  src: local("Tahoma"), url("~assets/fonts/Tahoma.woff") format("woff")
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("~assets/fonts/opensans-vietnameselatin-regular.woff") format("woff")
+}
+
+@font-face {
+  font-family: 'OpenSansRegular';
+  src: url("~assets/fonts/OpenSansRegular.woff2") format("woff2")
+}
+
+@font-face {
+  font-family: 'OpenSansBold';
+  src: url("~assets/fonts/OpenSansBold.woff2") format("woff2")
+}
+
+@font-face {
+  font-family: 'AvantGarde-Demi';
+  src: url("~assets/fonts/avantgardecedemi.woff") format("woff")
+}
+
+@font-face {
+  font-family: 'AvantGarde-Book';
+  src: url("~assets/fonts/avantgardecebook.woff") format("woff")
+}
+
+.register-header {
+  background-color: var(--neutral-1);
+  padding: 30px 30px 1px 30px
+}
+
+@media (max-width: 1023.5px) {
+  .register-header {
+    padding-left: 20px !important
+  }
+}
+
+.register-header .register-limit-info {
+  font-size: 14px;
+  font-weight: bold
+}
+
+.register-header .register-login-link {
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  margin-top: 10px
+}
+
+.register-header .register-login-link a {
+  color: var(--secondary-old);
+  text-decoration: underline;
+  margin-left: 5px;
+  font-weight: bold
+}
+
+@media (min-width: 1023.5px) {
+  #forgot-password-form .validation-summary-errors {
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 881px
+  }
+}
+
+.popup-title-forgot-password {
+  padding: 6px 0 4px 0;
+  background-color: var(--primary-1);
+  text-align: left;
+  font-size: 15px;
+  width: 100%;
+  color: var(--neutral-1)
+}
+
+.popup-title-forgot-password .title-text {
+  padding-left: 20px
+}
+
+h1.uppercase {
+  text-transform: uppercase
+}
+
+.first-text {
+  padding-top: 30px
+}
+
+@media (min-width: 1023.5px) {
+  .layout-body {
+    padding: 0px !important
+  }
+}
+
+.area-title {
+  align-self: baseline;
+  font-size: 1.5em;
+  padding: 10px 30px
+}
+
+.big-img {
+  width: 50px !important;
+  vertical-align: middle
+}
+
+.area-description {
+  align-self: baseline;
+  font-size: 1.2em;
+  padding: 10px 30px
+}
+
+.form-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--neutral-1)
+}
+
+.form-layout .btn-secondary-alt {
+  margin-top: 30px !important
+}
+
+.validation-error {
+  width: 100%;
+  color: var(--neutral-1);
+  background-color: var(--error);
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 14px
+}
+
+@media (min-width: 1023.5px) {
+  .validation-error {
+    min-height: 30px;
+    font-size: 10px
+  }
+}
+
+.validation-success {
+  width: 100%;
+  color: var(--neutral-1);
+  background-color: var(--success);
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  box-sizing: border-box;
+  margin: 0
+}
+
+@media (min-width: 1023.5px) {
+  .validation-success {
+    height: 30px
+  }
+}
+
+.on-screen-info {
+  font-size: 12px
+}
+
+.field-area, .input-area {
+  display: flex;
+  flex-direction: column;
+  align-items: unset;
+  margin: 10px 0
+}
+
+.field-area .field-label, .input-area .field-label {
+  margin: 10px 0;
+  font-weight: normal
+}
+
+.field-area .field-label-175, .input-area .field-label-175 {
+  margin: 10px 0;
+  font-weight: normal
+}
+
+.field-area .field-input, .input-area .field-input {
+  display: flex;
+  flex-direction: column;
+  position: relative
+}
+
+.field-area .field-input input[type="text"], .input-area .field-input input[type="text"], .field-area .field-input input[type="password"], .input-area .field-input input[type="password"], .field-area .field-input input[type="email"], .input-area .field-input input[type="email"], .field-area .field-input input[type="number"], .input-area .field-input input[type="number"] {
+  padding: 0px 10px;
+  background-repeat: no-repeat;
+  background-position: center right -5px;
+  box-sizing: border-box
+}
+
+.field-area .field-input input, .input-area .field-input input {
+  outline: none
+}
+
+.field-area .field-input input.valid:not(.no-valid-icon), .input-area .field-input input.valid:not(.no-valid-icon) {
+  border: solid 1px var(--secondary-cts-old);
+  /*background-image: url(~/assets/img/field-valid.png) !important;*/
+  background-repeat: no-repeat;
+  background-position: center right -5px
+}
+
+.field-area .field-input .input-validation-error, .input-area .field-input .input-validation-error, .field-area .field-input input.error, .input-area .field-input input.error {
+  border: solid 1px var(--error);
+  /*background-image: url(~/assets/img/field-error.png) !important;*/
+  background-repeat: no-repeat;
+  background-position: center right -5px
+}
+
+@media (min-width: 1023.5px) {
+  .field-area .field-input .input-validation-error, .input-area .field-input .input-validation-error, .field-area .field-input input.error, .input-area .field-input input.error {
+    /*background-image: url(~/assets/img/field-error-desktop.png) !important*/
+  }
+}
+
+.field-area .field-input .field-validation-error, .input-area .field-input .field-validation-error, .field-area .field-input label.error, .input-area .field-input label.error {
+  max-width: unset;
+  color: var(--neutral-1);
+  background-color: var(--error);
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  box-sizing: border-box
+}
+
+.field-area .field-input .error, .input-area .field-input .error {
+  color: var(--error)
+}
+
+.field-area .field-input .currency-dropdown, .input-area .field-input .currency-dropdown {
+  /*background-image: url(~/assets/img/icons/icon-dropdown-collapse.svg);*/
+  background-position: center right 36px;
+  background-size: 20px
+}
+
+@media (max-width: 1023.5px) {
+  .field-area .field-input .currency-dropdown, .input-area .field-input .currency-dropdown {
+    background-size: 25px
+  }
+}
+
+.field-area .field-input select, .input-area .field-input select {
+  height: 39px;
+  border: solid 2px var(--cashier-table-bg1);
+  background-repeat: no-repeat;
+  background-position: center right;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  padding-left: 10px;
+  outline: none
+}
+
+.field-area .field-input select::-ms-expand, .input-area .field-input select::-ms-expand {
+  display: none;
+  outline: none
+}
+
+.field-area .arrow:after, .input-area .arrow:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0
+}
+
+@media (max-width: 1023.5px) {
+  .field-area .arrow:after, .input-area .arrow:after {
+    top: 33px;
+    right: 8px;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid var(--primary-2)
+  }
+}
+
+@media (min-width: 1023.5px) {
+  .field-area .arrow:after, .input-area .arrow:after {
+    top: 26px;
+    right: 10px;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid var(--primary-2)
+  }
+}
+
+.field-area .field-multi-inputs #dash, .input-area .field-multi-inputs #dash {
+  font-size: 1.5rem;
+  padding: 0 10px;
+  line-height: 40px
+}
+
+.field-area .field-multi-inputs .field-multi-input, .input-area .field-multi-inputs .field-multi-input {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  position: relative
+}
+
+.field-area .field-multi-inputs .field-multi-input .mobile-country-code .phone-prefix-dropdown, .input-area .field-multi-inputs .field-multi-input .mobile-country-code .phone-prefix-dropdown {
+  background-image: url(~/assets/img/icons/icon-dropdown-collapse.svg);
+  background-position: center right 5px !important;
+  background-size: 20px
+}
+
+.field-area .field-multi-inputs .field-multi-input .mobile-country-code select, .input-area .field-multi-inputs .field-multi-input .mobile-country-code select {
+  border: solid 1px var(--cashier-table-bg1);
+  width: 90px;
+  background-image: url(~/assets/img/icons/icon-dropdown-collapse.svg);
+  background-repeat: no-repeat;
+  background-position: 55px 13px;
+  background-size: 14px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  padding-left: 10px
+}
+
+.field-area .field-multi-inputs .field-multi-input .mobile-country-code select::-ms-expand, .input-area .field-multi-inputs .field-multi-input .mobile-country-code select::-ms-expand {
+  display: none
+}
+
+.field-area .field-multi-inputs .field-multi-input .mobile-number-input, .input-area .field-multi-inputs .field-multi-input .mobile-number-input {
+  width: 100%;
+  display: flex;
+  flex-direction: column
+}
+
+.field-area .field-multi-inputs .field-multi-input .mobile-number-input input, .input-area .field-multi-inputs .field-multi-input .mobile-number-input input {
+  border: solid 1px var(--cashier-table-bg1);
+  background-repeat: no-repeat;
+  background-position: center right -5px;
+  flex-grow: 1;
+  padding: 0 10px;
+  box-sizing: border-box;
+  width: 100%
+}
+
+.field-area .field-multi-inputs .field-multi-input .mobile-number-input .error, .input-area .field-multi-inputs .field-multi-input .mobile-number-input .error {
+  color: var(--error)
+}
+
+.field-area .field-multi-inputs .field-multi-input .mobile-number-input span.field-validation-error, .input-area .field-multi-inputs .field-multi-input .mobile-number-input span.field-validation-error, .field-area .field-multi-inputs .field-multi-input .mobile-number-input label.error, .input-area .field-multi-inputs .field-multi-input .mobile-number-input label.error {
+  max-width: unset;
+  color: var(--neutral-1);
+  background-color: var(--error);
+  display: flex;
+  align-items: center;
+  padding: 0 10px
+}
+
+@media (max-width: 405px) {
+  .field-area .field-multi-inputs .field-multi-input .mobile-number-input span.field-validation-error, .input-area .field-multi-inputs .field-multi-input .mobile-number-input span.field-validation-error, .field-area .field-multi-inputs .field-multi-input .mobile-number-input label.error, .input-area .field-multi-inputs .field-multi-input .mobile-number-input label.error {
+    min-height: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin-top: 38px
+  }
+}
+
+@media (max-width: 1023.5px) and (min-width: 405px) {
+  .field-area .field-multi-inputs .field-multi-input .mobile-number-input span.field-validation-error, .input-area .field-multi-inputs .field-multi-input .mobile-number-input span.field-validation-error, .field-area .field-multi-inputs .field-multi-input .mobile-number-input label.error, .input-area .field-multi-inputs .field-multi-input .mobile-number-input label.error {
+    min-height: 36px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin-top: 38px
+  }
+}
+
+@media (min-width: 1023.5px) {
+  .field-area .field-multi-inputs .field-multi-input .mobile-number-input span.field-validation-error, .input-area .field-multi-inputs .field-multi-input .mobile-number-input span.field-validation-error, .field-area .field-multi-inputs .field-multi-input .mobile-number-input label.error, .input-area .field-multi-inputs .field-multi-input .mobile-number-input label.error {
+    min-height: 26px;
+    position: absolute;
+    width: 97.32%;
+    left: 0px;
+    margin-top: 29px
+  }
+}
+
+.field-area .field-multi-inputs .field-multi-input .mobile-number-input input.valid:not(.no-valid-icon), .input-area .field-multi-inputs .field-multi-input .mobile-number-input input.valid:not(.no-valid-icon) {
+  border: solid 1px var(--secondary-cts-old);
+  /*background-image: url(~/assets/img/field-valid.png) !important;*/
+  background-repeat: no-repeat;
+  background-position: center right -5px
+}
+
+.field-area .field-multi-inputs .field-multi-input .mobile-number-input input.input-validation-error, .input-area .field-multi-inputs .field-multi-input .mobile-number-input input.input-validation-error, .field-area .field-multi-inputs .field-multi-input .mobile-number-input input.error, .input-area .field-multi-inputs .field-multi-input .mobile-number-input input.error {
+  border: solid 1px var(--error);
+  /*background-image: url(~/assets/img/field-error.png) !important;*/
+  background-repeat: no-repeat;
+  background-position: center right -5px
+}
+
+@media (min-width: 1023.5px) {
+  .field-area .field-multi-inputs .field-multi-input .mobile-number-input input.input-validation-error, .input-area .field-multi-inputs .field-multi-input .mobile-number-input input.input-validation-error, .field-area .field-multi-inputs .field-multi-input .mobile-number-input input.error, .input-area .field-multi-inputs .field-multi-input .mobile-number-input input.error {
+    /*background-image: url(~/assets/img/field-error-desktop.png) !important*/
+  }
+}
+
+.field-area .field-info, .input-area .field-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%
+}
+
+.field-area .field-info .field-info-text, .input-area .field-info .field-info-text {
+  display: none;
+  align-items: center;
+  text-align: left;
+  background-color: var(--primary-2);
+  color: var(--neutral-1);
+  min-height: 30px;
+  padding: 0 10px;
+  width: 100%
+}
+
+@media (max-width: 1023.5px) {
+  .field-area .field-info .field-info-text, .input-area .field-info .field-info-text {
+    padding-top: 5px;
+    padding-bottom: 5px
+  }
+}
+
+.field-area .required-mark, .input-area .required-mark {
+  color: var(--error)
+}
+
+.field-area .required-mark.required-mark-red, .input-area .required-mark.required-mark-red {
+  color: var(--error)
+}
+
+.field-area .required-field-info, .input-area .required-field-info {
+  display: flex;
+  flex-direction: row
+}
+
+.field-area .register-terms-link, .input-area .register-terms-link {
+  color: var(--neutral-2);
+  font-weight: bold;
+  font-size: 14px;
+  padding-left: 190px;
+  margin-top: 20px
+}
+
+@media (max-width: 1023.5px) {
+  .field-area .register-terms-link, .input-area .register-terms-link {
+    padding: 0 15px 0 15px;
+    text-align: center;
+    margin-top: 30px
+  }
+}
+
+.field-area .register-terms-link span, .input-area .register-terms-link span {
+  color: var(--secondary-old);
+  text-decoration: underline
+}
+
+.field-area .form-submit-active, .input-area .form-submit-active {
+  text-transform: uppercase;
+  width: 100%;
+  border: none;
+  height: 40px;
+  font-size: 1.3em;
+  color: var(--neutral-1);
+  cursor: pointer;
+  margin-top: 20px
+}
+
+.field-area .form-valid .form-submit-active, .input-area .form-valid .form-submit-active {
+  background-color: var(--neutral-5)
+}
+
+.field-area .login-forgotpassword-link, .input-area .login-forgotpassword-link {
+  color: var(--secondary-old);
+  text-decoration: underline;
+  font-weight: bold
+}
+
+.field-area #dont-have-account, .input-area #dont-have-account {
+  font-size: 14px;
+  text-align: center
+}
+
+@media (min-width: 1023.5px) {
+  .field-area #dont-have-account, .input-area #dont-have-account {
+    padding: 0px 0px 0px 160px;
+    text-align: left
+  }
+}
+
+@media (min-width: 1023.5px) {
+  .field-area #login-button, .input-area #login-button {
+    margin: 0px 160px
+  }
+}
+
+.field-area .select-arrow, .input-area .select-arrow {
+  width: 20px;
+  height: 11px;
+  position: absolute;
+  right: 40px
+}
+
+.field-area .icon-bg, .input-area .icon-bg {
+  /*background-image: url(~/assets/img/field-info.png)*/
+}
+
+.info-dropdown-image {
+  width: 30px;
+  height: 35px;
+  position: absolute;
+  right: -4px;
+  top: -0.2em
+}
+
+@media (max-width: 1023.5px) {
+  .info-dropdown-image {
+    top: 0.2em
+  }
+}
+
+.input-area {
+  margin: 0;
+  padding: 0 16px 30px 16px;
+  font-size: 16px
+}
+
+.input-area .field-input {
+  flex-direction: column;
+  width: 100%;
+  justify-content: center
+}
+
+.input-area .field-input input {
+  height: 40px;
+  border: solid 1px var(--cashier-table-bg1)
+}
+
+.input-area .field-input select {
+  height: 40px;
+  border: solid 1px var(--cashier-table-bg1)
+}
+
+.input-area .field-input .field-info-text {
+  font-size: 10px
+}
+
+.input-area .field-input .required-mark {
+  color: var(--error);
+  font-size: 14px
+}
+
+.input-area .field-input label.error, .input-area .field-input .field-info-text {
+  font-size: 14px
+}
+
+.input-area .field-multi-inputs .mobile-number-input input {
+  height: 40px
+}
+
+.input-area .field-multi-inputs select {
+  height: 40px
+}
+
+.input-area .field-multi-inputs label.error, .input-area .field-multi-inputs .field-info-text {
+  font-size: 14px
+}
+
+.input-area .required-mark {
+  color: var(--error);
+  font-size: 14px
+}
+
+.input-area #country-code-select {
+  border: solid 1px var(--cashier-table-bg1)
+}
+
+.input-area #country-code-select.valid {
+  border-color: var(--secondary-cts-old)
+}
+
+.input-area .mobile-number-input input {
+  border: solid 1px var(--cashier-table-bg1)
+}
+
+.input-area .mobile-number-input .field-info-text, .input-area .mobile-number-input label.error, .input-area .mobile-number-input .field-info-text {
+  min-height: 40px;
+  font-size: 14px
+}
+
+@media (min-width: 1023.5px) {
+  .input-area {
+    flex-direction: row;
+    padding: 0 30px 20px 30px;
+    margin: 0;
+    font-size: 14px
+  }
+
+  .input-area .field-validation-error {
+    font-size: 10px
+  }
+
+  .input-area #country-code-select {
+    border: solid 1px var(--cashier-table-bg1)
+  }
+
+  .input-area .mobile-number-input input {
+    border: solid 1px var(--cashier-table-bg1)
+  }
+
+  .input-area .field-label {
+    min-width: 160px;
+    margin: 0;
+    font-weight: normal;
+    padding-top: 5px
+  }
+
+  .input-area .field-label-175 {
+    min-width: 175px;
+    margin: 0;
+    font-weight: normal;
+    padding-top: 5px
+  }
+
+  .input-area .field-input {
+    flex-direction: column
+  }
+
+  .input-area .field-input input {
+    height: 30px !important;
+    border: solid 1px var(--cashier-table-bg1)
+  }
+
+  .input-area .field-input select {
+    height: 30px !important;
+    border: solid 1px var(--cashier-table-bg1)
+  }
+
+  .input-area .field-input select.valid {
+    border-color: var(--secondary-cts-old)
+  }
+
+  .input-area .field-input label.error, .input-area .field-input .field-info-text {
+    min-height: 30px;
+    font-size: 10px
+  }
+
+  .input-area .field-multi-inputs .mobile-number-input input {
+    height: 30px !important
+  }
+
+  .input-area .field-multi-inputs select {
+    height: 30px !important;
+    background-position: 55px 8px !important
+  }
+
+  .input-area .field-multi-inputs label.error, .input-area .field-multi-inputs .field-info-text {
+    font-size: 10px
+  }
+
+  .input-area .field-multi-inputs span.field-validation-error, .input-area .field-multi-inputs label.error {
+    min-height: 30px
+  }
+
+  .input-area .field-multi-inputs #dash {
+    line-height: 30px
+  }
+
+  .input-area .field-input, .input-area .field-multi-inputs {
+    width: 315px;
+    min-width: 155px
+  }
+
+  .input-area .field-info {
+    width: 100%
+  }
+
+  .input-area .required-mark {
+    color: var(--error);
+    font-size: 18px
+  }
+}
+
+.form-layout-new {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--neutral-1);
+  padding-top: 30px;
+  width: 100%
+}
+
+@media (max-width: 1023.5px) {
+  .form-layout-new {
+    padding-top: 87px
+  }
+}
+
+@media (min-width: 1023.5px) {
+  .form-layout-new {
+    margin-bottom: 13px
+  }
+}
+
+.form-layout-new .form-submit-active {
+  text-transform: uppercase;
+  width: 100%;
+  border: none;
+  height: 40px;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: var(--neutral-1);
+  cursor: pointer;
+  margin-top: 20px;
+  background-color: var(--neutral-5);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center
+}
+
+.form-layout-new .form-submit-active .icon {
+  -webkit-mask: url("~/assets/img/icons/icon-confirm.svg") no-repeat center;
+  background: var(--neutral-1);
+  width: 20px;
+  height: 20px
+}
+
+.form-layout-new .form-submit-active .history-icon {
+  background: url("~/assets/img/icons/icon-confirm.svg") no-repeat center;
+  width: 20px;
+  height: 20px;
+  background-size: 20px;
+  margin-right: 0.75rem
+}
+
+.form-layout-new .form-submit-active .icon-background {
+  width: 25px;
+  height: 25px;
+  margin-right: 0.75rem;
+  background: url("~/assets/img/icons/icon-confirm.svg") no-repeat center
+}
+
+.form-layout-new .form-submit-active .icon {
+  margin-right: 10px
+}
+
+@media (max-width: 1023.5px) {
+  .form-layout-new .form-submit-active {
+    margin-top: 30px;
+    height: 50px
+  }
+}
+
+.form-layout-new .form-valid .form-submit-active {
+  background-color: var(--primary-1);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center
+}
+
+.form-layout-new .form-valid .form-submit-active .icon {
+  -webkit-mask: url("~/assets/img/icons/icon-confirm.svg") no-repeat center;
+  background: var(--success);
+  width: 20px;
+  height: 20px
+}
+
+.form-layout-new .form-valid .form-submit-active .history-icon {
+  background: url("~/assets/img/icons/icon-confirm.svg") no-repeat center;
+  width: 20px;
+  height: 20px;
+  background-size: 20px;
+  margin-right: 0.75rem
+}
+
+.form-layout-new .form-valid .form-submit-active .icon-background {
+  width: 25px;
+  height: 25px;
+  margin-right: 0.75rem;
+  background: url("~/assets/img/icons/icon-confirm.svg") no-repeat center
+}
+
+.form-layout-new .title {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0 16px 30px 16px
+}
+
+.form-layout-new .title-small {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0 30px 0 15px
+}
+
+@media (min-width: 1023.5px) {
+  .form-layout-new .title-small {
+    margin: 0 30px 0px 30px
+  }
+}
+
+.form-layout-new .form-content {
+  font-size: 14px;
+  padding: 10px 16px
+}
+
+.form-layout-new .form-content .required-mark {
+  color: var(--error)
+}
+
+.form-layout-new .form-content .on-screen-info {
+  font-size: 12px
+}
+
+@media (min-width: 1023.5px) {
+  .form-layout-new .title {
+    margin: 0 30px 30px 30px
+  }
+
+  .form-layout-new .login-page, .form-layout-new .field-input, .form-layout-new .field-multi-inputs, .form-layout-new .field-info {
+    width: 100% !important;
+    min-width: 155px
+  }
+
+  .form-layout-new .form-content {
+    padding: 0px 30px;
+    margin-top: 5px
+  }
+}
+
+.error {
+  color: var(--error)
+}
+
+.validation-summary-errors {
+  color: var(--error)
+}
+
+.pw-toggle-icon {
+  -webkit-mask: url(~/assets/img/icons/icon-visibility.svg) no-repeat center;
+  background: var(--neutral-3);
+  height: 20px;
+  position: absolute;
+  right: 38px;
+  cursor: pointer;
+  top: 10px;
+  width: 25px
+}
+
+@media (min-width: 1023.5px) {
+  .pw-toggle-icon {
+    top: 5px;
+    width: 20px
+  }
+}
+
+.pw-toggle-icon.toggled {
+  background: var(--primary-2)
+}
+
+.registration-steps {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 1em;
+  overflow-x: hidden
+}
+
+@media (min-width: 1023.5px) {
+  .registration-steps {
+    margin-top: 3px
+  }
+}
+
+.registration-steps .step {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 50px;
+  padding-left: 20px;
+  width: 100%;
+  font-size: 16px
+}
+
+.registration-steps .step .register-step-width {
+  width: 200px
+}
+
+.registration-steps .step img {
+  width: 25px;
+  margin-right: 7px;
+  margin-bottom: 5px
+}
+
+@media (min-width: 1023.5px) {
+  .registration-steps .step img {
+    margin-right: 15px;
+    width: 20px
+  }
+}
+
+.registration-steps .active {
+  color: var(--neutral-1);
+  background-color: var(--primary-2);
+  font-weight: bold
+}
+
+.registration-steps .inactive {
+  color: var(--secondary-cts-old);
+  background-color: var(--secondary-old);
+  font-weight: bold
+}
+
+.registration-steps .inactive .desktop-step {
+  display: none
+}
+
+@media (min-width: 1023.5px) {
+  .registration-steps .inactive .desktop-step {
+    display: inherit
+  }
+}
+
+.registration-steps .inactive .mobile-step {
+  display: inherit
+}
+
+@media (min-width: 1023.5px) {
+  .registration-steps .inactive .mobile-step {
+    display: none
+  }
+}
+
+.registration-steps .icon-create {
+  -webkit-mask: url(~/assets/img/icons/icon-create.svg) no-repeat center;
+  background: var(--cta);
+  height: 25px;
+  width: 25px;
+  margin-right: 10px
+}
+
+.registration-steps .icon-deposit {
+  -webkit-mask: url(~/assets/img/icons/icon-deposit.svg) no-repeat center;
+  background: var(--secondary-cts-old);
+  height: 25px;
+  width: 25px;
+  margin-right: 10px
+}
+
+.registration-steps .triangle-right-active {
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-left: 25px solid var(--primary-2);
+  border-bottom: 25px solid transparent;
+  background-color: var(--secondary-old)
+}
+
+.registration-steps .triangle-right-inactive {
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-left: 25px solid var(--secondary-old);
+  border-bottom: 25px solid transparent;
+  background-color: var(--primary-2)
+}
+
+@media (max-width: 1023.5px) {
+  .registration-steps .inactive {
+    color: var(--secondary-cts-old);
+    white-space: nowrap;
+    max-width: 60px
+  }
+}
+
+@media (min-width: 1023.5px) {
+  .registration-form .field-input, .registration-form .field-multi-inputs {
+    width: 725px
+  }
+}
+
+.register-success {
+  margin: 20px 0 20px 0;
+  width: 100%
+}
+
+.register-success .reg-success-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 18px;
+  padding: 0 0 20px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: var(--success)
+}
+
+@media (max-width: 1023.5px) {
+  .register-success .reg-success-text {
+    justify-content: center
+  }
+}
+
+.register-success .reg-success-text .icon-confirm {
+  -webkit-mask: url(~/assets/img/icons/icon-confirm.svg) no-repeat center;
+  background: var(--success);
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.5rem
+}
+
+.register-success .welcome-member {
+  background-image: url("/images/register-success/register-bg.png");
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--neutral-1);
+  text-align: center;
+  justify-content: center
+}
+
+.register-success .welcome-member .welcome-text {
+  font-size: 2em
+}
+
+.register-success .welcome-member .deposit-text {
+  font-size: 1.3em;
+  margin-bottom: 30px
+}
+
+@media (max-width: 1023.5px) {
+  .register-success .welcome-member {
+    justify-content: flex-end;
+    height: 230px
+  }
+
+  .register-success .welcome-member #register-promo-link {
+    width: 100%
+  }
+
+  .register-success .welcome-member #register-promo-link .btn {
+    margin: unset
+  }
+
+  .register-success .welcome-member #register-promo-link .deposit-now-button {
+    width: 100%;
+    height: 3.5rem;
+    margin-top: 30px;
+    line-height: 3.5rem
+  }
+}
+
+.register-success .register-promo-text {
+  text-align: center;
+  font-size: 1.3em;
+  margin: 20px 0;
+  color: var(--neutral-2)
+}
+
+.register-success .register-promo-text span {
+  color: var(--secondary-old);
+  font-weight: bold;
+  text-decoration: underline
+}
+
+.register-success .icon-check-circle {
+  -webkit-mask: url(~/assets/img/icons/icon-check-circle.svg) no-repeat center;
+  background: var(--success);
+  height: 25px;
+  width: 25px;
+  margin-right: 10px
+}
+
+.register-success .register-promos {
+  margin: 10px 0;
+  text-align: center
+}
+
+@media (max-width: 1023.5px) {
+  .register-success .register-promos img {
+    width: 90%;
+    max-width: 443px;
+    padding-top: 10px
+  }
+}
+
+.refer-friend {
+  background-color: var(--neutral-1);
+  padding: 20px
+}
+
+.refer-friend .header {
+  font-size: 1.5em;
+  font-weight: bold
+}
+
+.notification-container {
+  font-weight: bold;
+  font-size: 14px;
+  margin: 30px
+}
+
+.notification-container div.success {
+  color: var(--success)
+}
+
+.notification-container div.error {
+  color: var(--error)
+}
+
+.refer-friend-cms {
+  background-color: var(--neutral-1)
+}
+
+@media (min-width: 1023.5px) {
+  .refer-friend-cms .refer-friend-mobile {
+    visibility: hidden !important;
+    display: none !important
+  }
+
+  .refer-friend-cms .refer-friend {
+    visibility: visible !important;
+    display: block !important
+  }
+}
+
+.refer-friend-cms .refer-friend {
+  background-image: url("/images/refer-friend/background-desktop.jpg");
+  height: 380px;
+  visibility: hidden;
+  display: none
+}
+
+.refer-friend-cms .refer-friend .text-content {
+  width: 50%;
+  float: right;
+  color: var(--primary-1);
+  text-align: center;
+  font-size: 25px
+}
+
+.refer-friend-cms .refer-friend .text-content .title {
+  font-weight: bold;
+  margin-top: 125px
+}
+
+.refer-friend-cms .refer-friend .text-content .info {
+  margin-top: 35px;
+  text-align: center
+}
+
+.refer-friend-cms .refer-friend-mobile {
+  background-image: url("/images/refer-friend/background-mobile.png");
+  height: 280px;
+  width: 100%;
+  color: var(--primary-1);
+  text-align: center;
+  font-size: 25px
+}
+
+.refer-friend-cms .refer-friend-mobile .title {
+  font-weight: bold;
+  margin-top: 0px;
+  padding-top: 90px
+}
+
+.refer-friend-cms .refer-friend-mobile .info {
+  margin-top: 35px;
+  text-align: center
+}
+
+.refer-frend-status {
+  width: 85%
+}
+
+.refer-friend-info {
+  padding: 0px 20px 20px 20px
+}
+
+.refer-friend-info .accordion {
+  background-color: var(--neutral-4);
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  transition: 0.4s;
+  padding: 6px;
+  background-color: var(--secondary-cts-old);
+  color: var(--neutral-1);
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 13px;
+  margin-bottom: 5px
+}
+
+.refer-friend-info .accordion:hover {
+  background-color: var(--neutral-5)
+}
+
+.refer-friend-info .panel {
+  display: none;
+  background-color: var(--neutral-1);
+  overflow: hidden;
+  margin-bottom: 15px
+}
+
+.refer-friend-info .panel a {
+  color: var(--primary-1);
+  font-weight: bold
+}
+
+.refer-friend-info .panel table {
+  border-collapse: collapse
+}
+
+.refer-friend-info .panel tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit
+}
+
+.refer-friend-info .panel .raf .info .rowH {
+  font-weight: bold
+}
+
+.refer-friend-info .panel tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit
+}
+
+.refer-friend-info .panel p {
+  font-family: "Microsoft Sans Serif", Helvetica, Sans-Serif
+}
+
+html[lang="zh-CN"] .refer-friend-info .panel p {
+  font-family: "Tahoma", Sans-Serif
+}
+
+#submit-reset-password {
+  padding: 0 !important
+}

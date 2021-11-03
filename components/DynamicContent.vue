@@ -4,7 +4,7 @@
     <LiveCasino></LiveCasino>
     <LaligaRoom></LaligaRoom>
     <Casino></Casino>
-    <Poker></Poker>
+<!--    <Poker></Poker>-->
     <KenoLoto></KenoLoto>
     <MobileAppPanner></MobileAppPanner>
   </div>

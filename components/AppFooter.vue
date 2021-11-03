@@ -54,17 +54,17 @@
           <div class="methods">
             <div class="method-container">
               <img class="payment-method"
-                   src="/images/footer/payment-methods/quick-transfer-vn.svg?build=2.43.1.11593-42612" alt="">
+                   src="/images/footer/payment-methods/quick-transfer-vn33d0.svg" alt="">
               <img class="payment-method"
-                   src="/images/footer/payment-methods/quick-transfer-vn-colored.svg?build=2.43.1.11593-42612"
+                   src="/images/footer/payment-methods/quick-transfer-vn-colored33d0.svg"
                    alt="">
             </div>
 
             <div class="method-container">
               <img class="payment-method"
-                   src="/images/footer/payment-methods/nine-pay.svg?build=2.43.1.11593-42612" alt="">
+                   src="/images/footer/payment-methods/nine-pay33d0.svg" alt="">
               <img class="payment-method"
-                   src="/images/footer/payment-methods/nine-pay-colored.svg?build=2.43.1.11593-42612" alt="">
+                   src="/images/footer/payment-methods/nine-pay-colored33d0.svg" alt="">
             </div>
 
             <div class="method-container">
@@ -188,36 +188,36 @@
       </div>
 
       <div class="footer-middle">
-        <link href="/~/static/css/footer/game-providers/custom.css?build=2.43.1.11593-42612" rel="stylesheet">
+        <link href="/css/footer/game-providers/custom33d0.css" rel="stylesheet">
 
         <div class="game-providers">
           <div class="providers-wrapper">
             <div class="provider-container">
               <img class="provider-image"
-                   src="/images/footer/game-providers/opus-gaming.svg?build=2.43.1.11593-42612">
+                   src="/images/footer/game-providers/opus-gaming33d0.svg">
               <img class="provider-image"
-                   src="/images/footer/game-providers/opus-gaming-colored.svg?build=2.43.1.11593-42612">
+                   src="/images/footer/game-providers/opus-gaming-colored33d0.svg">
             </div>
 
             <div class="provider-container">
               <img class="provider-image"
-                   src="/images/footer/game-providers/saba-sports.svg?build=2.43.1.11593-42612">
+                   src="/images/footer/game-providers/saba-sports33d0.svg">
               <img class="provider-image"
-                   src="/images/footer/game-providers/saba-sports-colored.svg?build=2.43.1.11593-42612">
+                   src="/images/footer/game-providers/saba-sports-colored33d0.svg">
             </div>
 
             <div class="provider-container">
               <img class="provider-image"
-                   src="/images/footer/game-providers/asia-gaming.svg?build=2.43.1.11593-42612">
+                   src="/images/footer/game-providers/asia-gaming33d0.svg">
               <img class="provider-image"
-                   src="/images/footer/game-providers/asia-gaming-colored.svg?build=2.43.1.11593-42612">
+                   src="/images/footer/game-providers/asia-gaming-colored33d0.svg">
             </div>
 
             <div class="provider-container">
               <img class="provider-image"
-                   src="/images/footer/game-providers/pragmatic.svg?build=2.43.1.11593-42612">
+                   src="/images/footer/game-providers/pragmatic33d0.svg">
               <img class="provider-image"
-                   src="/images/footer/game-providers/pragmatic-colored.svg?build=2.43.1.11593-42612">
+                   src="/images/footer/game-providers/pragmatic-colored33d0.svg">
             </div>
 
             <div class="provider-container">
@@ -263,22 +263,22 @@
 
             <div class="provider-container">
               <img class="provider-image"
-                   src="/images/footer/game-providers/isoft-bet.svg?build=2.43.1.11593-42612">
+                   src="/images/footer/game-providers/isoft-bet33d0.svg">
               <img class="provider-image"
-                   src="/images/footer/game-providers/isoft-bet-colored.svg?build=2.43.1.11593-42612">
+                   src="/images/footer/game-providers/isoft-bet-colored33d0.svg">
             </div>
 
             <div class="provider-container">
               <img class="provider-image"
-                   src="/images/footer/game-providers/lottoland.svg?build=2.43.1.11593-42612">
+                   src="/images/footer/game-providers/lottoland33d0.svg">
               <img class="provider-image"
-                   src="/images/footer/game-providers/lottoland-colored.svg?build=2.43.1.11593-42612">
+                   src="/images/footer/game-providers/lottoland-colored33d0.svg">
             </div>
 
             <div class="provider-container">
-              <img class="provider-image" src="/images/footer/game-providers/btg.svg?build=2.43.1.11593-42612">
+              <img class="provider-image" src="/images/footer/game-providers/btg33d0.svg">
               <img class="provider-image"
-                   src="/images/footer/game-providers/btg-colored.svg?build=2.43.1.11593-42612">
+                   src="/images/footer/game-providers/btg-colored33d0.svg">
             </div>
 
             <div class="provider-container">
@@ -359,7 +359,7 @@
 
             <div class="sponsor">
               <img class="sponsor-image"
-                   src="/images/footer/previous-sponsorships/tottenham-hotspur.svg?build=2.43.1.11593-42612">
+                   src="/images/footer/previous-sponsorships/tottenham-hotspur33d0.svg">
               <div class="sponsor-info">
                 <div class="sponsor-name">TOTTENHAM HOTSPUR</div>
                 <div class="sponsorship-years">2006/2010</div>
@@ -370,9 +370,9 @@
 
           <div id="partner-element-group">
             <a class="partner-element">
-              <img class="partner-hover" src="/images/footer/licenses/pagcor.svg?build=2.43.1.11593-42612">
+              <img class="partner-hover" src="/images/footer/licenses/pagcor33d0.svg">
               <img class="partner-hover"
-                   src="/images/footer/licenses/pagcor-colored.svg?build=2.43.1.11593-42612">
+                   src="/images/footer/licenses/pagcor-colored33d0.svg">
             </a>
             <img class="partner-element" src="/images/footer/licenses/ga.svg?build=2.43.1.11593-42612">
             <img class="partner-element" src="/images/footer/licenses/itech.svg?build=2.43.1.11593-42612">

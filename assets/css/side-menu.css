@@ -1,0 +1,788 @@
+html {
+  font-family: 'AvantGarde', 'Tahoma', Helvetica, Sans-Serif;
+  font-size: 12px
+}
+
+html[lang="th-TH"], html[lang="vi-VN"] {
+  font-family: 'Tahoma', Helvetica, Sans-Serif;
+  font-size: 12px
+}
+
+html[lang="zh-CN"] {
+  font-family: 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 12px
+}
+
+.side-menu {
+  font-family: 'OpenSansRegular';
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: -1000px;
+  height: 100%;
+  color: var(--neutral-1);
+  margin: 0 auto;
+  overflow-x: hidden;
+  transition: 0.3s ease-in-out;
+  width: 336px;
+  z-index: 300;
+  background-color: var(--primary-1);
+  background-image: url(/images/side-menu/side-menu-background.jpg);
+  background-size: cover
+}
+
+@media not all and (min-width: 1023.5px) {
+  #side-menu-toggle:checked ~ .side-menu {
+    right: 0px
+  }
+}
+
+.side-menu .bold {
+  font-weight: bold
+}
+
+.side-menu::-webkit-scrollbar {
+  width: 0;
+  background: transparent
+}
+
+.side-menu .dynamic-content {
+  padding: 8px 16px 0 16px
+}
+
+.side-menu .dynamic-content .area {
+  padding-bottom: 24px
+}
+
+.side-menu .dynamic-content .header-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center
+}
+
+.side-menu .dynamic-content .header-content img {
+  height: 46px;
+  margin-bottom: 16px
+}
+
+.side-menu .dynamic-content .header-content .header-login {
+  margin-top: 8px;
+  font-size: 12px;
+  line-height: 12px;
+  gap: 4px
+}
+
+.side-menu .dynamic-content .header-content .header-login a {
+  display: flex;
+  align-items: center;
+  text-decoration: underline;
+  cursor: pointer
+}
+
+.side-menu .dynamic-content .header-content .bold {
+  font-size: 24px
+}
+
+.side-menu .dynamic-content .header-content .bold-sub {
+  font-size: 16px;
+  margin-bottom: 8px
+}
+
+.side-menu .dynamic-content .header-content .btn {
+  height: 32px;
+  line-height: 32px;
+  font-size: 12px;
+  border-radius: 2px
+}
+
+.side-menu .dynamic-content .side-menu-cashier-btn-container {
+  display: inline-flex;
+  width: 100%;
+  gap: 8px;
+  margin-bottom: 24px
+}
+
+.side-menu .dynamic-content .side-menu-cashier-btn-container a {
+  width: 100%;
+  margin: 0px
+}
+
+.side-menu .dynamic-content .side-menu-tile-nav-element {
+  flex-wrap: wrap;
+  gap: 8px
+}
+
+.side-menu .dynamic-content .side-menu-tile-nav-element .tile-nav-element, .side-menu .dynamic-content .side-menu-tile-nav-element .tile-nav-element-wide, .side-menu .dynamic-content .side-menu-tile-nav-element .tile-nav-element-full {
+  background-color: var(--primary-1);
+  border-radius: 2px
+}
+
+.side-menu .dynamic-content .side-menu-tile-nav-element .tile-nav-element a, .side-menu .dynamic-content .side-menu-tile-nav-element .tile-nav-element-wide a, .side-menu .dynamic-content .side-menu-tile-nav-element .tile-nav-element-full a {
+  border-bottom: solid 2px transparent;
+  width: 100%;
+  height: 100%
+}
+
+.side-menu .dynamic-content .side-menu-tile-nav-element .tile-nav-element a .new-ribbon, .side-menu .dynamic-content .side-menu-tile-nav-element .tile-nav-element-wide a .new-ribbon, .side-menu .dynamic-content .side-menu-tile-nav-element .tile-nav-element-full a .new-ribbon {
+  position: absolute;
+  border-radius: 1px;
+  background-color: var(--error);
+  line-height: 10px;
+  font-size: 8px;
+  font-weight: bold;
+  padding: 1px 4px;
+  padding-top: 1.5px;
+  vertical-align: top;
+  color: var(--neutral-1) !important;
+  margin-left: 3px
+}
+
+.side-menu .dynamic-content .side-menu-tile-nav-element .tile-nav-element a .side-menu-tile, .side-menu .dynamic-content .side-menu-tile-nav-element .tile-nav-element-wide a .side-menu-tile, .side-menu .dynamic-content .side-menu-tile-nav-element .tile-nav-element-full a .side-menu-tile {
+  height: 100%;
+  justify-content: space-around
+}
+
+.side-menu .dynamic-content .side-menu-tile-nav-element .tile-nav-element a .side-menu-tile img.icon-laligaroom-mobile, .side-menu .dynamic-content .side-menu-tile-nav-element .tile-nav-element-wide a .side-menu-tile img.icon-laligaroom-mobile, .side-menu .dynamic-content .side-menu-tile-nav-element .tile-nav-element-full a .side-menu-tile img.icon-laligaroom-mobile {
+  width: 72px;
+  height: 50px
+}
+
+.side-menu .dynamic-content .side-menu-tile-nav-element .tile-nav-element a .side-menu-tile span, .side-menu .dynamic-content .side-menu-tile-nav-element .tile-nav-element-wide a .side-menu-tile span, .side-menu .dynamic-content .side-menu-tile-nav-element .tile-nav-element-full a .side-menu-tile span {
+  text-align: center
+}
+
+.side-menu .dynamic-content .side-menu-tile-nav-element .tile-nav-element a.selected, .side-menu .dynamic-content .side-menu-tile-nav-element .tile-nav-element a:hover, .side-menu .dynamic-content .side-menu-tile-nav-element .tile-nav-element-wide a.selected, .side-menu .dynamic-content .side-menu-tile-nav-element .tile-nav-element-wide a:hover, .side-menu .dynamic-content .side-menu-tile-nav-element .tile-nav-element-full a.selected, .side-menu .dynamic-content .side-menu-tile-nav-element .tile-nav-element-full a:hover {
+  border-bottom: solid 2px var(--cta);
+  background-color: var(--secondary-1)
+}
+
+.side-menu .dynamic-content .side-menu-tile-nav-element .tile-nav-element-full, .side-menu .dynamic-content .side-menu-tile-nav-element .tile-nav-element-wide {
+  width: 148px;
+  height: 40px
+}
+
+.side-menu .dynamic-content .side-menu-tile-nav-element .tile-nav-element-full a .new-ribbon, .side-menu .dynamic-content .side-menu-tile-nav-element .tile-nav-element-wide a .new-ribbon {
+  right: 4px;
+  top: 4px
+}
+
+.side-menu .dynamic-content .side-menu-tile-nav-element .tile-nav-element-full a .side-menu-tile, .side-menu .dynamic-content .side-menu-tile-nav-element .tile-nav-element-wide a .side-menu-tile {
+  justify-content: center;
+  gap: 8px
+}
+
+.side-menu .dynamic-content .side-menu-tile-nav-element .tile-nav-element-full a .side-menu-tile img, .side-menu .dynamic-content .side-menu-tile-nav-element .tile-nav-element-wide a .side-menu-tile img {
+  width: 16px;
+  height: 16px
+}
+
+.side-menu .dynamic-content .side-menu-tile-nav-element .tile-nav-element-full {
+  width: 100%
+}
+
+.side-menu .dynamic-content .side-menu-tile-nav-element .tile-nav-element-full img {
+  width: 24px;
+  height: 24px
+}
+
+.side-menu .dynamic-content .side-menu-tile-nav-element .tile-nav-element {
+  width: 96px;
+  height: 72px
+}
+
+.side-menu .dynamic-content .side-menu-tile-nav-element .tile-nav-element a .new-ribbon {
+  right: 8px;
+  top: 8px;
+  z-index: 99
+}
+
+.side-menu .dynamic-content .side-menu-tile-nav-element .tile-nav-element a .side-menu-tile {
+  flex-direction: column
+}
+
+.side-menu .dynamic-content .side-menu-tile-nav-element .tile-nav-element a .side-menu-tile img {
+  width: 32px;
+  height: 32px;
+  margin-top: 4px
+}
+
+.side-menu .dynamic-content .sub-navigation-menu .area {
+  padding-bottom: 24px
+}
+
+.side-menu .dynamic-content .sub-navigation-menu .area .side-menu-nav-element {
+  flex-direction: column
+}
+
+.side-menu .dynamic-content .sub-navigation-menu .area .side-menu-nav-element .tile-nav-element {
+  width: 100%;
+  height: unset;
+  background-color: transparent;
+  flex-direction: column
+}
+
+.side-menu .dynamic-content .sub-navigation-menu .area .side-menu-nav-element .tile-nav-element a.selected {
+  color: var(--cta)
+}
+
+.side-menu .dynamic-content .sub-navigation-menu .area .side-menu-nav-element .tile-nav-element a.selected img {
+  filter: invert(0.24) sepia(1) saturate(20) hue-rotate(0deg) brightness(0.92)
+}
+
+.side-menu .dynamic-content .sub-navigation-menu .area .side-menu-nav-element .tile-nav-element a:first-child {
+  display: block
+}
+
+.side-menu .dynamic-content .sub-navigation-menu .area .side-menu-nav-element .tile-nav-element .expandable:after {
+  content: url("/images/icons/arrow-icon-white.svg");
+  right: 0px;
+  position: absolute;
+  top: 15px;
+  transition: 0.3s
+}
+
+.side-menu .dynamic-content .sub-navigation-menu .area .side-menu-nav-element .tile-nav-element .expandable.open:after {
+  transform: rotate(180deg)
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .side-menu .dynamic-content .sub-navigation-menu .area .side-menu-nav-element .tile-nav-element a:hover {
+    color: var(--cta)
+  }
+
+  .side-menu .dynamic-content .sub-navigation-menu .area .side-menu-nav-element .tile-nav-element a:hover img {
+    filter: invert(0.24) sepia(1) saturate(20) hue-rotate(0deg) brightness(0.92)
+  }
+}
+
+.side-menu .dynamic-content .sub-navigation-menu .area .side-menu-nav-element .tile-nav-element a {
+  display: none;
+  width: 100%;
+  height: 40px;
+  cursor: pointer
+}
+
+.side-menu .dynamic-content .sub-navigation-menu .area .side-menu-nav-element .tile-nav-element a .sub-side-menu-tile {
+  border-bottom: 1px solid var(--neutral-1)
+}
+
+.side-menu .dynamic-content .sub-navigation-menu .area .side-menu-nav-element .tile-nav-element a .sub-side-menu-tile, .side-menu .dynamic-content .sub-navigation-menu .area .side-menu-nav-element .tile-nav-element a .side-menu-tile {
+  flex-direction: row;
+  justify-content: start;
+  height: 100%;
+  gap: 8px
+}
+
+.side-menu .dynamic-content .sub-navigation-menu .area .side-menu-nav-element .tile-nav-element a .sub-side-menu-tile img, .side-menu .dynamic-content .sub-navigation-menu .area .side-menu-nav-element .tile-nav-element a .side-menu-tile img {
+  width: 16px;
+  height: 16px;
+  margin-top: 0px
+}
+
+.side-menu .dynamic-content .sub-navigation-menu .area .side-menu-nav-element .tile-nav-element a .sub-side-menu-tile span, .side-menu .dynamic-content .sub-navigation-menu .area .side-menu-nav-element .tile-nav-element a .side-menu-tile span {
+  font-size: 14px
+}
+
+.side-menu .dynamic-content .help-navigation {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  font-size: 12px;
+  margin-bottom: 24px;
+  gap: 4px
+}
+
+.side-menu .dynamic-content .help-navigation .navigation-item {
+  display: flex;
+  background-color: var(--primary-1);
+  width: 100%;
+  padding: 8px 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center
+}
+
+.side-menu .dynamic-content .help-navigation .navigation-item a {
+  line-height: 24px
+}
+
+.side-menu .dynamic-content .help-navigation .navigation-item:hover {
+  background-color: var(--secondary-1)
+}
+
+.side-menu .dynamic-content .welcome-element {
+  display: flex;
+  font-size: 16px;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 16px
+}
+
+.side-menu .dynamic-content .welcome-element .login-title {
+  font-weight: normal;
+  padding-right: 5px
+}
+
+.side-menu .dynamic-content .welcome-element .vip-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-bottom: 6px
+}
+
+.side-menu .dynamic-content .welcome-element .vip-element img {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px
+}
+
+.side-menu .dynamic-content .welcome-element .vip-element #vip-level {
+  padding-top: 4px
+}
+
+.side-menu .dynamic-content .welcome-element .message {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 4px;
+  font-size: 18px
+}
+
+.side-menu .dynamic-content .welcome-element .message .account-name {
+  font-weight: bold
+}
+
+.side-menu .dynamic-content .welcome-element .logout {
+  font-size: 12px;
+  color: var(--neutral-1);
+  font-weight: bold;
+  text-decoration: underline;
+  line-height: 16px;
+  height: 12px
+}
+
+.side-menu .dynamic-content .cashier-item-mng {
+  padding: 8px 20px;
+  margin: 0px !important
+}
+
+.side-menu .dynamic-content .cashier-item-mng .buy-chips-text {
+  color: var(--neutral-2)
+}
+
+.side-menu .dynamic-content .side-menu-balance-container {
+  margin-bottom: 24px
+}
+
+.side-menu .dynamic-content .side-menu-balance-container .total-balance .chips-icon {
+  width: 16px;
+  height: 16px
+}
+
+.side-menu .dynamic-content .side-menu-balance-container .total-chips {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 16px
+}
+
+.side-menu .dynamic-content .side-menu-balance-container .total-chips .chips-icon {
+  filter: invert(1);
+  margin-right: 8px;
+  width: 16px;
+  height: 16px
+}
+
+.side-menu .dynamic-content .side-menu-balance-container .chips-balance {
+  width: 100%;
+  color: var(--neutral-2);
+  z-index: 10;
+  font-size: 14px
+}
+
+.side-menu .dynamic-content .side-menu-balance-container .chips-balance .my-chips {
+  padding: 0px 10px;
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  flex-direction: row;
+  align-items: center;
+  color: var(--neutral-1);
+  background-color: var(--primary-1)
+}
+
+.side-menu .dynamic-content .side-menu-balance-container .chips-balance .my-chips .type {
+  display: flex
+}
+
+.side-menu .dynamic-content .side-menu-balance-container .chips-balance .my-chips .arrow {
+  margin-left: 4px
+}
+
+.side-menu .dynamic-content .side-menu-balance-container .chips-balance .my-chips .type {
+  margin-bottom: 0
+}
+
+.side-menu .dynamic-content .side-menu-balance-container .chips-balance .my-chips .chips-black {
+  display: none
+}
+
+.side-menu .dynamic-content .side-menu-balance-container .chips-balance .my-chips .chips-white {
+  display: none
+}
+
+.side-menu .dynamic-content .side-menu-balance-container .chips-balance .exchangeable-chips, .side-menu .dynamic-content .side-menu-balance-container .chips-balance .locked-chips {
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  background-color: var(--neutral-1);
+  box-sizing: border-box;
+  height: 56px
+}
+
+.side-menu .dynamic-content .side-menu-balance-container .chips-balance .exchangeable-chips .type, .side-menu .dynamic-content .side-menu-balance-container .chips-balance .locked-chips .type {
+  display: flex
+}
+
+.side-menu .dynamic-content .side-menu-balance-container .chips-balance .exchangeable-chips .type .icon, .side-menu .dynamic-content .side-menu-balance-container .chips-balance .locked-chips .type .icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  background-repeat: no-repeat;
+  background-size: contain
+}
+
+.side-menu .dynamic-content .side-menu-balance-container .chips-balance .exchangeable-chips.hidden, .side-menu .dynamic-content .side-menu-balance-container .chips-balance .locked-chips.hidden {
+  opacity: 0;
+  height: 0 !important;
+  padding: 0px
+}
+
+.side-menu .dynamic-content .side-menu-balance-container .chips-balance .exchangeable-chips .icon {
+  background-image: url(/images/icons/icon-deposit-black.svg)
+}
+
+.side-menu .dynamic-content .side-menu-balance-container .chips-balance .locked-chips .icon {
+  background-image: url(/images/icons/icon-non-withdrawable.svg)
+}
+
+.side-menu .dynamic-content .side-menu-balance-container .side-cashier-balance-header {
+  font-size: 14px;
+  line-height: 14px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px
+}
+
+.side-menu .dynamic-content .side-menu-balance-container .side-cashier-balance-header .view-more {
+  font-size: 12px;
+  text-decoration: underline;
+  font-weight: bold;
+  vertical-align: sub;
+  margin-right: 16px
+}
+
+.side-menu .dynamic-content .side-menu-balance-container .side-cashier-balance-header .view-more:after {
+  content: url("/images/icons/arrow-icon-white.svg");
+  position: absolute;
+  transform: rotate(270deg);
+  margin-top: 8px;
+  height: 10px;
+  width: 10px
+}
+
+.side-menu .dynamic-content .side-menu-balance-container .side-balance-info {
+  font-size: 12px;
+  font-weight: bold
+}
+
+.side-menu .dynamic-content .side-menu-balance-container .side-balance-info .icon-text {
+  vertical-align: unset
+}
+
+.side-menu .dynamic-content .side-menu-balance-container .side-balance-info .balance-total-info {
+  justify-content: space-between;
+  display: flex;
+  height: 40px;
+  background-color: var(--secondary-1);
+  padding: 0px 8px;
+  line-height: 40px
+}
+
+.side-menu .dynamic-content .side-menu-balance-container .side-balance-info .balance-total-info .loading-icon {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  -webkit-mask: url(/images/icons/icon-refresh.svg);
+  margin: 0 4px;
+  background-color: var(--cta)
+}
+
+.side-menu .dynamic-content .side-menu-balance-container .side-balance-info .balance-total-info .expandable-balance:after {
+  content: url("/images/icons/arrow-icon-white.svg");
+  position: absolute;
+  transition: 0.3s
+}
+
+.side-menu .dynamic-content .side-menu-balance-container .side-balance-info .balance-total-info .currencyCode {
+  font-weight: normal;
+  margin-right: 8px
+}
+
+.side-menu .dynamic-content .side-menu-balance-container .side-balance-info .close .expandable-balance:after {
+  transform: rotate(180deg)
+}
+
+.side-menu .dynamic-content .side-menu-balance-container .side-balance-info .side-menu-icon {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle
+}
+
+.side-menu .dynamic-content .side-menu-balance-container .side-balance-info .total-balance-info-details {
+  display: none;
+  flex-direction: column
+}
+
+.side-menu .dynamic-content .side-menu-balance-container .side-balance-info .total-balance-info-details .whole-row {
+  width: unset;
+  justify-content: space-between;
+  flex-direction: row;
+  display: flex;
+  background-color: var(--primary-1);
+  height: 32px;
+  line-height: 32px;
+  padding: 0px 8px;
+  margin-top: 1px
+}
+
+.side-menu .dynamic-content .side-menu-balance-container .side-balance-info .balance-info-details {
+  height: 60px;
+  width: 100%
+}
+
+.side-menu .dynamic-content .side-menu-balance-container .side-balance-info .balance-info-details #balance-info-details-container {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  user-select: none;
+  margin-top: 8px;
+  gap: 1px;
+  height: 100%
+}
+
+.side-menu .dynamic-content .side-menu-balance-container .side-balance-info .balance-info-details #balance-info-details-container::-webkit-scrollbar {
+  display: none
+}
+
+.side-menu .dynamic-content .side-menu-balance-container .side-balance-info .balance-info-details #balance-info-details-container .whole-row {
+  width: 120px;
+  height: 40px;
+  background-color: var(--primary-1);
+  padding: 10px 16px;
+  flex-direction: column;
+  display: flex;
+  gap: 8px
+}
+
+.side-menu .dynamic-content .side-menu-balance-container .side-balance-info .balance-info-details #balance-info-details-container .whole-row .balance-text {
+  line-height: 16px;
+  font-size: 12px;
+  height: 16px
+}
+
+.side-menu .dynamic-content .side-menu-balance-container .side-balance-info .balance-info-details #balance-info-details-container .whole-row .balance-amount {
+  line-height: 16px;
+  font-size: 16px;
+  font-weight: bold
+}
+
+.side-menu .dynamic-content .side-menu-balance-container .side-balance-info .balance-info-details #balance-info-details-container .whole-row .balance-amount .header-balance__wallet__total {
+  display: initial
+}
+
+.side-menu .dynamic-content .side-menu-balance-container .side-balance-info .balance-info-details #balance-info-details-container .whole-row .side-menu-transfer-icon {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  top: -52px;
+  right: -115px
+}
+
+.side-menu .app-download-container {
+  width: 100%
+}
+
+.side-menu .app-download-container .area {
+  padding-bottom: 0px;
+  width: 336px;
+  background-color: var(--secondary-1);
+  height: 72px;
+  bottom: 0px
+}
+
+.side-menu .app-download-container .area #app-download-content {
+  justify-content: space-between;
+  height: 72px;
+  display: flex;
+  align-items: center
+}
+
+.side-menu .app-download-container .area #app-download-content .app-download-left-content {
+  display: flex
+}
+
+.side-menu .app-download-container .area #app-download-content .app-download-left-content img {
+  margin: 0px 8px 0px 16px;
+  width: 45px;
+  height: 40px
+}
+
+.side-menu .app-download-container .area #app-download-content .app-download-left-content .app-download-text {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  justify-content: center
+}
+
+.side-menu .app-download-container .area #app-download-content .app-download-left-content .app-download-text .bold {
+  font-size: 16px
+}
+
+.side-menu .app-download-container .area #app-download-content .app-download-button {
+  justify-content: space-between;
+  height: 72px;
+  display: flex;
+  align-items: center
+}
+
+.side-menu .app-download-container .area #app-download-content .btn-primary {
+  height: 24px;
+  font-size: 12px;
+  line-height: 24px;
+  min-width: 85px;
+  padding: 0px 8px;
+  margin-right: 16px;
+  border-radius: 2px
+}
+
+.side-menu .side-menu-header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 8px 8px 24px 8px;
+  box-sizing: border-box
+}
+
+.side-menu .side-menu-header .lang-messages-wrapper {
+  display: flex
+}
+
+.side-menu .side-menu-header .lang-messages-wrapper .lang-selector {
+  display: flex;
+  align-items: center
+}
+
+.side-menu .side-menu-header .lang-messages-wrapper .lang-selector #lang-dropdown {
+  background-color: transparent
+}
+
+.side-menu .side-menu-header .lang-messages-wrapper .lang-selector #lang-dropdown .dropbtn {
+  display: block
+}
+
+.side-menu .side-menu-header .lang-messages-wrapper .lang-selector #lang-dropdown .dropbtn img {
+  margin-top: -4px
+}
+
+.side-menu .side-menu-header .lang-messages-wrapper .lang-selector img {
+  width: 24px;
+  height: 24px;
+  margin-right: 4px
+}
+
+.side-menu .side-menu-header .lang-messages-wrapper .lang-selector .dropdown:hover .dropdown-content {
+  overflow: visible;
+  opacity: 1;
+  padding-top: 10px;
+  max-height: 1000px
+}
+
+.side-menu .side-menu-header .lang-messages-wrapper .lang-selector .dropdown:hover .dd-caret {
+  top: 30px;
+  opacity: 1
+}
+
+.side-menu .side-menu-header .lang-messages-wrapper .inbox-container {
+  height: 100%;
+  display: flex;
+  align-items: center
+}
+
+.side-menu .side-menu-header .lang-messages-wrapper .inbox-container .unread-messages-container-side-menu {
+  background-color: var(--error);
+  color: var(--neutral-1);
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  font-size: 8px;
+  text-align: center;
+  place-content: center;
+  font-weight: bold
+}
+
+.side-menu .side-menu-header .lang-messages-wrapper .inbox-container .unread-messages-container-side-menu.has-unread-messages {
+  display: block
+}
+
+.side-menu .side-menu-header .lang-messages-wrapper .inbox-container .unread-messages-container-side-menu.main-menu-inbox-mobile {
+  position: absolute;
+  top: 3px;
+  margin-left: 15px;
+  display: none
+}
+
+@media (max-width: 1023.5px) {
+  .side-menu .side-menu-header .lang-messages-wrapper .inbox-container .unread-messages-container-side-menu.main-menu-inbox-mobile.has-unread-messages {
+    display: block !important
+  }
+}
+
+.side-menu .side-menu-header .lang-messages-wrapper .inbox-container .unread-messages-container-side-menu span {
+  line-height: 16px
+}
+
+.side-menu .side-menu-header .close-icon {
+  margin-right: auto;
+  width: 24px;
+  height: 24px
+}
+
+.layout-side-menu-overlay {
+  height: 100%
+}
+
+a {
+  color: var(--neutral-1);
+  height: 24px
+}
+
+a.dropdown-xchange-mng {
+  border-radius: 2px
+}
+
+html[lang="vi-VN"] .side-menu .dynamic-content .help-navigation .navigation-item a {
+  line-height: unset;
+  display: contents
+}
+
+html[lang="vi-VN"] .side-menu .dynamic-content .help-navigation a.navigation-item {
+  height: 26px
+}
+
+.lang-selector .dropdown .dropdown-content .arrow-collapse {
+  border: 1px solid var(--neutral-1)
+}

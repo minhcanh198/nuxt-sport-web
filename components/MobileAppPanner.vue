@@ -6,7 +6,7 @@
 
 
       <img class="absolute background-image"
-           src="/images/mobile-app-banner/thumbnails/download_app_image.png?build=2.43.1.11593-42612"
+           src="/images/mobile-app-banner/thumbnails/download_app_image33d0.png"
            data-component-name="">
 
 
@@ -35,10 +35,10 @@
       <div class="block full-height transparent download-app-right-block" data-component-name="" data-url="">
 
 
-        <img class="icon" src="/images/icons/icon-android.svg?build=2.43.1.11593-42612" data-component-name="">
+        <img class="icon" src="/images/icons/icon-android33d0.svg" data-component-name="">
 
 
-        <img class="icon" src="/images/icons/icon-apple.svg?build=2.43.1.11593-42612" data-component-name="">
+        <img class="icon" src="/images/icons/icon-apple33d0.svg" data-component-name="">
 
 
         <div class="download-button track-events " data-component-name="" data-url="/mobile" data-qa-type=""

@@ -42,8 +42,8 @@
           <div class="swiper-slide item swiper-slide-active" data-name="Break Away Deluxe">
             <div class="game-card casino-card-outer" data-game-id="9000051">
               <div class="game-card-link casino-card card ">
-                <img class="thumbnail lazyload" src="/images/games/1/EN/new-casino/9000051.jpg"
-                     data-src="/images/games/1/EN/new-casino/9000051.jpg" alt="">
+                <img class="thumbnail lazyload" src="/images/games/1/EN/new-casino/missingImg.jpg"
+                     data-src="/images/games/1/EN/new-casino/missingImg.jpg" alt="">
                 <div class="hover-box" data-link="/game-launcher/break-away-deluxe/9000051">
                   <div class="inner">
                     <div>
@@ -64,15 +64,15 @@
               </div>
             </div>
             <div class="name">
-              <img src="/images/games/providers/MICROGAMING-logo.svg"> <span class="game-name">Break Away Deluxe</span>
+              <img src="/images/games/1/EN/new-casino/missingImg.jpg"> <span class="game-name">Break Away Deluxe</span>
             </div>
           </div>
 
           <div class="swiper-slide item swiper-slide-next" data-name="Roulette">
             <div class="game-card casino-card-outer" data-game-id="5000266">
               <div class="game-card-link casino-card card ">
-                <img class="thumbnail lazyload" src="/images/games/1/EN/new-casino/5000266.jpg"
-                     data-src="/images/games/1/EN/new-casino/5000266.jpg" alt="">
+                <img class="thumbnail lazyload" src="/images/games/1/EN/new-casino/missingImg.jpg"
+                     data-src="/images/games/1/EN/new-casino/missingImg.jpg" alt="">
                 <div class="hover-box" data-link="/game-launcher/roulette/5000266">
                   <div class="inner">
                     <div>
@@ -774,7 +774,7 @@
               <div class="block flipper front" data-component-name="" data-url="">
 
 
-                <img class="" src="/images/provider/logo-pragmatic-colored.svg?build=2.43.1.11593-42612"
+                <img class="" src="/images/provider/logo-pragmatic-colored33d0.svg"
                      data-component-name="">
 
               </div>
@@ -783,7 +783,7 @@
               <div class="block flipper back" data-component-name="" data-url="">
 
 
-                <img class="" src="/images/provider/logo-pragmatic-colored.svg?build=2.43.1.11593-42612"
+                <img class="" src="/images/provider/logo-pragmatic-colored33d0.svg"
                      data-component-name="">
 
               </div>
@@ -808,7 +808,7 @@
               <div class="block flipper front" data-component-name="" data-url="">
 
 
-                <img class="" src="/images/provider/logo-habanero-colored.svg?build=2.43.1.11593-42612"
+                <img class="" src="/images/provider/logo-habanero-colored33d0.svg"
                      data-component-name="">
 
               </div>
@@ -817,7 +817,7 @@
               <div class="block flipper back" data-component-name="" data-url="">
 
 
-                <img class="" src="/images/provider/logo-habanero-colored.svg?build=2.43.1.11593-42612"
+                <img class="" src="/images/provider/logo-habanero-colored33d0.svg"
                      data-component-name="">
 
               </div>

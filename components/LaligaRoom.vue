@@ -8,7 +8,7 @@
     <div class="title-component " data-component-name="">
 
 
-      <img class="llr-icon" src="/images/header/icon-laligaroom.svg?build=2.43.1.11593-42612"
+      <img class="llr-icon" src="/images/header/icon-laligaroom33d0.svg"
            data-component-name="">
 
 
@@ -33,11 +33,11 @@
             <div class="tile tile-track" data-url="/home/getlaligaurl"
                  data-component-name="LaLiga Room - Derbi Baccarat" data-type="" data-kind-id="">
 
-              <img class="desktop" src="/images/laligaroom/llr-derbi-VN.jpg?build=2.43.1.11593-42612"
+              <img class="desktop" src="/images/laligaroom/llr-derbi-VN33d0.jpg"
                    data-component-name="">
 
 
-              <img class="mobile" src="/images/laligaroom/llr-derbi-mobile-VN.jpg?build=2.43.1.11593-42612"
+              <img class="mobile" src="/images/laligaroom/llr-derbi-mobile-VN33d0.jpg"
                    data-component-name="">
 
 
@@ -80,11 +80,11 @@
             <div class="tile tile-track" data-url="/sports?sportID=995&amp;leagueID=95263"
                  data-component-name="LaLiga Virtual" data-type="" data-kind-id="">
 
-              <img class="desktop" src="/images/laligaroom/llr-virtual-VN.jpg?build=2.43.1.11593-42612"
+              <img class="desktop" src="/images/laligaroom/llr-virtual-VN33d0.jpg"
                    data-component-name="">
 
 
-              <img class="mobile" src="/images/laligaroom/llr-virtual-mobile-VN.jpg?build=2.43.1.11593-42612"
+              <img class="mobile" src="/images/laligaroom/llr-virtual-mobile-VN33d0.jpg"
                    data-component-name="">
 
 

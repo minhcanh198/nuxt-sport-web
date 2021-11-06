@@ -14,7 +14,8 @@
             <input class="PrimaryLoginCredValidation" type="text" data-val="true"
                    data-val-regex="Validation_RegisterModel_UsernameWrongCharacters"
                    data-val-regex-pattern="^[a-zA-Z0-9_]*$" data-val-required="Validation_LoginModel_Username"
-                   id="PrimaryLoginCred" name="PrimaryLoginCred" value="">
+                   id="PrimaryLoginCred" name="PrimaryLoginCred"
+                   v-model="loginForm.username">
             <span class="field-validation-valid" data-valmsg-for="PrimaryLoginCred" data-valmsg-replace="true"></span>
           </div>
         </div>
@@ -23,7 +24,8 @@
           <label class="field-label" for="Password">Mật Khẩu</label>
           <div class="field-input">
             <input autocomplete="off" class="PasswordValidation" type="password" data-val="true"
-                   data-val-required="Validation_LoginModel_Password" id="Password" name="Password">
+                   data-val-required="Validation_LoginModel_Password" id="Password" name="Password"
+                   v-model="loginForm.password">
             <span class="field-validation-valid" data-valmsg-for="Password" data-valmsg-replace="true"></span>
           </div>
         </div>
@@ -47,8 +49,8 @@
         </div>
 
         <div class="input-area">
-          <input class="btn btn-secondary-alt" id="login-button" style="margin-bottom:1em;" type="submit"
-                 value="Đăng Nhập" onclick="trackEvents('Click - Login CTA', 'Login', 1)">
+          <input class="btn btn-secondary-alt" id="login-button" style="margin-bottom:1em;" type="button"
+                 value="Đăng Nhập" @click="login">
         </div>
 
         <input type="hidden" value="" id="ReturnUrl" name="ReturnUrl">
@@ -66,7 +68,27 @@
 
 <script>
 export default {
-  name: "LoginPage"
+  name: "LoginPage",
+
+  data() {
+    return {
+      loginForm: {
+        username: '',
+        password: ''
+      }
+    }
+  },
+
+  methods: {
+    login() {
+      if (this.loginForm.username === 'user' && this.loginForm.password === 'password') {
+        console.log("trueee")
+        this.$router.push('/cashier/deposit')
+      } else {
+        alert("Wrong username or password!")
+      }
+    }
+  }
 }
 </script>
 

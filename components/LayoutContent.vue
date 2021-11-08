@@ -1,7 +1,6 @@
 <template>
   <div class="layout-content">
     <div class="layout-body">
-      <VirtualDataForm></VirtualDataForm>
       <LandingLayout></LandingLayout>
     </div>
   </div>

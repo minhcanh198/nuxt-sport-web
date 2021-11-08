@@ -10,7 +10,7 @@
              data-component-name="Club M88 Seamless - VN" data-type="LiveCasino" data-kind-id="">
 
           <img class=""
-               src="/images/live-casino/LiveCasino_18/thumbnails/ClubM88Seamless_vi-VN3"
+               src="/images/live-casino/LiveCasino_18/thumbnails/ClubM88Seamless_vi-VN33d0.jpg"
                data-component-name="">
 
 

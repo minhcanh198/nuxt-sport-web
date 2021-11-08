@@ -35,17 +35,20 @@ export default {
     '~/assets/css/header.css',
     '~/assets/css/color-definitions.css',
     '~/assets/css/dropdownmenu.css',
-    '~/assets/css/slickcarousel.css',
     '~/assets/css/index.css',
     '~/assets/css/dynamic-content.css',
-    '~/assets/css/swiper.css',
     '~/assets/css/casino-modals.css',
     '~/assets/css/side-menu.css',
-    '~/assets/css/footer.css'
+    '~/assets/css/footer.css',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: [
+    {
+      src: '@/plugins/vue-awesome-swiper',
+      mode: 'client'
+    }
+  ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,

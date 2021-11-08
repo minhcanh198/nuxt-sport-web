@@ -1,473 +1,268 @@
 <template>
   <div id="matches" class="tile sports-tile gray-border sportsbook-events" data-url=""
        data-component-name="Hightlight Matches" data-type="" data-kind-id="">
-
     <div class="sportsbook-events-content" data-component-name="" style="display: block;">
-      <link href="/css/sportsbook/sportsbook-events33d0.css" rel="stylesheet">
-
-      <div class="col match-section slick-initialized slick-slider">
-        <button class="slick-prev slick-arrow" aria-label="Previous" type="button" style="">Previous</button>
-
-
-        <div class="slick-list draggable">
-          <div class="slick-track" style="opacity: 1; width: 4004px; transform: translate3d(-1144px, 0px, 0px);">
-            <div class="item slick-slide slick-cloned" style="width: 572px;" tabindex="-1" data-slick-index="-1"
-                 aria-hidden="true">
-              <table>
-                <caption>ENGLISH PREMIER LEAGUE</caption>
-                <tbody>
-                <tr class="track-events" data-url="/msports" style="color: #fff">
-                  <td>Southampton</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/southampton33d0.png"
-                    alt=""></td>
-                  <td>Nov 06</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/aston-villla.png"
-                    alt=""></td>
-                  <td>Aston Villa</td>
-                </tr>
-                <tr class="track-events" data-url="/msports" style="color: #fff">
-                  <td>Man United</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/man-united33d0.png"
-                    alt=""></td>
-                  <td>Nov 06</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/man-city33d0.png"
-                    alt=""></td>
-                  <td>Man City</td>
-                </tr>
-                <tr class="track-events" data-url="/msports" style="color: #fff">
-                  <td>Chelsea</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/chelsea33d0.png"
-                    alt=""></td>
-                  <td>Nov 06</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/burnley33d0.png"
-                    alt=""></td>
-                  <td>Burnley</td>
-                </tr>
-                <tr class="track-events" data-url="/msports" style="color: #fff">
-                  <td>Crystal Palace</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/crystal-palace.png"
-                    alt=""></td>
-                  <td>Nov 06</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/wolves33d0.png"
-                    alt=""></td>
-                  <td>Wolves</td>
-                </tr>
-                <tr class="track-events" data-url="/msports" style="color: #fff">
-                  <td>Brentford</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/brentford.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Nov 06</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/norwich.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Norwich City</td>
-                </tr>
-                </tbody>
-              </table>
-            </div>
-            <div class="item slick-slide" style="width: 572px;" tabindex="-1" data-slick-index="0"
-                 aria-hidden="true">
-              <table>
-                <caption>LA LIGA</caption>
-                <tbody>
-                <tr class="track-events" data-url="/msports" style="color: #fff">
-                  <td>Athletic</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/athletic.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Nov 06</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/cadiz.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Cádiz</td>
-                </tr>
-                <tr class="track-events" data-url="/msports" style="color: #fff">
-                  <td>Espanyol</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/espanyol.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Nov 06</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/granada.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Granada</td>
-                </tr>
-                <tr class="track-events" data-url="/msports" style="color: #fff">
-                  <td>Celta Vigo</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/celta.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Nov 06</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/barcelona.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Barcelona</td>
-                </tr>
-                <tr class="track-events" data-url="/msports" style="color: #fff">
-                  <td>Alavés</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/alaves.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Nov 07</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/levante.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Levante</td>
-                </tr>
-                <tr class="track-events" data-url="/msports" style="color: #fff">
-                  <td>Real Madrid</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/real-madrid.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Nov 07</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/rayo-vallecano.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Rayo Vallecano</td>
-                </tr>
-                </tbody>
-              </table>
-            </div>
-            <div class="item slick-slide slick-current slick-active" style="width: 572px;" tabindex="0"
-                 data-slick-index="1" aria-hidden="false">
-              <table>
-                <caption>LALIGA VIRTUAL</caption>
-                <tbody>
-                <tr class="track-events" data-url="/sports?sportID=995&amp;leagueID=95263" style="color: #fff">
-                  <td>Alavés</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/alaves.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Nov 03</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/barcelona.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Barcelona</td>
-                </tr>
-                <tr class="track-events" data-url="/sports?sportID=995&amp;leagueID=95263" style="color: #fff">
-                  <td>Sevilla</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/sevilla.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Nov 03</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/eibar.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Eibar</td>
-                </tr>
-                <tr class="track-events" data-url="/sports?sportID=995&amp;leagueID=95263" style="color: #fff">
-                  <td>Celta Vigo</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/celta.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Nov 03</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/levante.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Levante</td>
-                </tr>
-                <tr class="track-events" data-url="/sports?sportID=995&amp;leagueID=95263" style="color: #fff">
-                  <td>Elche</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/elche.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Nov 03</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/valencia.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Valencia</td>
-                </tr>
-                <tr class="track-events" data-url="/sports?sportID=995&amp;leagueID=95263" style="color: #fff">
-                  <td>Cádiz</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/cadiz.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Nov 03</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/athletic.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Athletic</td>
-                </tr>
-                </tbody>
-              </table>
-            </div>
-            <div class="item slick-slide" style="width: 572px;" tabindex="-1" data-slick-index="2"
-                 aria-hidden="true">
-              <table>
-                <caption>ENGLISH PREMIER LEAGUE</caption>
-                <tbody>
-                <tr class="track-events" data-url="/msports" style="color: #fff">
-                  <td>Southampton</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/southampton.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Nov 06</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/aston-villa.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Aston Villa</td>
-                </tr>
-                <tr class="track-events" data-url="/msports" style="color: #fff">
-                  <td>Man United</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/man-united.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Nov 06</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/man-city.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Man City</td>
-                </tr>
-                <tr class="track-events" data-url="/msports" style="color: #fff">
-                  <td>Chelsea</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/chelsea.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Nov 06</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/burnley.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Burnley</td>
-                </tr>
-                <tr class="track-events" data-url="/msports" style="color: #fff">
-                  <td>Crystal Palace</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/crystal-palace.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Nov 06</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/wolves.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Wolves</td>
-                </tr>
-                <tr class="track-events" data-url="/msports" style="color: #fff">
-                  <td>Brentford</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/brentford.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Nov 06</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/norwich.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Norwich City</td>
-                </tr>
-                </tbody>
-              </table>
-            </div>
-            <div class="item slick-slide slick-cloned" style="width: 572px;" tabindex="-1" data-slick-index="3"
-                 aria-hidden="true">
-              <table>
-                <caption>LA LIGA</caption>
-                <tbody>
-                <tr class="track-events" data-url="/msports" style="color: #fff">
-                  <td>Athletic</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/athletic.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Nov 06</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/cadiz.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Cádiz</td>
-                </tr>
-                <tr class="track-events" data-url="/msports" style="color: #fff">
-                  <td>Espanyol</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/espanyol.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Nov 06</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/granada.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Granada</td>
-                </tr>
-                <tr class="track-events" data-url="/msports" style="color: #fff">
-                  <td>Celta Vigo</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/celta.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Nov 06</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/barcelona.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Barcelona</td>
-                </tr>
-                <tr class="track-events" data-url="/msports" style="color: #fff">
-                  <td>Alavés</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/alaves.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Nov 07</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/levante.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Levante</td>
-                </tr>
-                <tr class="track-events" data-url="/msports" style="color: #fff">
-                  <td>Real Madrid</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/real-madrid.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Nov 07</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/rayo-vallecano.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Rayo Vallecano</td>
-                </tr>
-                </tbody>
-              </table>
-            </div>
-            <div class="item slick-slide slick-cloned" style="width: 572px;" tabindex="-1" data-slick-index="4"
-                 aria-hidden="true">
-              <table>
-                <caption>LALIGA VIRTUAL</caption>
-                <tbody>
-                <tr class="track-events" data-url="/sports?sportID=995&amp;leagueID=95263" style="color: #fff">
-                  <td>Alavés</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/alaves.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Nov 03</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/barcelona.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Barcelona</td>
-                </tr>
-                <tr class="track-events" data-url="/sports?sportID=995&amp;leagueID=95263" style="color: #fff">
-                  <td>Sevilla</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/sevilla.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Nov 03</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/eibar.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Eibar</td>
-                </tr>
-                <tr class="track-events" data-url="/sports?sportID=995&amp;leagueID=95263" style="color: #fff">
-                  <td>Celta Vigo</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/celta.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Nov 03</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/levante.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Levante</td>
-                </tr>
-                <tr class="track-events" data-url="/sports?sportID=995&amp;leagueID=95263" style="color: #fff">
-                  <td>Elche</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/elche.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Nov 03</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/valencia.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Valencia</td>
-                </tr>
-                <tr class="track-events" data-url="/sports?sportID=995&amp;leagueID=95263" style="color: #fff">
-                  <td>Cádiz</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/cadiz.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Nov 03</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/athletic.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Athletic</td>
-                </tr>
-                </tbody>
-              </table>
-            </div>
-            <div class="item slick-slide slick-cloned" style="width: 572px;" tabindex="-1" data-slick-index="5"
-                 aria-hidden="true">
-              <table>
-                <caption>ENGLISH PREMIER LEAGUE</caption>
-                <tbody>
-                <tr class="track-events" data-url="/msports" style="color: #fff">
-                  <td>Southampton</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/southampton.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Nov 06</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/aston-villa.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Aston Villa</td>
-                </tr>
-                <tr class="track-events" data-url="/msports" style="color: #fff">
-                  <td>Man United</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/man-united.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Nov 06</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/man-city.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Man City</td>
-                </tr>
-                <tr class="track-events" data-url="/msports" style="color: #fff">
-                  <td>Chelsea</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/chelsea.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Nov 06</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/burnley.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Burnley</td>
-                </tr>
-                <tr class="track-events" data-url="/msports" style="color: #fff">
-                  <td>Crystal Palace</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/crystal-palace.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Nov 06</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/wolves.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Wolves</td>
-                </tr>
-                <tr class="track-events" data-url="/msports" style="color: #fff">
-                  <td>Brentford</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/brentford.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Nov 06</td>
-                  <td><img
-                    src="/images/sportsbook/upcoming-events/team-icon/norwich.png?build=2.43.1.11593-42612"
-                    alt=""></td>
-                  <td>Norwich City</td>
-                </tr>
-                </tbody>
-              </table>
-            </div>
+      <swiper class="swiper col match-section" :options="swiperOption">
+        <button class="slick-prev slick-arrow"
+                aria-label="Previous"
+                type="button"
+                style=""
+                slot="button-prev">
+          Previous
+        </button>
+        <swiper-slide>
+          <div class="">
+            <table>
+              <caption>ENGLISH PREMIER LEAGUE</caption>
+              <tbody>
+              <tr class="track-events" data-url="/msports" style="color: #fff">
+                <td>Southampton</td>
+                <td><img
+                  src="/images/sportsbook/upcoming-events/team-icon/southampton33d0.png"
+                  alt=""></td>
+                <td>Nov 06</td>
+                <td><img
+                  src="/images/sportsbook/upcoming-events/team-icon/aston-villla.png"
+                  alt=""></td>
+                <td>Aston Villa</td>
+              </tr>
+              <tr class="track-events" data-url="/msports" style="color: #fff">
+                <td>Man United</td>
+                <td><img
+                  src="/images/sportsbook/upcoming-events/team-icon/man-united33d0.png"
+                  alt=""></td>
+                <td>Nov 06</td>
+                <td><img
+                  src="/images/sportsbook/upcoming-events/team-icon/man-city33d0.png"
+                  alt=""></td>
+                <td>Man City</td>
+              </tr>
+              <tr class="track-events" data-url="/msports" style="color: #fff">
+                <td>Chelsea</td>
+                <td><img
+                  src="/images/sportsbook/upcoming-events/team-icon/chelsea33d0.png"
+                  alt=""></td>
+                <td>Nov 06</td>
+                <td><img
+                  src="/images/sportsbook/upcoming-events/team-icon/burnley33d0.png"
+                  alt=""></td>
+                <td>Burnley</td>
+              </tr>
+              <tr class="track-events" data-url="/msports" style="color: #fff">
+                <td>Crystal Palace</td>
+                <td><img
+                  src="/images/sportsbook/upcoming-events/team-icon/crystal-palace.png"
+                  alt=""></td>
+                <td>Nov 06</td>
+                <td><img
+                  src="/images/sportsbook/upcoming-events/team-icon/wolves33d0.png"
+                  alt=""></td>
+                <td>Wolves</td>
+              </tr>
+              <tr class="track-events" data-url="/msports" style="color: #fff">
+                <td>Brentford</td>
+                <td><img
+                  src="/images/sportsbook/upcoming-events/team-icon/valencia33d0.png"
+                  alt=""></td>
+                <td>Nov 06</td>
+                <td><img
+                  src="/images/sportsbook/upcoming-events/team-icon/wolves33d0.png"
+                  alt=""></td>
+                <td>Norwich City</td>
+              </tr>
+              </tbody>
+            </table>
           </div>
-        </div>
-        <button class="slick-next slick-arrow" aria-label="Next" type="button" style="">Next</button>
-      </div>
-
+        </swiper-slide>
+        <swiper-slide>
+          <div class=""
+               aria-hidden="true">
+            <table>
+              <caption>LA LIGA</caption>
+              <tbody>
+              <tr class="track-events" data-url="/msports" style="color: #fff">
+                <td>Athletic</td>
+                <td><img
+                  src="/images/sportsbook/upcoming-events/team-icon/athletic33d0.png"
+                  alt=""></td>
+                <td>Nov 06</td>
+                <td><img
+                  src="/images/sportsbook/upcoming-events/team-icon/cadiz33d0.png"
+                  alt=""></td>
+                <td>Cádiz</td>
+              </tr>
+              <tr class="track-events" data-url="/msports" style="color: #fff">
+                <td>Espanyol</td>
+                <td><img
+                  src="/images/sportsbook/upcoming-events/team-icon/espanyol33d0.png"
+                  alt=""></td>
+                <td>Nov 06</td>
+                <td><img
+                  src="/images/sportsbook/upcoming-events/team-icon/granada33d0.png"
+                  alt=""></td>
+                <td>Granada</td>
+              </tr>
+              <tr class="track-events" data-url="/msports" style="color: #fff">
+                <td>Celta Vigo</td>
+                <td><img
+                  src="/images/sportsbook/upcoming-events/team-icon/celta33d0.png"
+                  alt=""></td>
+                <td>Nov 06</td>
+                <td><img
+                  src="/images/sportsbook/upcoming-events/team-icon/barcelona33d0.png"
+                  alt=""></td>
+                <td>Barcelona</td>
+              </tr>
+              <tr class="track-events" data-url="/msports" style="color: #fff">
+                <td>Alavés</td>
+                <td><img
+                  src="/images/sportsbook/upcoming-events/team-icon/alaves.png"
+                  alt=""></td>
+                <td>Nov 07</td>
+                <td><img
+                  src="/images/sportsbook/upcoming-events/team-icon/levante33d0.png"
+                  alt=""></td>
+                <td>Levante</td>
+              </tr>
+              <tr class="track-events" data-url="/msports" style="color: #fff">
+                <td>Real Madrid</td>
+                <td><img
+                  src="/images/sportsbook/upcoming-events/team-icon/real-madrid33d0.png"
+                  alt=""></td>
+                <td>Nov 07</td>
+                <td><img
+                  src="/images/sportsbook/upcoming-events/team-icon/rayo-vallecano33d0.png"
+                  alt=""></td>
+                <td>Rayo Vallecano</td>
+              </tr>
+              </tbody>
+            </table>
+          </div>
+        </swiper-slide>
+        <button class="slick-next slick-arrow"
+                aria-label="Next"
+                type="button"
+                style=""
+                slot="button-next">
+          Next
+        </button>
+      </swiper>
     </div>
-
   </div>
 </template>
 
 <script>
+import 'swiper/css/swiper.css'
+import {Swiper, SwiperSlide} from "vue-awesome-swiper";
+
 export default {
-  name: "Matches"
+  name: "Matches",
+  components: {
+    Swiper,
+    SwiperSlide
+  },
+  data() {
+    return {
+      swiperOption: {
+        slidesPerView: 1,
+        navigation: {
+          nextEl: '.slick-next ',
+          prevEl: '.slick-prev'
+        },
+        autoplay: {
+          delay: 3000
+        }
+      }
+    }
+  }
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+.slick-arrow.slick-prev {
+  left: 0;
+  transform: scaleX(-1);
+}
+
+.slick-arrow {
+  font-size: 0;
+  background-color: transparent;
+  background-image: url(/images/icons/caret-white.svg), url(/images/icons/caret-yellow.svg);
+  background-repeat: no-repeat;
+  background-position: center center, left 999px center;
+  background-color: #000;
+  width: 50px;
+  height: 48px;
+  border: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.slick-arrow.slick-next {
+  right: 0;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  height: calc(100% - 48px);
+  outline: 0;
+  margin-right: 0px;
+}
+
+table caption {
+  height: 48px;
+  line-height: 48px;
+  background-color: #000;
+  color: #ffcd00;
+  font-size: 18px;
+  font-family: 'OpenSansBold';
+  text-transform: uppercase;
+  outline: 0;
+  margin-right: 0px;
+}
+
+table {
+  td {
+    text-align: center;
+    font-size: 14px;
+    font-family: 'OpenSansRegular';
+    /* text-transform: uppercase; */
+  }
+}
+
+table tr:nth-child(odd) {
+  background-color: #1a2332;
+}
+
+table tr:nth-child(even) {
+  background-color: #26324d;
+}
+
+@media (max-width: 1365px) {
+  table {
+    height: calc(100% - ((((((100vw - 1024px) * 100) / (1366 - 1024)) / 100) * (48 - 36)) + 36px));
+  }
+}
+
+@media (max-width: 1023px) {
+  table {
+    height: calc(100% - ((((((100vw - 768px) * 100) / (1023 - 768)) / 100) * (36 - 33)) + 33px));
+  }
+}
+
+.track-events {
+  img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 42px !important;
+    vertical-align: middle;
+  }
+}
 
 </style>
